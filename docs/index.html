@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Busquem la Xarxa</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 data-i18n="app_title">Busquem la Xarxa</h1>
+  <select id="lang" aria-label="Language">
+    <option value="ca">Catala</option>
+    <option value="es">Castellano</option>
+    <option value="en">English</option>
+  </select>
+</header>
+
+<section class="controls">
+  <label>
+    <span data-i18n="date">Data</span>
+    <input type="date" id="date-input">
+  </label>
+  <label>
+    <span data-i18n="from">De</span>
+    <input type="time" id="time-from" step="900">
+  </label>
+  <label>
+    <span data-i18n="to">A</span>
+    <input type="time" id="time-to" step="900">
+  </label>
+  <label>
+    <span data-i18n="municipality">Municipi</span>
+    <input type="text" id="municipality" list="municipality-list" placeholder="...">
+    <datalist id="municipality-list"></datalist>
+  </label>
+  <button id="use-location" data-i18n="use_location">La meva ubicacio</button>
+  <label class="radius-label">
+    <span data-i18n="radius">Radi (km)</span>
+    <input type="number" id="radius" value="5" min="0.5" step="0.5">
+  </label>
+</section>
+
+<main>
+  <div id="map"></div>
+  <div id="results"></div>
+</main>
+
+<footer>
+  <span data-i18n="data_source">Dades</span>:
+  <a href="https://dadesobertes.diba.cat/datasets/biblioteques-municipals" target="_blank" rel="noopener">
+    Diputacio de Barcelona
+  </a>
+  (CC BY 4.0) &middot;
+  <span data-i18n="last_updated">Ultima actualitzacio</span>:
+  <span id="data-updated">...</span>
+</footer>
+
+<template id="card-template">
+  <article class="card">
+    <h2 class="name"></h2>
+    <p class="meta"></p>
+    <p class="status"></p>
+    <p class="hours"></p>
+    <details class="obs">
+      <summary data-i18n="observations">Observacions</summary>
+      <p class="obs-text"></p>
+    </details>
+    <p class="links"></p>
+  </article>
+</template>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
