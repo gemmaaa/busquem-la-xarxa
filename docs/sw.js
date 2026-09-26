@@ -1,4 +1,4 @@
-const CACHE = "busquem-xarxa-v1";
+const CACHE = "busquem-xarxa-v2";
 const ASSETS = [
   "./",
   "./index.html",
