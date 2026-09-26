@@ -29,34 +29,62 @@
 </header>
   
 <section class="controls">
-  <label>
-    <span data-i18n="date">Data</span>
-    <input type="date" id="date-input">
-  </label>
-  <label>
-    <span data-i18n="from">De</span>
-    <input type="time" id="time-from" step="900">
-  </label>
-  <label>
-    <span data-i18n="to">A</span>
-    <input type="time" id="time-to" step="900">
-  </label>
-  <label>
-    <span data-i18n="municipality">Municipi</span>
-    <input type="text" id="municipality" list="municipality-list" placeholder="...">
-    <datalist id="municipality-list"></datalist>
-  </label>
-  <button id="use-location" data-i18n="use_location">La meva ubicacio</button>
-  <label class="radius-label">
-    <span data-i18n="radius">Radi (km)</span>
-    <input type="number" id="radius" value="5" min="0.5" step="0.5">
-  </label>
+  <p class="explain" data-i18n="explain">Filtra per data o dia de la setmana. Tots els camps són opcionals.</p>
+
+  <div class="filter-row">
+    <label>
+      <span data-i18n="date">Data</span>
+      <input type="date" id="date-input">
+    </label>
+    <label>
+      <span data-i18n="day">Dia de la setmana</span>
+      <select id="day-input">
+        <option value="" data-i18n="any_day">Qualsevol</option>
+        <option value="1" data-i18n="monday">Dilluns</option>
+        <option value="2" data-i18n="tuesday">Dimarts</option>
+        <option value="3" data-i18n="wednesday">Dimecres</option>
+        <option value="4" data-i18n="thursday">Dijous</option>
+        <option value="5" data-i18n="friday">Divendres</option>
+        <option value="6" data-i18n="saturday">Dissabte</option>
+        <option value="0" data-i18n="sunday">Diumenge</option>
+      </select>
+    </label>
+    <label>
+      <span data-i18n="from">De</span>
+      <input type="time" id="time-from" step="900">
+    </label>
+    <label>
+      <span data-i18n="to">A</span>
+      <input type="time" id="time-to" step="900">
+    </label>
+    <label>
+      <span data-i18n="municipality">Municipi</span>
+      <input type="text" id="municipality" list="municipality-list" placeholder="...">
+      <datalist id="municipality-list"></datalist>
+    </label>
+  </div>
+
+  <div class="filter-row">
+    <label class="radius-label">
+      <span data-i18n="radius">Radi (km)</span>
+      <input type="number" id="radius" value="5" min="0.5" step="0.5">
+    </label>
+    <button id="use-location" type="button" data-i18n="use_location">La meva ubicacio</button>
+    <button id="search" type="button" class="primary" data-i18n="search">Cercar</button>
+    <button id="reset" type="button" data-i18n="reset">Netejar</button>
+  </div>
 </section>
 
 <main>
-  <div id="map"></div>
   <div id="results"></div>
+  <div id="map-wrap" hidden>
+    <div id="map"></div>
+  </div>
 </main>
+
+<div id="view-toggle" hidden>
+  <button id="toggle-view" type="button" data-i18n="view_list">Veure com a llista</button>
+</div>
 
 <footer>
   <span data-i18n="data_source">Dades</span>:
