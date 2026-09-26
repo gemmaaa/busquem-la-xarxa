@@ -5,7 +5,52 @@ const state = {
   map: null,
   markers: [],
   userLatLng: null,
+  lastUpdated: "-",
 };
+
+const $ = (sel) => document.querySelector(sel);
+
+// --- i18n ------------------------------------------------------------------
+
+function t(key, vars) {
+  let s = (state.i18n[state.lang] || {})[key] || key;
+  if (vars) {
+    for (const k of Object.keys(vars)) {
+      s = s.replace("{" + k + "}", vars[k]);
+    }
+  }
+  return s;
+}
+
+function applyI18n() {
+  document.documentElement.lang = state.lang;
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    el.textContent = t(el.dataset.i18n);
+  });
+  renderFooter();
+}
+
+function renderFooter() {
+  const el = document.getElementById("footer-text");
+  if (!el) return;
+  const link = document.createElement("a");
+  link.href = "https://dadesobertes.diba.cat/datasets/biblioteques-municipals";
+  link.target = "_blank";
+  link.rel = "noopener";
+  link.textContent = t("footer_source");
+
+  const template = t("footer", {
+    source_link: "__LINK__",
+    last_updated: state.lastUpdated,
+  });
+  const parts = template.split("__LINK__");
+  el.innerHTML = "";
+  el.appendChild(document.createTextNode(parts[0] || ""));
+  el.appendChild(link);
+  el.appendChild(document.createTextNode(parts[1] || ""));
+}
+
+// --- Theme -----------------------------------------------------------------
 
 function applyTheme(theme) {
   document.documentElement.setAttribute("data-theme", theme);
@@ -19,27 +64,13 @@ function initTheme() {
     applyTheme(saved);
     return;
   }
-  // Fall back to OS preference
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const initial = prefersDark ? "dark" : "default";
   document.getElementById("theme").value = initial;
   applyTheme(initial);
 }
 
-const $ = (sel) => document.querySelector(sel);
-
-function t(key, vars = {}) {
-  let s = (state.i18n[state.lang] || {})[key] || key;
-  for (const [k, v] of Object.entries(vars)) s = s.replace("{" + k + "}", v);
-  return s;
-}
-
-function applyI18n() {
-  document.documentElement.lang = state.lang;
-  document.querySelectorAll("[data-i18n]").forEach((el) => {
-    el.textContent = t(el.dataset.i18n);
-  });
-}
+// --- Time helpers ----------------------------------------------------------
 
 function hhmmToMinutes(hhmm) {
   const parts = hhmm.split(":");
@@ -64,6 +95,12 @@ function monthDayToDate(mmdd, refDate) {
   const dd = Number(parts[1]);
   return new Date(refDate.getFullYear(), mm - 1, dd);
 }
+
+function dayNamesEn() {
+  return ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+}
+
+// --- Season + evaluation ---------------------------------------------------
 
 function pickSeason(library, date) {
   const seasons = library.seasons;
@@ -92,11 +129,6 @@ function findClosure(season, date) {
   return null;
 }
 
-function dayNameEn(date) {
-  const names = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-  return names[date.getDay()];
-}
-
 function evaluateLibrary(library, date, timeFromMin, timeToMin) {
   const season = pickSeason(library, date);
   if (!season) return { status: "unknown" };
@@ -107,7 +139,7 @@ function evaluateLibrary(library, date, timeFromMin, timeToMin) {
   }
 
   const closure = findClosure(s, date);
-  const dayKey = dayNameEn(date);
+  const dayKey = dayNamesEn()[date.getDay()];
   let ranges = s.days[dayKey] || [];
 
   if (closure) {
@@ -120,10 +152,8 @@ function evaluateLibrary(library, date, timeFromMin, timeToMin) {
       }
       return { status: "reduced", season: season.key, ranges: ranges, closure: closure };
     }
-    if (closure.type === "open_override") {
-      if (!ranges.length) {
-        return { status: "open_override", season: season.key, closure: closure };
-      }
+    if (closure.type === "open_override" && !ranges.length) {
+      return { status: "open_override", season: season.key, closure: closure };
     }
   }
 
@@ -145,21 +175,59 @@ function evaluateLibrary(library, date, timeFromMin, timeToMin) {
   return { status: isOpen ? "open" : "closed", season: season.key, ranges: ranges };
 }
 
+// Same as evaluateLibrary, but ignores closures and forces a weekday.
+function evaluateLibraryOnWeekday(library, weekday, timeFromMin, timeToMin) {
+  const anchor = new Date();
+  const season = pickSeason(library, anchor);
+  if (!season) return { status: "unknown" };
+
+  const s = library.seasons[season.key];
+  if (s.status === "closed_all_week") {
+    return { status: "closed", season: season.key, reason: "season_closed" };
+  }
+
+  const dayKey = dayNamesEn()[weekday];
+  const ranges = s.days[dayKey] || [];
+
+  if (!ranges.length) {
+    return { status: "closed", season: season.key };
+  }
+
+  if (timeFromMin != null && timeToMin != null) {
+    const overlap = ranges.some(
+      (r) => timeFromMin < hhmmToMinutes(r.to) && timeToMin > hhmmToMinutes(r.from)
+    );
+    return {
+      status: overlap ? "open" : "closed",
+      season: season.key,
+      ranges: ranges,
+      weekdayOnly: true,
+    };
+  }
+  return { status: "open", season: season.key, ranges: ranges, weekdayOnly: true };
+}
+
+// --- Distance --------------------------------------------------------------
+
 function haversineKm(a, b) {
   const R = 6371;
   const dLat = (b.lat - a.lat) * Math.PI / 180;
   const dLng = (b.lng - a.lng) * Math.PI / 180;
   const la1 = a.lat * Math.PI / 180;
   const la2 = b.lat * Math.PI / 180;
-  const h = Math.sin(dLat / 2) ** 2 + Math.cos(la1) * Math.cos(la2) * Math.sin(dLng / 2) ** 2;
+  const h = Math.sin(dLat / 2) ** 2 +
+            Math.cos(la1) * Math.cos(la2) * Math.sin(dLng / 2) ** 2;
   return 2 * R * Math.asin(Math.sqrt(h));
 }
+
+// --- Rendering -------------------------------------------------------------
 
 function renderResults(results) {
   const container = $("#results");
   container.innerHTML = "";
   if (!results.length) {
     const p = document.createElement("p");
+    p.className = "no-results";
     p.textContent = t("no_results");
     container.appendChild(p);
     return;
@@ -182,7 +250,9 @@ function renderResults(results) {
       statusEl.textContent = t("open_now");
       statusEl.classList.add("open");
     } else if (evalResult.status === "closed") {
-      statusEl.textContent = evalResult.reason === "closure" ? t("closed_holiday") : t("closed");
+      statusEl.textContent = evalResult.reason === "closure"
+        ? t("closed_holiday")
+        : t("closed");
       statusEl.classList.add("closed");
     } else if (evalResult.status === "reduced") {
       statusEl.textContent = t("reduced_hours");
@@ -247,7 +317,9 @@ function renderMap(results) {
     const marker = L.circleMarker([library.lat, library.lng], {
       radius: 6, color: color, fillColor: color, fillOpacity: 0.8,
     }).addTo(state.map);
-    marker.bindPopup("<strong>" + library.name + "</strong><br>" + library.municipality);
+    marker.bindPopup(
+      "<strong>" + library.name + "</strong><br>" + library.municipality
+    );
     state.markers.push(marker);
   }
   if (state.userLatLng) {
@@ -258,9 +330,11 @@ function renderMap(results) {
   }
 }
 
+// --- Query -----------------------------------------------------------------
+
 function runQuery() {
   const dateVal = $("#date-input").value;
-  const date = dateVal ? new Date(dateVal + "T00:00:00") : new Date();
+  const dayVal = $("#day-input").value;
   const fromVal = $("#time-from").value;
   const toVal = $("#time-to").value;
   const muni = $("#municipality").value.trim().toLowerCase();
@@ -268,6 +342,12 @@ function runQuery() {
 
   const timeFromMin = fromVal ? hhmmToMinutes(fromVal) : null;
   const timeToMin = toVal ? hhmmToMinutes(toVal) : null;
+
+  const dateSet = !!dateVal;
+  const dayOnly = !dateSet && dayVal !== "";
+  const weekdayOverride = dayOnly ? parseInt(dayVal, 10) : null;
+
+  const date = dateSet ? new Date(dateVal + "T00:00:00") : new Date();
 
   const results = [];
   for (const library of state.libraries) {
@@ -282,7 +362,10 @@ function runQuery() {
       if (radiusKm && distanceKm > radiusKm) continue;
     }
 
-    const evalResult = evaluateLibrary(library, date, timeFromMin, timeToMin);
+    const evalResult = dayOnly
+      ? evaluateLibraryOnWeekday(library, weekdayOverride, timeFromMin, timeToMin)
+      : evaluateLibrary(library, date, timeFromMin, timeToMin);
+
     if (["open", "reduced", "open_override"].indexOf(evalResult.status) === -1) continue;
 
     results.push({ library: library, evalResult: evalResult, distanceKm: distanceKm });
@@ -294,14 +377,39 @@ function runQuery() {
   });
 
   renderResults(results);
-  renderMap(results);
+
+  // Only render the map if it's currently visible
+  const main = document.querySelector("main");
+  if (main.classList.contains("map-visible")) {
+    renderMap(results);
+    if (state.map) setTimeout(() => state.map.invalidateSize(), 50);
+  } else {
+    // Pre-store results for when the map is shown
+    state.pendingResults = results;
+  }
+
+  updateViewToggle(results.length > 0, main.classList.contains("map-visible"));
 }
+
+function updateViewToggle(hasResults, showingMap) {
+  const toggle = $("#view-toggle");
+  const btn = $("#toggle-view");
+  if (!hasResults) {
+    toggle.hidden = true;
+    return;
+  }
+  toggle.hidden = false;
+  btn.textContent = showingMap ? t("view_list") : t("view_map");
+}
+
+// --- Init ------------------------------------------------------------------
 
 async function init() {
   const libData = await fetch("data/libraries.json").then((r) => r.json());
   const i18n = await fetch("i18n.json").then((r) => r.json());
   state.libraries = libData.libraries;
   state.i18n = i18n;
+  state.lastUpdated = libData.last_updated || "-";
 
   initTheme();
 
@@ -315,38 +423,63 @@ async function init() {
     dl.appendChild(opt);
   }
 
-  const today = new Date();
-  $("#date-input").value = ymd(today);
-
-  const updatedEl = document.getElementById("data-updated");
-  if (updatedEl) updatedEl.textContent = libData.last_updated || "-";
-
   applyI18n();
-  runQuery();
 
-  document.querySelectorAll("input, select").forEach((el) => {
-    el.addEventListener("change", runQuery);
-    el.addEventListener("input", runQuery);
+  // Show a gentle empty-state message until the user searches
+  const results = $("#results");
+  const p = document.createElement("p");
+  p.className = "no-results";
+  p.textContent = t("no_results");
+  results.appendChild(p);
+
+  $("#search").addEventListener("click", runQuery);
+
+  $("#reset").addEventListener("click", () => {
+    $("#date-input").value = "";
+    $("#day-input").value = "";
+    $("#time-from").value = "";
+    $("#time-to").value = "";
+    $("#municipality").value = "";
+    $("#radius").value = "5";
+    // Clear results and hide toggle, but do not query
+    const r = $("#results");
+    r.innerHTML = "";
+    const p2 = document.createElement("p");
+    p2.className = "no-results";
+    p2.textContent = t("no_results");
+    r.appendChild(p2);
+    $("#view-toggle").hidden = true;
   });
 
   $("#use-location").addEventListener("click", () => {
     if (!navigator.geolocation) return;
     navigator.geolocation.getCurrentPosition((pos) => {
       state.userLatLng = [pos.coords.latitude, pos.coords.longitude];
-      runQuery();
     });
+  });
+
+  $("#toggle-view").addEventListener("click", () => {
+    const main = document.querySelector("main");
+    main.classList.toggle("map-visible");
+    const showingMap = main.classList.contains("map-visible");
+
+    // Render map with the last query's results
+    if (showingMap && state.pendingResults) {
+      renderMap(state.pendingResults);
+      setTimeout(() => state.map.invalidateSize(), 50);
+    }
+    updateViewToggle(true, showingMap);
   });
 
   $("#lang").addEventListener("change", (e) => {
     state.lang = e.target.value;
     applyI18n();
-    runQuery();
   });
 
   $("#theme").addEventListener("change", (e) => {
     applyTheme(e.target.value);
   });
-  
+
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js");
   }
