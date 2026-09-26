@@ -7,6 +7,25 @@ const state = {
   userLatLng: null,
 };
 
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  localStorage.setItem("theme", theme);
+}
+
+function initTheme() {
+  const saved = localStorage.getItem("theme");
+  if (saved) {
+    document.getElementById("theme").value = saved;
+    applyTheme(saved);
+    return;
+  }
+  // Fall back to OS preference
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const initial = prefersDark ? "dark" : "default";
+  document.getElementById("theme").value = initial;
+  applyTheme(initial);
+}
+
 const $ = (sel) => document.querySelector(sel);
 
 function t(key, vars = {}) {
@@ -284,6 +303,8 @@ async function init() {
   state.libraries = libData.libraries;
   state.i18n = i18n;
 
+  initTheme();
+
   const munis = Array.from(
     new Set(state.libraries.map((l) => l.municipality).filter(Boolean))
   ).sort();
@@ -322,6 +343,10 @@ async function init() {
     runQuery();
   });
 
+  $("#theme").addEventListener("change", (e) => {
+    applyTheme(e.target.value);
+  });
+  
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js");
   }
