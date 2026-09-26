@@ -27,7 +27,7 @@ DATASET_PAGE = "https://dadesobertes.diba.cat/datasets/biblioteques-municipals"
 
 # Paste the CSV download URL here. Find it by opening the dataset page,
 # clicking the CSV resource, and copying the download link.
-CSV_URL = "PASTE_CSV_DOWNLOAD_URL_HERE"
+CSV_URL = "https://do.diba.cat/api/dataset/biblioteques/format/csv"
 
 DAYS = ["dilluns", "dimarts", "dimecres", "dijous", "divendres", "dissabte", "diumenge"]
 DAY_EN = {
