@@ -13,13 +13,21 @@
 
 <header>
   <h1 data-i18n="app_title">Busquem la Xarxa</h1>
-  <select id="lang" aria-label="Language">
-    <option value="ca">Catala</option>
-    <option value="es">Castellano</option>
-    <option value="en">English</option>
-  </select>
+  <div class="header-controls">
+    <select id="theme" aria-label="Theme">
+      <option value="default">Default</option>
+      <option value="lavender">Lavender</option>
+      <option value="matcha">Matcha</option>
+      <option value="dark">Dark</option>
+    </select>
+    <select id="lang" aria-label="Language">
+      <option value="ca">Catala</option>
+      <option value="es">Castellano</option>
+      <option value="en">English</option>
+    </select>
+  </div>
 </header>
-
+  
 <section class="controls">
   <label>
     <span data-i18n="date">Data</span>
