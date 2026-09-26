@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+  </style>
+</head>
+<body>
+<p class="p1">{</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"ca": {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"app_title": "Biblioteques obertes",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"date": "Data",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"from": "De",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"to": "A",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"municipality": "Municipi",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"use_location": "📍 La meva ubicació",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"radius": "Radi (km)",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"observations": "Observacions",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"open_now": "Oberta ara",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"closed": "Tancada",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"closed_holiday": "Tancada per festiu",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"reduced_hours": "Horari reduït",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"no_results": "Cap biblioteca coincideix amb els filtres.",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"library_page": "Pàgina de la biblioteca",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"phone": "Telèfon",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"results_count": "{n} biblioteques"</p>
+<p class="p1"><span class="Apple-converted-space">  </span>},</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"es": {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"app_title": "Bibliotecas abiertas",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"date": "Fecha",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"from": "De",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"to": "A",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"municipality": "Municipio",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"use_location": "📍 Mi ubicación",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"radius": "Radio (km)",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"observations": "Observaciones",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"open_now": "Abierta ahora",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"closed": "Cerrada",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"closed_holiday": "Cerrada por festivo",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"reduced_hours": "Horario reducido",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"no_results": "Ninguna biblioteca coincide con los filtros.",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"library_page": "Página de la biblioteca",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"phone": "Teléfono",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"results_count": "{n} bibliotecas"</p>
+<p class="p1"><span class="Apple-converted-space">  </span>},</p>
+<p class="p1"><span class="Apple-converted-space">  </span>"en": {</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"app_title": "Open libraries",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"date": "Date",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"from": "From",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"to": "To",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"municipality": "Municipality",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"use_location": "📍 My location",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"radius": "Radius (km)",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"observations": "Observations",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"open_now": "Open now",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"closed": "Closed",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"closed_holiday": "Closed (holiday)",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"reduced_hours": "Reduced hours",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"no_results": "No library matches the filters.",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"library_page": "Library page",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"phone": "Phone",</p>
+<p class="p1"><span class="Apple-converted-space">    </span>"results_count": "{n} libraries"</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">}</p>
+</body>
+</html>
