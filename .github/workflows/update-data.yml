@@ -1,0 +1,37 @@
+name: Update library data
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC (08:00 Barcelona time)
+    - cron: "0 6 * * *"
+  workflow_dispatch:  # allows manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run preprocessor
+        run: python build/preprocess.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add raw/ docs/data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update library data [automated]"
+            git push
+          fi
