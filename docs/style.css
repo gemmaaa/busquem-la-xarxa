@@ -1,13 +1,56 @@
-:root {
+:root,
+[data-theme="default"] {
   --bg: #fafafa;
   --fg: #222;
   --accent: #0a6;
   --muted: #666;
   --card: #fff;
   --border: #e3e3e3;
+  --status-open: #0a6;
+  --status-closed: #c33;
+  --status-reduced: #c80;
+  --status-override: #06c;
 }
-* { box-sizing: border-box; }
-html, body { margin: 0; }
+
+[data-theme="lavender"] {
+  --bg: #f5f0ff;
+  --fg: #2a1f3d;
+  --accent: #7b5ea7;
+  --muted: #6b5b8a;
+  --card: #fdfbff;
+  --border: #e4d9f5;
+  --status-open: #7b5ea7;
+  --status-closed: #c25a7a;
+  --status-reduced: #c9a227;
+  --status-override: #5a7ac2;
+}
+
+[data-theme="matcha"] {
+  --bg: #f4f8ee;
+  --fg: #2b3a1e;
+  --accent: #6b8e3d;
+  --muted: #5d7248;
+  --card: #fbfdf7;
+  --border: #dce8c9;
+  --status-open: #6b8e3d;
+  --status-closed: #b85450;
+  --status-reduced: #c9952b;
+  --status-override: #4a7a9c;
+}
+
+[data-theme="dark"] {
+  --bg: #14101e;
+  --fg: #ede6f5;
+  --accent: #d47ab8;
+  --muted: #a396b8;
+  --card: #1e1830;
+  --border: #322845;
+  --status-open: #a3d5a8;
+  --status-closed: #e88a9c;
+  --status-reduced: #f0c674;
+  --status-override: #8fb4e8;
+}
+
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   background: var(--bg);
@@ -15,7 +58,19 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  transition: background 0.2s, color 0.2s;
 }
+
+.header-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; }
+
 header {
   display: flex;
   align-items: center;
@@ -67,10 +122,10 @@ main {
 .card h2 { margin: 0 0 0.25rem 0; font-size: 1rem; }
 .card .meta { color: var(--muted); font-size: 0.85rem; margin: 0; }
 .card .status { font-weight: 600; margin: 0.35rem 0; }
-.card .status.open { color: var(--accent); }
-.card .status.closed { color: #c33; }
-.card .status.reduced { color: #c80; }
-.card .status.override { color: #06c; }
+.card .status.open    { color: var(--status-open); }
+.card .status.closed  { color: var(--status-closed); }
+.card .status.reduced { color: var(--status-reduced); }
+.card .status.override{ color: var(--status-override); }
 .card .hours { font-size: 0.85rem; color: var(--muted); margin: 0.25rem 0; }
 .card .obs { font-size: 0.85rem; margin: 0.35rem 0; }
 .card .obs summary { cursor: pointer; color: var(--muted); }
@@ -89,4 +144,11 @@ footer a { color: var(--muted); }
   main { grid-template-columns: 1fr; }
   #map { height: 40vh; min-height: 240px; }
   #results { overflow: visible; }
+}
+
+[data-theme="dark"] .leaflet-tile {
+  filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9);
+}
+[data-theme="dark"] .leaflet-container {
+  background: #14101e;
 }
