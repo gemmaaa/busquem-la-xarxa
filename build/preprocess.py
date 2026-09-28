@@ -54,6 +54,7 @@ def clean_html(s):
     for a, b in [
         ("&nbsp;", " "), ("&amp;", "&"), ("&lt;", "<"),
         ("&gt;", ">"), ("&quot;", '"'), ("&#39;", "'"),
+        ("\xa0", " "),
     ]:
         s = s.replace(a, b)
     s = re.sub(r"\s+", " ", s)
@@ -192,27 +193,10 @@ def parse_dataset():
     elements = data.get("elements", [])
 
     for el in elements:
-        # 1. Name and Description
         raw_adreca = clean_html(el.get("adreca_nom")).strip()
         raw_desc = clean_html(el.get("descripcio")).strip()
 
-        libraries.append({
-            "id": str(el.get("punt_id") or ""),
-            "name": raw_adreca,
-            "description": raw_desc,  
-            "municipality": muni,
-            "address": address,
-            "postal_code": postal_code,
-            "lat": lat,
-            "lng": lng,
-            "phone": clean_html(phone),
-            "email": clean_html(email),
-            "web": web,
-            "seasons": seasons,
-            "flags": [],
-        })
-
-        # 2. Coordinates
+        # Coordinates
         lat, lng = None, None
         loc = el.get("localitzacio") or ""
         if "," in loc:
@@ -222,7 +206,7 @@ def parse_dataset():
             except ValueError:
                 pass
 
-        # 3. Robust Address Extraction
+        # Address & Municipality
         grup_adreca = el.get("grup_adreca") or {}
         address = clean_html(grup_adreca.get("adreca") or grup_adreca.get("adreca_completa"))
         postal_code = clean_html(grup_adreca.get("codi_postal"))
@@ -231,7 +215,6 @@ def parse_dataset():
             or (el.get("rel_municipis") or {}).get("municipi_nom")
         )
 
-        # Fallback address if grup_adreca was incomplete
         if not address and "rel_municipis" in el:
             g_ajunt = (el.get("rel_municipis") or {}).get("grup_ajuntament") or {}
             address = clean_html(g_ajunt.get("adreca"))
@@ -272,7 +255,9 @@ def parse_dataset():
 
         libraries.append({
             "id": str(el.get("punt_id") or ""),
-            "name": name,
+            "id_secundari": clean_html(el.get("id_secundari")),
+            "name": raw_adreca,
+            "description": raw_desc,
             "municipality": muni,
             "address": address,
             "postal_code": postal_code,
