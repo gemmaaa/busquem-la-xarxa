@@ -1,16 +1,15 @@
-const CACHE = "busquem-xarxa-v3";
-const ASSETS = [
+const CACHE = "busquem-xarxa-v4";
+const STATIC_ASSETS = [
   "./",
   "./index.html",
   "./style.css",
   "./app.js",
   "./i18n.json",
   "./manifest.json",
-  "./data/libraries.json",
 ];
 
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)));
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(STATIC_ASSETS)));
 });
 
 self.addEventListener("activate", (e) => {
@@ -22,5 +21,24 @@ self.addEventListener("activate", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
-  e.respondWith(caches.match(e.request).then((r) => r || fetch(e.request)));
+  const url = new URL(e.request.url);
+
+  // Network First for libraries.json to ensure data updates seamlessly
+  if (url.pathname.includes("libraries.json")) {
+    e.respondWith(
+      fetch(e.request)
+        .then((response) => {
+          const clone = response.clone();
+          caches.open(CACHE).then((cache) => cache.put(e.request, clone));
+          return response;
+        })
+        .catch(() => caches.match(e.request))
+    );
+    return;
+  }
+
+  // Cache First for static app UI shell
+  e.respondWith(
+    caches.match(e.request).then((r) => r || fetch(e.request))
+  );
 });
