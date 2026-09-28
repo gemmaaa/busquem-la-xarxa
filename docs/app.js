@@ -165,31 +165,25 @@ function renderResults(results) {
     const distanceKm = item.distanceKm;
 
     const node = tpl.content.cloneNode(true);
-    
-    // Clean up title: remove redundant "Biblioteca" prefixes
-    let displayName = library.name
-      .replace(/^(biblioteca|biblioteques|biblioteca municipal)\s+/i, "")
-      .trim();
-    displayName = displayName.charAt(0).toUpperCase() + displayName.slice(1);
-    
-    node.querySelector(".name").textContent = displayName;
 
-    // Literal street address + municipality + distance
-    const locationParts = [];
-    if (library.address) {
-      locationParts.push(library.address);
-    }
+    // Title: clean and unique name
+    node.querySelector(".name").textContent = library.name;
+
+    // Sub-header line: Street Address • Municipality • Distance
+    const metaParts = [];
+    if (library.address) metaParts.push(library.address);
     if (library.municipality && (!library.address || !library.address.toLowerCase().includes(library.municipality.toLowerCase()))) {
-      locationParts.push(library.municipality);
+      metaParts.push(library.municipality);
     }
 
-    const metaLine = [locationParts.join(", ")];
+    const metaLine = [metaParts.join(", ")];
     if (distanceKm != null) {
       metaLine.push(distanceKm.toFixed(1) + " km");
     }
 
     node.querySelector(".meta").textContent = metaLine.filter(Boolean).join(" • ");
 
+    // Status Badge
     const statusEl = node.querySelector(".status");
     if (evalResult.status === "open") {
       statusEl.textContent = t("open_now");
@@ -199,11 +193,13 @@ function renderResults(results) {
       statusEl.className = "status closed";
     }
 
+    // Opening Hours
     const ranges = evalResult.ranges || [];
     node.querySelector(".hours").textContent = ranges.length
       ? ranges.map((r) => r.from + " - " + r.to).join(", ")
       : t("closed");
 
+    // Observations
     const season = library.seasons[evalResult.season];
     const obsBlock = node.querySelector(".obs");
     if (season && season.observations) {
@@ -212,6 +208,7 @@ function renderResults(results) {
       obsBlock.remove();
     }
 
+    // Links
     const links = node.querySelector(".links");
     if (library.web) {
       const a = document.createElement("a");
@@ -230,61 +227,7 @@ function renderResults(results) {
 
     container.appendChild(node);
   }
-}
-  const tpl = $("#card-template");
-  for (const item of results) {
-    const library = item.library;
-    const evalResult = item.evalResult;
-    const distanceKm = item.distanceKm;
-
-    const node = tpl.content.cloneNode(true);
-    node.querySelector(".name").textContent = library.name;
-
-    const meta = [library.municipality];
-    if (distanceKm != null) meta.push(distanceKm.toFixed(1) + " km");
-    node.querySelector(".meta").textContent = meta.filter(Boolean).join(" - ");
-
-    const statusEl = node.querySelector(".status");
-    if (evalResult.status === "open") {
-      statusEl.textContent = t("open_now");
-      statusEl.className = "status open";
-    } else {
-      statusEl.textContent = t("closed");
-      statusEl.className = "status closed";
-    }
-
-    const ranges = evalResult.ranges || [];
-    node.querySelector(".hours").textContent = ranges.length
-      ? ranges.map((r) => r.from + " - " + r.to).join(", ")
-      : t("closed");
-
-    const season = library.seasons[evalResult.season];
-    const obsBlock = node.querySelector(".obs");
-    if (season && season.observations) {
-      node.querySelector(".obs-text").textContent = season.observations;
-    } else {
-      obsBlock.remove();
-    }
-
-    const links = node.querySelector(".links");
-    if (library.web) {
-      const a = document.createElement("a");
-      a.href = library.web;
-      a.target = "_blank";
-      a.rel = "noopener";
-      a.textContent = t("library_page");
-      links.appendChild(a);
-    }
-    if (library.phone) {
-      const a = document.createElement("a");
-      a.href = "tel:" + library.phone.replace(/\s/g, "");
-      a.textContent = t("phone") + ": " + library.phone;
-      links.appendChild(a);
-    }
-
-    container.appendChild(node);
-  }
-}
+}   
 
 function renderMap(results) {
   const mapWrap = $("#map-wrap");
@@ -451,6 +394,7 @@ async function init() {
     $("#time-to").value = "";
     $("#municipality").value = "";
     $("#radius").value = "5";
+    $("#open-only").checked = true; // Keeps "open libraries only" checked on reset
     $("#results").innerHTML = "";
     $("#view-toggle").hidden = true;
     $("#map-wrap").hidden = true;
