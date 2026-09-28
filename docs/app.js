@@ -254,6 +254,16 @@ function renderMap(results) {
   }
 }
 
+function calculateCenterOfMunicipality(muniName) {
+  const matches = state.libraries.filter(
+    (l) => l.municipality.toLowerCase() === muniName.toLowerCase() && l.lat != null && l.lng != null
+  );
+  if (!matches.length) return null;
+  const avgLat = matches.reduce((acc, l) => acc + l.lat, 0) / matches.length;
+  const avgLng = matches.reduce((acc, l) => acc + l.lng, 0) / matches.length;
+  return { lat: avgLat, lng: avgLng };
+}
+
 function runQuery() {
   const dateVal = $("#date-input").value;
   const dayVal = $("#day-input").value;
@@ -271,29 +281,34 @@ function runQuery() {
   const weekdayOverride = dayOnly ? parseInt(dayVal, 10) : null;
   const date = dateSet ? new Date(dateVal + "T00:00:00") : new Date();
 
+  // Reference point for distance sorting
+  let refPoint = null;
+  if (state.userLatLng) {
+    refPoint = { lat: state.userLatLng[0], lng: state.userLatLng[1] };
+  } else if (muni) {
+    refPoint = calculateCenterOfMunicipality(muni);
+  }
+
   const results = [];
   for (const library of state.libraries) {
     if (muni && !(library.municipality || "").toLowerCase().includes(muni)) continue;
 
     let distanceKm = null;
-    if (state.userLatLng && library.lat != null && library.lng != null) {
-      distanceKm = haversineKm(
-        { lat: state.userLatLng[0], lng: state.userLatLng[1] },
-        { lat: library.lat, lng: library.lng }
-      );
-      if (radiusKm && distanceKm > radiusKm) continue;
+    if (refPoint && library.lat != null && library.lng != null) {
+      distanceKm = haversineKm(refPoint, { lat: library.lat, lng: library.lng });
+      if (radiusKm && state.userLatLng && distanceKm > radiusKm) continue;
     }
 
     const evalResult = dayOnly
       ? evaluateLibraryOnWeekday(library, weekdayOverride, timeFromMin, timeToMin, isTimeFilterActive)
       : evaluateLibrary(library, date, timeFromMin, timeToMin, isTimeFilterActive);
 
-    // Keep result unless strictly filtered out by a time range match
     if (isTimeFilterActive && evalResult.status !== "open") continue;
 
     results.push({ library: library, evalResult: evalResult, distanceKm: distanceKm });
   }
 
+  // Sort by distance first (if refPoint exists), then by name
   results.sort((a, b) => {
     if (a.distanceKm != null && b.distanceKm != null) return a.distanceKm - b.distanceKm;
     return a.library.name.localeCompare(b.library.name);
@@ -406,7 +421,6 @@ async function init() {
     navigator.serviceWorker.register("sw.js");
   }
 
-  // Load initial dataset on start
   runQuery();
 }
 
