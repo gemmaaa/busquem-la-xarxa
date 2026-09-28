@@ -192,10 +192,24 @@ def parse_dataset():
     elements = data.get("elements", [])
 
     for el in elements:
-        name = clean_html(el.get("adreca_nom") or el.get("descripcio"))
+        # 1. Smarter Name Extraction
+        raw_adreca_nom = clean_html(el.get("adreca_nom"))
+        raw_descripcio = clean_html(el.get("descripcio"))
+        
+        # If adreca_nom is just generic "Biblioteca", pull the descriptive title instead
+        if not raw_adreca_nom or raw_adreca_nom.lower() in ["biblioteca", "biblioteques", "biblioteca municipal"]:
+            name = raw_descripcio if raw_descripcio else raw_adreca_nom
+        else:
+            name = raw_adreca_nom
+
+        # Clean trailing dot or town name from description (e.g. "Biblioteca La Serra. Sabadell" -> "Biblioteca La Serra")
+        if "." in name:
+            name = name.split(".")[0].strip()
+
         if not name:
             continue
 
+        # 2. Coordinates
         lat, lng = None, None
         loc = el.get("localitzacio") or ""
         if "," in loc:
@@ -205,6 +219,7 @@ def parse_dataset():
             except ValueError:
                 pass
 
+        # 3. Robust Address Extraction
         grup_adreca = el.get("grup_adreca") or {}
         address = clean_html(grup_adreca.get("adreca") or grup_adreca.get("adreca_completa"))
         postal_code = clean_html(grup_adreca.get("codi_postal"))
@@ -213,12 +228,19 @@ def parse_dataset():
             or (el.get("rel_municipis") or {}).get("municipi_nom")
         )
 
+        # Fallback address if grup_adreca was incomplete
+        if not address and "rel_municipis" in el:
+            g_ajunt = (el.get("rel_municipis") or {}).get("grup_ajuntament") or {}
+            address = clean_html(g_ajunt.get("adreca"))
+
+        # Phone, Email, Web
         phone_list = el.get("telefon_contacte") or []
         phone = phone_list[0] if isinstance(phone_list, list) and phone_list else str(phone_list)
         email_list = el.get("email") or []
         email = email_list[0] if isinstance(email_list, list) and email_list else str(email_list)
         web = clean_html(el.get("url_general"))
 
+        # Seasons
         seasons = {}
         for season_key in ["hivern", "estiu"]:
             day_ranges = {}
