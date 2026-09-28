@@ -31,7 +31,8 @@
     "view_map": "Veure al mapa",
     "view_list": "Veure com a llista",
     "footer": "Dades: {source_link} (CC BY 4.0) - Última actualització: {last_updated}",
-    "footer_source": "Diputació de Barcelona"
+    "footer_source": "Diputació de Barcelona",
+    "only_open": "Només obertes"
   },
   "es": {
     "app_title": "Busquem la Xarxa",
@@ -65,7 +66,8 @@
     "view_map": "Ver en mapa",
     "view_list": "Ver como lista",
     "footer": "Datos: {source_link} (CC BY 4.0) - Última actualización: {last_updated}",
-    "footer_source": "Diputació de Barcelona"
+    "footer_source": "Diputació de Barcelona",
+    "only_open": "Solo abiertas"
   },
   "en": {
     "app_title": "Busquem la Xarxa",
@@ -99,6 +101,7 @@
     "view_map": "See on map",
     "view_list": "See as list",
     "footer": "Data: {source_link} (CC BY 4.0) - Last updated: {last_updated}",
-    "footer_source": "Diputació de Barcelona"
+    "footer_source": "Diputació de Barcelona",
+    "only_open": "Only open"
   }
 }
