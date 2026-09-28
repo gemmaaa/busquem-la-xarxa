@@ -2,11 +2,13 @@
   "generated_from": "export.json",
   "data_year": 2026,
   "last_updated": "2026-09-28 01:47:04",
-  "downloaded_at": "2026-09-28T16:05:24.466764+00:00",
+  "downloaded_at": "2026-09-28T19:45:37.694000+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
+      "id_secundari": "csb2",
       "name": "Biblioteca La Serra",
+      "description": "Biblioteca La Serra. Sabadell",
       "municipality": "Sabadell",
       "address": "Plaça de Cristóbal Ramos, 1 08202 Sabadell",
       "postal_code": "",
@@ -114,7 +116,9 @@
     },
     {
       "id": "biblioteca423388",
+      "id_secundari": "rlf1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Les Franqueses del Vallès",
       "municipality": "Les Franqueses del Vallès",
       "address": "Centre Cultural de Bellavista Carrer de Maria Elena Maseras, 1 08521 Les Franqueses del Vallès",
       "postal_code": "",
@@ -242,7 +246,9 @@
     },
     {
       "id": "biblioteca424104",
+      "id_secundari": "ltg1",
       "name": "Biblioteca Municipal Pompeu Fabra",
+      "description": "Biblioteca Municipal Pompeu Fabra. Torrelles de Llobregat",
       "municipality": "Torrelles de Llobregat",
       "address": "Carrer Major, 8 08629 Torrelles de Llobregat",
       "postal_code": "",
@@ -350,7 +356,9 @@
     },
     {
       "id": "biblioteca423088",
+      "id_secundari": "cts1",
       "name": "Biblioteca Central",
+      "description": "Biblioteca Central. Terrassa",
       "municipality": "Terrassa",
       "address": "Passeig de Les Lletres, 1 08221 Terrassa",
       "postal_code": "",
@@ -475,7 +483,9 @@
     },
     {
       "id": "biblioteca2058974",
+      "id_secundari": "les1",
       "name": "Biblioteca Joan Pomar i Solà",
+      "description": "Biblioteca Joan Pomar i Solà. Sant Esteve Sesrovires",
       "municipality": "Sant Esteve Sesrovires",
       "address": "Avinguda Montserrat, 10 08635 Sant Esteve Sesrovires",
       "postal_code": "",
@@ -583,7 +593,9 @@
     },
     {
       "id": "biblioteca423436",
+      "id_secundari": "cmx2",
       "name": "Elisenda de Montcada",
+      "description": "Elisenda de Montcada. Montcada i Reixac",
       "municipality": "Montcada i Reixac",
       "address": "Carrer Tarragona, 32 08110 Montcada i Reixac",
       "postal_code": "",
@@ -695,7 +707,9 @@
     },
     {
       "id": "biblioteca424645700",
+      "id_secundari": "b854",
       "name": "Biblioteca Sarrià-J.V. Foix",
+      "description": "Biblioteca Sarrià-J.V. Foix. Barcelona - Sarrià-Sant Gervasi",
       "municipality": "Barcelona - Sarrià-Sant Gervasi",
       "address": "Plaça de Sarrià, 1 08017 Barcelona",
       "postal_code": "",
@@ -811,7 +825,9 @@
     },
     {
       "id": "biblioteca423356",
+      "id_secundari": "blh3",
       "name": "Biblioteca Josep Janés",
+      "description": "Biblioteca Josep Janés. L'Hospitalet de Llobregat",
       "municipality": "L'Hospitalet de Llobregat",
       "address": "Carrer Doctor Martí i Julià, 33 08903 L'Hospitalet de Llobregat",
       "postal_code": "",
@@ -919,7 +935,9 @@
     },
     {
       "id": "biblioteca423484",
+      "id_secundari": "mpr1",
       "name": "Biblioteca M. Serra i Moret",
+      "description": "Biblioteca M. Serra i Moret. Pineda de Mar",
       "municipality": "Pineda de Mar",
       "address": "Carrer del Progrés, 22 08397 Pineda de Mar",
       "postal_code": "",
@@ -1039,7 +1057,9 @@
     },
     {
       "id": "biblioteca423232",
+      "id_secundari": "raf1",
       "name": "Biblioteca les Escoles Velles",
+      "description": "Biblioteca les Escoles Velles. Aiguafreda",
       "municipality": "Aiguafreda",
       "address": "Carrer Salvador Dachs, 6 08591 Aiguafreda",
       "postal_code": "",
@@ -1147,7 +1167,9 @@
     },
     {
       "id": "biblioteca423104",
+      "id_secundari": "otn1",
       "name": "Biblioteca Caterina Figueras",
+      "description": "Biblioteca Caterina Figueras. Tona",
       "municipality": "Tona",
       "address": "Carrer De la Font, 9 08551 Tona",
       "postal_code": "",
@@ -1259,7 +1281,9 @@
     },
     {
       "id": "biblioteca368915427",
+      "id_secundari": "lcn5",
       "name": "Biblioteca Clara Campoamor",
+      "description": "Biblioteca Clara Campoamor. Cornellà de Llobregat",
       "municipality": "Cornellà de Llobregat",
       "address": "Carretera de Sant Joan Despí, 62 08940 Cornellà de Llobregat (al parc del Canal de la Infanta)",
       "postal_code": "",
@@ -1329,7 +1353,9 @@
     },
     {
       "id": "biblioteca38848065",
+      "id_secundari": "lcn2",
       "name": "Biblioteca Marta Mata",
+      "description": "Biblioteca Marta Mata. Cornellà de Llobregat",
       "municipality": "Cornellà de Llobregat",
       "address": "Carrer Rubió i Ors, 184 08940 Cornellà de Llobregat",
       "postal_code": "",
@@ -1433,7 +1459,9 @@
     },
     {
       "id": "biblioteca423372",
+      "id_secundari": "blh6",
       "name": "Biblioteca La Florida",
+      "description": "Biblioteca La Florida. L'Hospitalet de Llobregat",
       "municipality": "L'Hospitalet de Llobregat",
       "address": "Avinguda Masnou, 40 08905 Hospitalet de Llobregat, L'",
       "postal_code": "",
@@ -1541,7 +1569,9 @@
     },
     {
       "id": "biblioteca422888",
+      "id_secundari": "lcn1",
       "name": "Biblioteca Central",
+      "description": "Biblioteca Central. Cornellà de Llobregat",
       "municipality": "Cornellà de Llobregat",
       "address": "Carrer Mossèn Andreu, 15 08940 Cornellà de Llobregat",
       "postal_code": "",
@@ -1653,7 +1683,9 @@
     },
     {
       "id": "biblioteca7439444",
+      "id_secundari": "rer1",
       "name": "Biblioteca Casa de cultura Joan Ruiz i Calonja",
+      "description": "Biblioteca Casa de cultura Joan Ruiz i Calonja. Santa Eulàlia de Ronçana",
       "municipality": "Santa Eulàlia de Ronçana",
       "address": "Carrer Mestre Joan Batlle, 6 08187 Santa Eulàlia de Ronçana",
       "postal_code": "",
@@ -1765,7 +1797,9 @@
     },
     {
       "id": "biblioteca424088",
+      "id_secundari": "b872",
       "name": "Biblioteca El Carmel - Juan Marsé",
+      "description": "Biblioteca El Carmel - Juan Marsé. Barcelona - Horta-Guinardó",
       "municipality": "Barcelona - Horta-Guinardó",
       "address": "Murtra, 135-145 08032 Barcelona",
       "postal_code": "",
@@ -1911,7 +1945,9 @@
     },
     {
       "id": "biblioteca423256",
+      "id_secundari": "gby1",
       "name": "Biblioteca Pere Casaldàliga",
+      "description": "Biblioteca Pere Casaldàliga. Balsareny",
       "municipality": "Balsareny",
       "address": "Carrer del Nord, 3 08660 Balsareny",
       "postal_code": "",
@@ -2019,7 +2055,9 @@
     },
     {
       "id": "biblioteca422952",
+      "id_secundari": "lom1",
       "name": "Biblioteca Santa Oliva",
+      "description": "Biblioteca Santa Oliva. Olesa de Montserrat",
       "municipality": "Olesa de Montserrat",
       "address": "Carrer Salvador Casas, 28 08640 Olesa de Montserrat",
       "postal_code": "",
@@ -2147,7 +2185,9 @@
     },
     {
       "id": "biblioteca422660",
+      "id_secundari": "bbd4",
       "name": "Biblioteca Lloreda",
+      "description": "Biblioteca Lloreda. Badalona",
       "municipality": "Badalona",
       "address": "Avinguda de Catalunya, 56-62, baixos 08917 Badalona",
       "postal_code": "",
@@ -2255,7 +2295,9 @@
     },
     {
       "id": "biblioteca423000",
+      "id_secundari": "bab1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Sant Adrià de Besòs",
       "municipality": "Sant Adrià de Besòs",
       "address": "Plaça Guillermo Vidaña i Haro, s/n 08930 Sant Adrià de Besòs",
       "postal_code": "",
@@ -2363,7 +2405,9 @@
     },
     {
       "id": "biblioteca423492",
+      "id_secundari": "mpr2",
       "name": "Biblioteca del Poblenou",
+      "description": "Biblioteca del Poblenou. Pineda de Mar",
       "municipality": "Pineda de Mar",
       "address": "Passeig d'Europa, 23-25 08397 Pineda de Mar (accés per la Plaça de la Biblioteca)",
       "postal_code": "",
@@ -2471,7 +2515,9 @@
     },
     {
       "id": "biblioteca423240",
+      "id_secundari": "mat1",
       "name": "Biblioteca Antònia Torrent i Martori",
+      "description": "Biblioteca Antònia Torrent i Martori. Arenys de Munt",
       "municipality": "Arenys de Munt",
       "address": "Rial Bellsolell, 5 08358 Arenys de Munt",
       "postal_code": "",
@@ -2579,7 +2625,9 @@
     },
     {
       "id": "biblioteca422920",
+      "id_secundari": "rll1",
       "name": "Biblioteca Municipal",
+      "description": "Biblioteca Municipal. La Llagosta",
       "municipality": "La Llagosta",
       "address": "Carrer Jaume I, 9, 1r pis (Centre Cultural Can Pelegrí) 08120 La Llagosta",
       "postal_code": "",
@@ -2683,7 +2731,9 @@
     },
     {
       "id": "biblioteca422976",
+      "id_secundari": "dpg1",
       "name": "Biblioteca Guillem de Berguedà",
+      "description": "Biblioteca Guillem de Berguedà. Puig-reig",
       "municipality": "Puig-reig",
       "address": "Passeig de la Riera de Sala, 5-7. 08692 Puig-Reig",
       "postal_code": "",
@@ -2795,7 +2845,9 @@
     },
     {
       "id": "biblioteca423876",
+      "id_secundari": "cbv1",
       "name": "Biblioteca Vicente Aleixandre",
+      "description": "Biblioteca Vicente Aleixandre. Badia del Vallès",
       "municipality": "Badia del Vallès",
       "address": "Avinguda de la Mediterrània, s/n 08214 Badia del Vallès",
       "postal_code": "",
@@ -2895,7 +2947,9 @@
     },
     {
       "id": "biblioteca481219",
+      "id_secundari": "gmn1",
       "name": "Biblioteca del Casino",
+      "description": "Biblioteca del Casino. Manresa",
       "municipality": "Manresa",
       "address": "Passeig de Pere III, 29 08242 Manresa",
       "postal_code": "",
@@ -3003,7 +3057,9 @@
     },
     {
       "id": "biblioteca423056",
+      "id_secundari": "fpb2",
       "name": "Biblioteca Josep Pla",
+      "description": "Biblioteca Josep Pla. Sant Pere de Ribes",
       "municipality": "Sant Pere de Ribes",
       "address": "Carrer d'Antoni Gaudí, 1 08812 Sant Pere de Ribes",
       "postal_code": "",
@@ -3111,7 +3167,9 @@
     },
     {
       "id": "biblioteca408599110",
+      "id_secundari": "ojv1",
       "name": "Biblioteca Anton Carrera",
+      "description": "Biblioteca Anton Carrera. Sant Julià de Vilatorta",
       "municipality": "Sant Julià de Vilatorta",
       "address": "Avinguda Nostra Sra. de Montserrat, 18 08504 Sant Julià de Vilatorta",
       "postal_code": "",
@@ -3227,7 +3285,9 @@
     },
     {
       "id": "biblioteca422896",
+      "id_secundari": "lgv2",
       "name": "Biblioteca Marian Colomé",
+      "description": "Biblioteca Marian Colomé. Gavà",
       "municipality": "Gavà",
       "address": "Carrer Jaume I, 5 Bis 08850 Gavà RENFE - Gavà BUS URBÀ - Plaça Catalunya X80 L80 L82 L85",
       "postal_code": "",
@@ -3330,7 +3390,9 @@
     },
     {
       "id": "biblioteca24865881",
+      "id_secundari": "mpl1",
       "name": "Biblioteca Can Coromines",
+      "description": "Biblioteca Can Coromines. Sant Pol de Mar",
       "municipality": "Sant Pol de Mar",
       "address": "Carrer Consolat de Mar, 9 08395 Sant Pol de Mar",
       "postal_code": "",
@@ -3442,7 +3504,9 @@
     },
     {
       "id": "biblioteca423644",
+      "id_secundari": "gsp1",
       "name": "Biblioteca Pare Ignasi Casanovas",
+      "description": "Biblioteca Pare Ignasi Casanovas. Santpedor",
       "municipality": "Santpedor",
       "address": "Plaça de la Pau, 2 08251 Santpedor (Barcelona)",
       "postal_code": "",
@@ -3550,7 +3614,9 @@
     },
     {
       "id": "biblioteca424336",
+      "id_secundari": "rfo1",
       "name": "Jordi Ribas",
+      "description": "Jordi Ribas. Sant Fost de Campsentelles",
       "municipality": "Sant Fost de Campsentelles",
       "address": "Plaça de la Vila, s/n (Edifici L'Ateneu) 08105 Sant Fost de Campsentelles",
       "postal_code": "",
@@ -3658,7 +3724,9 @@
     },
     {
       "id": "biblioteca424384",
+      "id_secundari": "rvv1",
       "name": "Biblioteca Contravent",
+      "description": "Biblioteca Contravent. Vilanova del Vallès",
       "municipality": "Vilanova del Vallès",
       "address": "Plaça Països Catalans, 4 08410 Vilanova del Vallès",
       "postal_code": "",
@@ -3766,7 +3834,9 @@
     },
     {
       "id": "biblioteca422984",
+      "id_secundari": "crl1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Ripollet",
       "municipality": "Ripollet",
       "address": "Carretera Estació, s/n 08291 Ripollet",
       "postal_code": "",
@@ -3878,7 +3948,9 @@
     },
     {
       "id": "biblioteca424352",
+      "id_secundari": "amq1",
       "name": "Biblioteca Maria Carme Junyent Figueras",
+      "description": "Biblioteca Maria Carme Junyent Figueras. Masquefa",
       "municipality": "Masquefa",
       "address": "Carrer Rogelio Rojo, 5-9 08783 Masquefa",
       "postal_code": "",
@@ -3986,7 +4058,9 @@
     },
     {
       "id": "biblioteca423732",
+      "id_secundari": "avc1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Vilanova del Camí",
       "municipality": "Vilanova del Camí",
       "address": "Centre Can Papasseit. Carrer Mare de Déu de Núria, 1 08788 Vilanova del Camí",
       "postal_code": "",
@@ -4090,7 +4164,9 @@
     },
     {
       "id": "biblioteca423856",
+      "id_secundari": "mpm1",
       "name": "Biblioteca Martí Rosselló i Lloveras",
+      "description": "Biblioteca Martí Rosselló i Lloveras. Premià de Mar",
       "municipality": "Premià de Mar",
       "address": "Carretera de Vilassar de Dalt, 100 08330 Premià de Mar",
       "postal_code": "",
@@ -4202,7 +4278,9 @@
     },
     {
       "id": "biblioteca423264",
+      "id_secundari": "aeb1",
       "name": "Biblioteca Verge de Montserrat",
+      "description": "Biblioteca Verge de Montserrat. El Bruc",
       "municipality": "El Bruc",
       "address": "Bruc del Mig, 55 (Edifici Can Casas) 08294 El Bruc, Barcelona",
       "postal_code": "",
@@ -4302,7 +4380,9 @@
     },
     {
       "id": "biblioteca385690365",
+      "id_secundari": "gnc1",
       "name": "Biblioteca Sant Valentí",
+      "description": "Biblioteca Sant Valentí. Navarcles",
       "municipality": "Navarcles",
       "address": "Carrer Mura, 1, 08270 Navarcles, Barcelona",
       "postal_code": "",
@@ -4414,7 +4494,9 @@
     },
     {
       "id": "biblioteca424288",
+      "id_secundari": "b894",
       "name": "Biblioteca La Sagrera - Marina Clotet",
+      "description": "Biblioteca La Sagrera - Marina Clotet. Barcelona - Sant Andreu",
       "municipality": "Barcelona - Sant Andreu",
       "address": "Josep Soldevila, 9 08027 Barcelona",
       "postal_code": "",
@@ -4546,7 +4628,9 @@
     },
     {
       "id": "biblioteca424168",
+      "id_secundari": "mpf1",
       "name": "Biblioteca Enric Miralles",
+      "description": "Biblioteca Enric Miralles. Palafolls",
       "municipality": "Palafolls",
       "address": "Parc de les Esplanes s/n 08389 Palafolls",
       "postal_code": "",
@@ -4662,7 +4746,9 @@
     },
     {
       "id": "biblioteca423168",
+      "id_secundari": "b882",
       "name": "Biblioteca Les Roquetes - Rafa Juncadella",
+      "description": "Biblioteca Les Roquetes - Rafa Juncadella. Barcelona - Nou Barris",
       "municipality": "Barcelona - Nou Barris",
       "address": "Via Favència, 288 B 08042 Barcelona",
       "postal_code": "",
@@ -4786,7 +4872,9 @@
     },
     {
       "id": "biblioteca423500",
+      "id_secundari": "ort1",
       "name": "Biblioteca Bac de Roda",
+      "description": "Biblioteca Bac de Roda. Roda de Ter",
       "municipality": "Roda de Ter",
       "address": "Carrer Bac de Roda, 1 bis 08510 Roda de Ter",
       "postal_code": "",
@@ -4902,7 +4990,9 @@
     },
     {
       "id": "biblioteca424252",
+      "id_secundari": "csb6",
       "name": "Biblioteca del Nord",
+      "description": "Biblioteca del Nord. Sabadell",
       "municipality": "Sabadell",
       "address": "Ronda Navacerrada, 60 08207 Sabadell",
       "postal_code": "",
@@ -5010,7 +5100,9 @@
     },
     {
       "id": "biblioteca424244",
+      "id_secundari": "bab2",
       "name": "Biblioteca Font de la Mina",
+      "description": "Biblioteca Font de la Mina. Sant Adrià de Besòs",
       "municipality": "Sant Adrià de Besòs",
       "address": "Carrer Ponent, 21-25 08930 Sant Adrià de Besòs",
       "postal_code": "",
@@ -5126,7 +5218,9 @@
     },
     {
       "id": "biblioteca3614654",
+      "id_secundari": "b884",
       "name": "Biblioteca Vilapicina i la Torre Llobeta - Carmen Laforet",
+      "description": "Biblioteca Vilapicina i la Torre Llobeta - Carmen Laforet. Barcelona - Nou Barris",
       "municipality": "Barcelona - Nou Barris",
       "address": "Plaça Carmen Laforet, 11 08016 Barcelona",
       "postal_code": "",
@@ -5250,7 +5344,9 @@
     },
     {
       "id": "biblioteca16555112",
+      "id_secundari": "lbs1",
       "name": "La Ginesta",
+      "description": "La Ginesta. Begues",
       "municipality": "Begues",
       "address": "Plaça de l'U d'Octubre de 2017,1 08859 Begues BARCELONA",
       "postal_code": "",
@@ -5358,7 +5454,9 @@
     },
     {
       "id": "biblioteca422832",
+      "id_secundari": "b803",
       "name": "Biblioteca Gabriel García Márquez",
+      "description": "Biblioteca Gabriel García Márquez. Barcelona - Sant Martí",
       "municipality": "Barcelona - Sant Martí",
       "address": "Plaça de Carmen Balcells Segalà, 1 08020 Barcelona Metro: Sant Martí (L2) Bus: H12, V29, 33 i H10",
       "postal_code": "",
@@ -5497,7 +5595,9 @@
     },
     {
       "id": "biblioteca423668",
+      "id_secundari": "gsu1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Súria",
       "municipality": "Súria",
       "address": "Carrer Tarragona, 17-19 08260 Súria",
       "postal_code": "",
@@ -5542,7 +5642,9 @@
     },
     {
       "id": "biblioteca21323915",
+      "id_secundari": "gjv1",
       "name": "Biblioteca Cal Gallifa",
+      "description": "Biblioteca Cal Gallifa. Sant Joan de Vilatorrada",
       "municipality": "Sant Joan de Vilatorrada",
       "address": "Passeig Gallifa, 1 08250 Sant Joan de Vilatorrada",
       "postal_code": "",
@@ -5650,7 +5752,9 @@
     },
     {
       "id": "biblioteca423160",
+      "id_secundari": "b831",
       "name": "Biblioteca Vapor Vell",
+      "description": "Biblioteca Vapor Vell. Barcelona - Sants-Montjuïc",
       "municipality": "Barcelona - Sants-Montjuïc",
       "address": "Passatge Vapor Vell, s/n 08028 Barcelona",
       "postal_code": "",
@@ -5783,7 +5887,9 @@
     },
     {
       "id": "biblioteca423580",
+      "id_secundari": "fpb1",
       "name": "Biblioteca Manuel de Pedrolo",
+      "description": "Biblioteca Manuel de Pedrolo. Sant Pere de Ribes",
       "municipality": "Sant Pere de Ribes",
       "address": "Plaça de la Poeta Maria Mercè Marçal, 1 08810 Sant Pere de Ribes",
       "postal_code": "",
@@ -5899,7 +6005,9 @@
     },
     {
       "id": "biblioteca248723228",
+      "id_secundari": "aod1",
       "name": "Biblioteca l'Atzavara",
+      "description": "Biblioteca l'Atzavara. Òdena",
       "municipality": "Òdena",
       "address": "Carrer de la Guixera, 8 08711 Òdena",
       "postal_code": "",
@@ -6011,7 +6119,9 @@
     },
     {
       "id": "biblioteca423612",
+      "id_secundari": "lcc1",
       "name": "Biblioteca Pilarin Bayés",
+      "description": "Biblioteca Pilarin Bayés. Santa Coloma de Cervelló",
       "municipality": "Santa Coloma de Cervelló",
       "address": "Passatge Maria Mercè Marçal, s/n 08690 SANTA COLOMA DE CERVELLÓ",
       "postal_code": "",
@@ -6111,7 +6221,9 @@
     },
     {
       "id": "biblioteca15764433",
+      "id_secundari": "bcg4",
       "name": "Biblioteca Fondo",
+      "description": "Biblioteca Fondo. Santa Coloma de Gramenet",
       "municipality": "Santa Coloma de Gramenet",
       "address": "Carrer Massenet, 28-30 08922 Santa Coloma de Gramenet",
       "postal_code": "",
@@ -6211,7 +6323,9 @@
     },
     {
       "id": "biblioteca423508",
+      "id_secundari": "csb4",
       "name": "Biblioteca Can Puiggener",
+      "description": "Biblioteca Can Puiggener. Sabadell",
       "municipality": "Sabadell",
       "address": "Plaça Primer de Maig, 1 08208 Sabadell",
       "postal_code": "",
@@ -6319,7 +6433,9 @@
     },
     {
       "id": "biblioteca2125655",
+      "id_secundari": "rbr1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Bigues i Riells del Fai",
       "municipality": "Bigues i Riells del Fai",
       "address": "Carrer Anna Mogas, 130 08415 Bigues i Riells del Fai",
       "postal_code": "",
@@ -6431,7 +6547,9 @@
     },
     {
       "id": "biblioteca21329508",
+      "id_secundari": "b806",
       "name": "Biblioteca El Clot - Josep Benet",
+      "description": "Biblioteca El Clot - Josep Benet. Barcelona - Sant Martí",
       "municipality": "Barcelona - Sant Martí",
       "address": "Plaça de les Glòries Catalanes, 37-38 (Edifici DHUB) 08018 Barcelona",
       "postal_code": "",
@@ -6555,7 +6673,9 @@
     },
     {
       "id": "biblioteca423064",
+      "id_secundari": "gve1",
       "name": "Biblioteca Salvador Vives Casajuana",
+      "description": "Biblioteca Salvador Vives Casajuana. Sant Vicenç de Castellet",
       "municipality": "Sant Vicenç de Castellet",
       "address": "Creixell,6 08295 Sant Vicenç de Castellet",
       "postal_code": "",
@@ -6671,7 +6791,9 @@
     },
     {
       "id": "biblioteca422960",
+      "id_secundari": "rpv1",
       "name": "Biblioteca Can Rajoler",
+      "description": "Biblioteca Can Rajoler. Parets del Vallès",
       "municipality": "Parets del Vallès",
       "address": "Carrer de Travessera, 1 08150 Parets del Vallès",
       "postal_code": "",
@@ -6779,7 +6901,9 @@
     },
     {
       "id": "biblioteca423548",
+      "id_secundari": "gfs1",
       "name": "Biblioteca Sant Pere Almató",
+      "description": "Biblioteca Sant Pere Almató. Sant Feliu Sasserra",
       "municipality": "Sant Feliu Sasserra",
       "address": "Catalunya, 1 08274 Sant Feliu Sasserra",
       "postal_code": "",
@@ -6879,7 +7003,9 @@
     },
     {
       "id": "biblioteca423708",
+      "id_secundari": "otl2",
       "name": "Biblioteca",
+      "description": "Biblioteca. Torelló",
       "municipality": "Torelló",
       "address": "Carrer Núria, 91 Apartat 31 08570 Torelló",
       "postal_code": "",
@@ -6979,7 +7105,9 @@
     },
     {
       "id": "biblioteca484875",
+      "id_secundari": "rcs1",
       "name": "Biblioteca Frederica Montseny",
+      "description": "Biblioteca Frederica Montseny. Canovelles",
       "municipality": "Canovelles",
       "address": "Carrer Molí de la Sal, 24-26 08420 Canovelles",
       "postal_code": "",
@@ -7087,7 +7215,9 @@
     },
     {
       "id": "biblioteca13853783",
+      "id_secundari": "cts8",
       "name": "Biblioteca Districte 3",
+      "description": "Biblioteca Districte 3. Terrassa",
       "municipality": "Terrassa",
       "address": "Carrer del Germà Joaquim, 66 08223 Terrassa",
       "postal_code": "",
@@ -7207,7 +7337,9 @@
     },
     {
       "id": "biblioteca423208",
+      "id_secundari": "b851",
       "name": "Clarà",
+      "description": "Clarà. Barcelona - Sarrià-Sant Gervasi",
       "municipality": "Barcelona - Sarrià-Sant Gervasi",
       "address": "Carrer Doctor Carulla, 22-24 08017 Barcelona",
       "postal_code": "",
@@ -7323,7 +7455,9 @@
     },
     {
       "id": "biblioteca368915392",
+      "id_secundari": "lcn4",
       "name": "Biblioteca Teresa Pàmies",
+      "description": "Biblioteca Teresa Pàmies. Cornellà de Llobregat",
       "municipality": "Cornellà de Llobregat",
       "address": "Passeig dels Ferrocarrils Catalans, 187 08940 Cornellà de Llobregat (davant la parada de FGC “Almeda”)",
       "postal_code": "",
@@ -7427,7 +7561,9 @@
     },
     {
       "id": "biblioteca423964",
+      "id_secundari": "bcg2",
       "name": "Biblioteca Can Peixauet",
+      "description": "Biblioteca Can Peixauet. Santa Coloma de Gramenet",
       "municipality": "Santa Coloma de Gramenet",
       "address": "Avinguda de la Generalitat, 98 08923 Santa Coloma de Gramenet",
       "postal_code": "",
@@ -7527,7 +7663,9 @@
     },
     {
       "id": "biblioteca424080",
+      "id_secundari": "pmj1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Santa Margarida i els Monjos",
       "municipality": "Santa Margarida i els Monjos",
       "address": "Carrer Cadí, 2 08730 Santa Margarida i els Monjos",
       "postal_code": "",
@@ -7635,7 +7773,9 @@
     },
     {
       "id": "biblioteca424344",
+      "id_secundari": "b885",
       "name": "Biblioteca Zona Nord - Mària Sánchez",
+      "description": "Biblioteca Zona Nord - Mària Sánchez. Barcelona - Nou Barris",
       "municipality": "Barcelona - Nou Barris",
       "address": "Carrer Vallcivera, 3 bis 08033 Barcelona",
       "postal_code": "",
@@ -7759,7 +7899,9 @@
     },
     {
       "id": "biblioteca2059123",
+      "id_secundari": "ljd1",
       "name": "Biblioteca Joan Margarit",
+      "description": "Biblioteca Joan Margarit. Sant Just Desvern",
       "municipality": "Sant Just Desvern",
       "address": "Carrer Carles Mercader, 17 08960 Sant Just Desvern",
       "postal_code": "",
@@ -7871,7 +8013,9 @@
     },
     {
       "id": "biblioteca418558260",
+      "id_secundari": "b892",
       "name": "Biblioteca El Bon Pastor – Josefina Castellví",
+      "description": "Biblioteca El Bon Pastor – Josefina Castellví. Barcelona - Sant Andreu",
       "municipality": "Barcelona - Sant Andreu",
       "address": "Carrer de l'Estadella, 64 08030 Barcelona",
       "postal_code": "",
@@ -7987,7 +8131,9 @@
     },
     {
       "id": "biblioteca422928",
+      "id_secundari": "lmr1",
       "name": "Biblioteca Francesc Pujols",
+      "description": "Biblioteca Francesc Pujols. Martorell",
       "municipality": "Martorell",
       "address": "Av. Mancomunitats Comarcals, 13 08760 Martorell",
       "postal_code": "",
@@ -8111,7 +8257,9 @@
     },
     {
       "id": "biblioteca10808467",
+      "id_secundari": "rgr1",
       "name": "Biblioteca Can Pedrals",
+      "description": "Biblioteca Can Pedrals. Granollers",
       "municipality": "Granollers",
       "address": "Carrer Espí i Grau, 2 08400 Granollers",
       "postal_code": "",
@@ -8227,7 +8375,9 @@
     },
     {
       "id": "biblioteca423296",
+      "id_secundari": "mcm1",
       "name": "Biblioteca Pare Gual i Pujadas",
+      "description": "Biblioteca Pare Gual i Pujadas. Canet de Mar",
       "municipality": "Canet de Mar",
       "address": "Riera de Sant Domènec, 1 A 08360 Canet de Mar",
       "postal_code": "",
@@ -8331,7 +8481,9 @@
     },
     {
       "id": "biblioteca422668",
+      "id_secundari": "bbd3",
       "name": "Biblioteca Sant Roc",
+      "description": "Biblioteca Sant Roc. Badalona",
       "municipality": "Badalona",
       "address": "Avinguda del Congrés Eucarístic, s/n 08918 Badalona",
       "postal_code": "",
@@ -8439,7 +8591,9 @@
     },
     {
       "id": "biblioteca21313829",
+      "id_secundari": "crb1",
       "name": "Biblioteca Mestre Martí Tauler",
+      "description": "Biblioteca Mestre Martí Tauler. Rubí",
       "municipality": "Rubí",
       "address": "Carrer Aribau, 5 08191 Rubí",
       "postal_code": "",
@@ -8551,7 +8705,9 @@
     },
     {
       "id": "biblioteca424304",
+      "id_secundari": "csb7",
       "name": "Biblioteca del Sud",
+      "description": "Biblioteca del Sud. Sabadell",
       "municipality": "Sabadell",
       "address": "Passeig dels Almogàvers, 49 08204 Sabadell",
       "postal_code": "",
@@ -8667,7 +8823,9 @@
     },
     {
       "id": "biblioteca7764031",
+      "id_secundari": "lco1",
       "name": "Biblioteca Can Baró",
+      "description": "Biblioteca Can Baró. Corbera de Llobregat",
       "municipality": "Corbera de Llobregat",
       "address": "Carrer Sant Salvador, 25 08757 Corbera de Llobregat",
       "postal_code": "",
@@ -8783,7 +8941,9 @@
     },
     {
       "id": "biblioteca478114",
+      "id_secundari": "bcg3",
       "name": "Biblioteca Singuerlín - Salvador Cabré",
+      "description": "Biblioteca Singuerlín - Salvador Cabré. Santa Coloma de Gramenet",
       "municipality": "Santa Coloma de Gramenet",
       "address": "Plaça Sagrada Família, s/n 08924 Santa Coloma de Gramenet",
       "postal_code": "",
@@ -8883,7 +9043,9 @@
     },
     {
       "id": "biblioteca424360",
+      "id_secundari": "csb8",
       "name": "Biblioteca de Ponent",
+      "description": "Biblioteca de Ponent. Sabadell",
       "municipality": "Sabadell",
       "address": "Plaça d'Ovidi Montllor, 5 08206 Sabadell",
       "postal_code": "",
@@ -8999,7 +9161,9 @@
     },
     {
       "id": "biblioteca423072",
+      "id_secundari": "bcg1",
       "name": "Biblioteca Central",
+      "description": "Biblioteca Central. Santa Coloma de Gramenet",
       "municipality": "Santa Coloma de Gramenet",
       "address": "Jardí de Can Sisteré, s/n 08921 Santa Coloma de Gramenet",
       "postal_code": "",
@@ -9119,7 +9283,9 @@
     },
     {
       "id": "biblioteca424160",
+      "id_secundari": "rfc1",
       "name": "Biblioteca Joan Petit i Aguilar",
+      "description": "Biblioteca Joan Petit i Aguilar. Sant Feliu de Codines",
       "municipality": "Sant Feliu de Codines",
       "address": "Plaça Josep Umbert Ventura, 3 08182 Sant Feliu de Codines",
       "postal_code": "",
@@ -9231,7 +9397,9 @@
     },
     {
       "id": "biblioteca424296",
+      "id_secundari": "gpo1",
       "name": "Biblioteca",
+      "description": "Biblioteca. El Pont de Vilomara i Rocafort",
       "municipality": "El Pont de Vilomara i Rocafort",
       "address": "Carrer Sant Pere Regalat, 72 baixos 08254 El Pont de Vilomara i Rocafort",
       "postal_code": "",
@@ -9339,7 +9507,9 @@
     },
     {
       "id": "biblioteca424128",
+      "id_secundari": "rgr2",
       "name": "Biblioteca Roca Umbert",
+      "description": "Biblioteca Roca Umbert. Granollers",
       "municipality": "Granollers",
       "address": "Carrer d'Enric Prat de la Riba, 77 08401 Granollers",
       "postal_code": "",
@@ -9447,7 +9617,9 @@
     },
     {
       "id": "biblioteca424376",
+      "id_secundari": "cqg2",
       "name": "Biblioteca Mira-sol Marta Pessarrodona",
+      "description": "Biblioteca Mira-sol Marta Pessarrodona. Sant Cugat del Vallès",
       "municipality": "Sant Cugat del Vallès",
       "address": "Plaça Ausias March, 2 08195 Sant Cugat del Vallès",
       "postal_code": "",
@@ -9563,7 +9735,9 @@
     },
     {
       "id": "biblioteca423984",
+      "id_secundari": "bbd2",
       "name": "Biblioteca Llefià - Xavier Soto",
+      "description": "Biblioteca Llefià - Xavier Soto. Badalona",
       "municipality": "Badalona",
       "address": "Carrer Planeta Mart, 2-10 08914 Badalona",
       "postal_code": "",
@@ -9671,7 +9845,9 @@
     },
     {
       "id": "biblioteca423900",
+      "id_secundari": "cmd1",
       "name": "Biblioteca Àngel Guimerà",
+      "description": "Biblioteca Àngel Guimerà. Matadepera",
       "municipality": "Matadepera",
       "address": "Carrer Pere Aldavert, 4 (al Casal de Cultura) 08230 Matadepera",
       "postal_code": "",
@@ -9816,7 +9992,9 @@
     },
     {
       "id": "biblioteca423032",
+      "id_secundari": "lfl1",
       "name": "Biblioteca Montserrat Roig",
+      "description": "Biblioteca Montserrat Roig. Sant Feliu de Llobregat",
       "municipality": "Sant Feliu de Llobregat",
       "address": "C/Verge de Montserrat, 1-3 08980 Sant Feliu de Llobregat",
       "postal_code": "",
@@ -9932,7 +10110,9 @@
     },
     {
       "id": "biblioteca424312",
+      "id_secundari": "rlu1",
       "name": "Biblioteca Ca l'Oliveres",
+      "description": "Biblioteca Ca l'Oliveres. Lliçà d'Amunt",
       "municipality": "Lliçà d'Amunt",
       "address": "Carrer Castelló de la Plana, 11 08186 Lliçà d'Amunt",
       "postal_code": "",
@@ -10032,7 +10212,9 @@
     },
     {
       "id": "biblioteca10838674",
+      "id_secundari": "lcn3",
       "name": "Biblioteca Sant Ildefons",
+      "description": "Biblioteca Sant Ildefons. Cornellà de Llobregat",
       "municipality": "Cornellà de Llobregat",
       "address": "Plaça Carles Navales, s/n 08940 Cornellà de Llobregat",
       "postal_code": "",
@@ -10136,7 +10318,9 @@
     },
     {
       "id": "biblioteca423152",
+      "id_secundari": "b825",
       "name": "Biblioteca Sofia Barat",
+      "description": "Biblioteca Sofia Barat. Barcelona - Eixample",
       "municipality": "Barcelona - Eixample",
       "address": "Carrer de Girona, 64-68 (interior d'illa) 08009 Barcelona",
       "postal_code": "",
@@ -10252,7 +10436,9 @@
     },
     {
       "id": "biblioteca423516",
+      "id_secundari": "gsl1",
       "name": "Biblioteca Sant Antoni Maria Claret",
+      "description": "Biblioteca Sant Antoni Maria Claret. Sallent",
       "municipality": "Sallent",
       "address": "Carrer Torres Amat, 39 08650 Sallent",
       "postal_code": "",
@@ -10364,7 +10550,9 @@
     },
     {
       "id": "biblioteca423524",
+      "id_secundari": "man1",
       "name": "Biblioteca Font i Daniel",
+      "description": "Biblioteca Font i Daniel. Sant Andreu de Llavaneres",
       "municipality": "Sant Andreu de Llavaneres",
       "address": "Carrer Clòsens, 65 08392 Sant Andreu de Llavaneres",
       "postal_code": "",
@@ -10472,7 +10660,9 @@
     },
     {
       "id": "biblioteca11072691",
+      "id_secundari": "rlg1",
       "name": "Biblioteca Núria Albó",
+      "description": "Biblioteca Núria Albó. La Garriga",
       "municipality": "La Garriga",
       "address": "Carrer del Centre, 49 08530 La Garriga",
       "postal_code": "",
@@ -10584,7 +10774,9 @@
     },
     {
       "id": "biblioteca71512214",
+      "id_secundari": "bbd5",
       "name": "Biblioteca Pomar",
+      "description": "Biblioteca Pomar. Badalona",
       "municipality": "Badalona",
       "address": "Avinguda Primer de maig, s/n 08915 Badalona",
       "postal_code": "",
@@ -10688,7 +10880,9 @@
     },
     {
       "id": "biblioteca423824",
+      "id_secundari": "blh5",
       "name": "Biblioteca Can Sumarro",
+      "description": "Biblioteca Can Sumarro. L'Hospitalet de Llobregat",
       "municipality": "L'Hospitalet de Llobregat",
       "address": "Carrer Riera de l'Escorxador, s/n 08901 L'Hospitalet de Llobregat",
       "postal_code": "",
@@ -10796,7 +10990,9 @@
     },
     {
       "id": "biblioteca423800",
+      "id_secundari": "lvh1",
       "name": "Biblioteca Les Voltes",
+      "description": "Biblioteca Les Voltes. Sant Vicenç dels Horts",
       "municipality": "Sant Vicenç dels Horts",
       "address": "Carrer Nou, 1-9 08620 Sant Vicenç dels Horts",
       "postal_code": "",
@@ -10904,7 +11100,9 @@
     },
     {
       "id": "biblioteca4000362",
+      "id_secundari": "mck1",
       "name": "Biblioteca Can Milans",
+      "description": "Biblioteca Can Milans. Caldes d'Estrac",
       "municipality": "Caldes d'Estrac",
       "address": "Carrer de l'Església, 6 08393 Caldes d'Estrac",
       "postal_code": "",
@@ -11012,7 +11210,9 @@
     },
     {
       "id": "biblioteca424220",
+      "id_secundari": "cvs1",
       "name": "Biblioteca El Castell",
+      "description": "Biblioteca El Castell. Vacarisses",
       "municipality": "Vacarisses",
       "address": "Carrer Major, 3. Edifici El Castell 08233 Vacarisses",
       "postal_code": "",
@@ -11124,7 +11324,9 @@
     },
     {
       "id": "biblioteca423748",
+      "id_secundari": "cpy1",
       "name": "Biblioteca Neus Català",
+      "description": "Biblioteca Neus Català. Polinyà",
       "municipality": "Polinyà",
       "address": "Avinguda de Sentmenat, 70-72 08213 Polinyà",
       "postal_code": "",
@@ -11232,7 +11434,9 @@
     },
     {
       "id": "biblioteca423532",
+      "id_secundari": "rsc1",
       "name": "Biblioteca l'Escorxador",
+      "description": "Biblioteca l'Escorxador. Sant Celoni",
       "municipality": "Sant Celoni",
       "address": "Passeig de la Rectoria Vella, 10 08470 Sant Celoni",
       "postal_code": "",
@@ -11344,7 +11548,9 @@
     },
     {
       "id": "biblioteca368913687",
+      "id_secundari": "mma3",
       "name": "Biblioteca Popular",
+      "description": "Biblioteca Popular. Mataró",
       "municipality": "Mataró",
       "address": "Carrer d'En Palau, 18 08301 Mataró",
       "postal_code": "",
@@ -11444,7 +11650,9 @@
     },
     {
       "id": "biblioteca424184",
+      "id_secundari": "cts3",
       "name": "Biblioteca Districte 4",
+      "description": "Biblioteca Districte 4. Terrassa",
       "municipality": "Terrassa",
       "address": "Carrer de l'Infant Martí, 183 08224 Terrassa",
       "postal_code": "",
@@ -11564,7 +11772,9 @@
     },
     {
       "id": "biblioteca424008",
+      "id_secundari": "csb1",
       "name": "Biblioteca Vapor Badia",
+      "description": "Biblioteca Vapor Badia. Sabadell",
       "municipality": "Sabadell",
       "address": "Carrer Tres Creus, 127-129 08202 Sabadell",
       "postal_code": "",
@@ -11664,7 +11874,9 @@
     },
     {
       "id": "biblioteca423184",
+      "id_secundari": "b812",
       "name": "Biblioteca Francesca Bonnemaison",
+      "description": "Biblioteca Francesca Bonnemaison. Barcelona - Ciutat Vella",
       "municipality": "Barcelona - Ciutat Vella",
       "address": "Carrer Sant Pere més Baix, 7 08003 Barcelona",
       "postal_code": "",
@@ -11780,7 +11992,9 @@
     },
     {
       "id": "biblioteca17727050",
+      "id_secundari": "mss1",
       "name": "Biblioteca Vall d'Alfatà",
+      "description": "Biblioteca Vall d'Alfatà. Santa Susanna",
       "municipality": "Santa Susanna",
       "address": "Rambla dels Països Catalans, 2 08398 Santa Susanna",
       "postal_code": "",
@@ -11892,7 +12106,9 @@
     },
     {
       "id": "biblioteca423588",
+      "id_secundari": "pps1",
       "name": "Biblioteca Maria Àngels Torrents i Rosés",
+      "description": "Biblioteca Maria Àngels Torrents i Rosés. Sant Pere de Riudebitlles",
       "municipality": "Sant Pere de Riudebitlles",
       "address": "Carrer Major, 42 08776 Sant Pere de Riudebitlles",
       "postal_code": "",
@@ -12000,7 +12216,9 @@
     },
     {
       "id": "biblioteca423628",
+      "id_secundari": "rmp1",
       "name": "Biblioteca Ferran Soldevila",
+      "description": "Biblioteca Ferran Soldevila. Santa Maria de Palautordera",
       "municipality": "Santa Maria de Palautordera",
       "address": "Passeig del Remei, 33 08460 Santa Maria de Palautordera",
       "postal_code": "",
@@ -12112,7 +12330,9 @@
     },
     {
       "id": "biblioteca408611900",
+      "id_secundari": "cpn1",
       "name": "Biblioteca L'Alzina",
+      "description": "Biblioteca L'Alzina. Palau-solità i Plegamans",
       "municipality": "Palau-solità i Plegamans",
       "address": "Avinguda Nostra Sra. de Montserrat, 30 08184 Palau-solità i Plegamans",
       "postal_code": "",
@@ -12228,7 +12448,9 @@
     },
     {
       "id": "biblioteca21134912",
+      "id_secundari": "lqo1",
       "name": "Biblioteca Sibil·la Durfort",
+      "description": "Biblioteca Sibil·la Durfort. Collbató",
       "municipality": "Collbató",
       "address": "Passeig Mansuet, 9-11 08293 Collbató",
       "postal_code": "",
@@ -12377,7 +12599,9 @@
     },
     {
       "id": "biblioteca3565858",
+      "id_secundari": "b863",
       "name": "Biblioteca Vallcarca i els Penitents - M. Antonieta Cot",
+      "description": "Biblioteca Vallcarca i els Penitents - M. Antonieta Cot. Barcelona - Gràcia",
       "municipality": "Barcelona - Gràcia",
       "address": "Passeig Vall d'Hebron, 65-69 08035 Barcelona",
       "postal_code": "",
@@ -12501,7 +12725,9 @@
     },
     {
       "id": "biblioteca423848",
+      "id_secundari": "mem1",
       "name": "Biblioteca Joan Coromines",
+      "description": "Biblioteca Joan Coromines. El Masnou",
       "municipality": "El Masnou",
       "address": "Carrer de Josep Pujadas Truch, 1A 08320 El Masnou",
       "postal_code": "",
@@ -12613,7 +12839,9 @@
     },
     {
       "id": "biblioteca422856",
+      "id_secundari": "dbg1",
       "name": "Biblioteca Ramon Vinyes i Cluet",
+      "description": "Biblioteca Ramon Vinyes i Cluet. Berga",
       "municipality": "Berga",
       "address": "Plaça Europa, 1 08600 Berga",
       "postal_code": "",
@@ -12729,7 +12957,9 @@
     },
     {
       "id": "biblioteca423832",
+      "id_secundari": "mal1",
       "name": "Biblioteca Ferrer i Guàrdia",
+      "description": "Biblioteca Ferrer i Guàrdia. Alella",
       "municipality": "Alella",
       "address": "Carrer Hort de la Rectoria, s/n 08328 Alella",
       "postal_code": "",
@@ -12837,7 +13067,9 @@
     },
     {
       "id": "biblioteca423364",
+      "id_secundari": "blh4",
       "name": "Biblioteca La Bòbila",
+      "description": "Biblioteca La Bòbila. L'Hospitalet de Llobregat",
       "municipality": "L'Hospitalet de Llobregat",
       "address": "Plaça de la Bòbila, 1 08906 L'Hospitalet de Llobregat",
       "postal_code": "",
@@ -12945,7 +13177,9 @@
     },
     {
       "id": "biblioteca423444",
+      "id_secundari": "cmx1",
       "name": "Biblioteca Can Sant Joan",
+      "description": "Biblioteca Can Sant Joan. Montcada i Reixac",
       "municipality": "Montcada i Reixac",
       "address": "Carrer Turó, 45 08110 Montcada i Reixac",
       "postal_code": "",
@@ -13049,7 +13283,9 @@
     },
     {
       "id": "biblioteca423988",
+      "id_secundari": "b862",
       "name": "Biblioteca Vila de Rosa M. Arquimbau",
+      "description": "Biblioteca Vila de Rosa M. Arquimbau. Barcelona - Gràcia",
       "municipality": "Barcelona - Gràcia",
       "address": "Carrer del Torrent de l'Olla, 104 08012 Barcelona",
       "postal_code": "",
@@ -13165,7 +13401,9 @@
     },
     {
       "id": "biblioteca424276",
+      "id_secundari": "mte1",
       "name": "Biblioteca de Can Llaurador",
+      "description": "Biblioteca de Can Llaurador. Teià",
       "municipality": "Teià",
       "address": "Avinguda J. Roca Suárez- Llanos, 40 08329 Teià",
       "postal_code": "",
@@ -13273,7 +13511,9 @@
     },
     {
       "id": "biblioteca424016",
+      "id_secundari": "mmg1",
       "name": "Biblioteca Tirant lo Blanc",
+      "description": "Biblioteca Tirant lo Blanc. Montgat",
       "municipality": "Montgat",
       "address": "Ronda dels Països Catalans, s/n. 08390 Montgat",
       "postal_code": "",
@@ -13381,7 +13621,9 @@
     },
     {
       "id": "biblioteca423080",
+      "id_secundari": "amb1",
       "name": "Biblioteca Mont-Àgora",
+      "description": "Biblioteca Mont-Àgora. Santa Margarida de Montbui",
       "municipality": "Santa Margarida de Montbui",
       "address": "Passeig Catalunya, s/n 08710 Santa Margarida de Montbui",
       "postal_code": "",
@@ -13489,7 +13731,9 @@
     },
     {
       "id": "biblioteca423908",
+      "id_secundari": "cqg1",
       "name": "Biblioteca Central Gabriel Ferrater",
+      "description": "Biblioteca Central Gabriel Ferrater. Sant Cugat del Vallès",
       "municipality": "Sant Cugat del Vallès",
       "address": "Avinguda Pla del Vinyet, 40. 08172 Sant Cugat del Vallès",
       "postal_code": "",
@@ -13621,7 +13865,9 @@
     },
     {
       "id": "biblioteca422700",
+      "id_secundari": "b891",
       "name": "Biblioteca Ignasi Iglésias - Can Fabra",
+      "description": "Biblioteca Ignasi Iglésias - Can Fabra. Barcelona - Sant Andreu",
       "municipality": "Barcelona - Sant Andreu",
       "address": "Segre, 24-32 08030 Barcelona",
       "postal_code": "",
@@ -13752,7 +13998,9 @@
     },
     {
       "id": "biblioteca423352",
+      "id_secundari": "blh2",
       "name": "Biblioteca Bellvitge",
+      "description": "Biblioteca Bellvitge. L'Hospitalet de Llobregat",
       "municipality": "L'Hospitalet de Llobregat",
       "address": "Plaça de la Cultura, 1 08907 L' Hospitalet de Llobregat",
       "postal_code": "",
@@ -13852,7 +14100,9 @@
     },
     {
       "id": "biblioteca423136",
+      "id_secundari": "fsg1",
       "name": "Biblioteca Santiago Rusiñol",
+      "description": "Biblioteca Santiago Rusiñol. Sitges",
       "municipality": "Sitges",
       "address": "Plaça de l'Ajuntament, 13 08870 Sitges",
       "postal_code": "",
@@ -13976,7 +14226,9 @@
     },
     {
       "id": "biblioteca423556",
+      "id_secundari": "ohv1",
       "name": "Biblioteca Marquès de Remisa",
+      "description": "Biblioteca Marquès de Remisa. Sant Hipòlit de Voltregà",
       "municipality": "Sant Hipòlit de Voltregà",
       "address": "Carrer de la Vinya, 2 08512 Sant Hipòlit de Voltregà",
       "postal_code": "",
@@ -14084,7 +14336,9 @@
     },
     {
       "id": "biblioteca423248",
+      "id_secundari": "gay1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Avinyó",
       "municipality": "Avinyó",
       "address": "Carrer del Passeig, 19 08279 Avinyó",
       "postal_code": "",
@@ -14188,7 +14442,9 @@
     },
     {
       "id": "biblioteca423024",
+      "id_secundari": "lbl2",
       "name": "Biblioteca Maria Aurèlia Capmany",
+      "description": "Biblioteca Maria Aurèlia Capmany. Sant Boi de Llobregat",
       "municipality": "Sant Boi de Llobregat",
       "address": "Carrer Eduard Toldrà, s/n 08830 Sant Boi de Llobregat",
       "postal_code": "",
@@ -14296,7 +14552,9 @@
     },
     {
       "id": "biblioteca373323967",
+      "id_secundari": "fcb1",
       "name": "Biblioteca Mn. Joan Avinyó",
+      "description": "Biblioteca Mn. Joan Avinyó. Cubelles",
       "municipality": "Cubelles",
       "address": "c. de la Ciutat de Barcelona, 57 / c. Verge de Montserrat, 49 08880 Cubelles",
       "postal_code": "",
@@ -14408,7 +14666,9 @@
     },
     {
       "id": "biblioteca10612308",
+      "id_secundari": "mma2",
       "name": "Biblioteca Antoni Comas",
+      "description": "Biblioteca Antoni Comas. Mataró",
       "municipality": "Mataró",
       "address": "Prat de la Riba, 110 (antic Escorxador) 08301 Mataró",
       "postal_code": "",
@@ -14520,7 +14780,9 @@
     },
     {
       "id": "biblioteca423868",
+      "id_secundari": "mvm1",
       "name": "Biblioteca Ernest Lluch i Martín",
+      "description": "Biblioteca Ernest Lluch i Martín. Vilassar de Mar",
       "municipality": "Vilassar de Mar",
       "address": "Carrer Santa Eulàlia, 66-80 08340 Vilassar de Mar",
       "postal_code": "",
@@ -14644,7 +14906,9 @@
     },
     {
       "id": "biblioteca422944",
+      "id_secundari": "rmv1",
       "name": "Biblioteca Can Mulà - Jordi Solé Tura",
+      "description": "Biblioteca Can Mulà - Jordi Solé Tura. Mollet del Vallès",
       "municipality": "Mollet del Vallès",
       "address": "Carrer Alsina, 1 (Parc de Can Mulà) 08100 Mollet del Vallès",
       "postal_code": "",
@@ -14776,7 +15040,9 @@
     },
     {
       "id": "biblioteca422808",
+      "id_secundari": "b824",
       "name": "Biblioteca Joan Miró",
+      "description": "Biblioteca Joan Miró. Barcelona - Eixample",
       "municipality": "Barcelona - Eixample",
       "address": "Carrer Vilamarí, 61 (Parc de Joan Miró) 08015 Barcelona",
       "postal_code": "",
@@ -14900,7 +15166,9 @@
     },
     {
       "id": "biblioteca422848",
+      "id_secundari": "b801",
       "name": "Biblioteca Xavier Benguerel",
+      "description": "Biblioteca Xavier Benguerel. Barcelona - Sant Martí",
       "municipality": "Barcelona - Sant Martí",
       "address": "Avinguda del Bogatell, 17 08005 Barcelona",
       "postal_code": "",
@@ -15016,7 +15284,9 @@
     },
     {
       "id": "biblioteca423120",
+      "id_secundari": "ovi1",
       "name": "Biblioteca Pilarin Bayés",
+      "description": "Biblioteca Pilarin Bayés. Vic",
       "municipality": "Vic",
       "address": "Passeig de la Generalitat, 1 08500 Vic",
       "postal_code": "",
@@ -15140,7 +15410,9 @@
     },
     {
       "id": "biblioteca422652",
+      "id_secundari": "bbd1",
       "name": "Biblioteca Can Casacuberta",
+      "description": "Biblioteca Can Casacuberta. Badalona",
       "municipality": "Badalona",
       "address": "Carrer Mossèn Anton, 40-48 08912 Badalona",
       "postal_code": "",
@@ -15245,7 +15517,9 @@
     },
     {
       "id": "biblioteca365034106",
+      "id_secundari": "b853",
       "name": "Biblioteca Sant Gervasi - Joan Maragall",
+      "description": "Biblioteca Sant Gervasi - Joan Maragall. Barcelona - Sarrià-Sant Gervasi",
       "municipality": "Barcelona - Sarrià-Sant Gervasi",
       "address": "Carrer Sant Gervasi de Cassoles, 85 (Jardins de Vil·la Florida) 08022 Barcelona",
       "postal_code": "",
@@ -15374,7 +15648,9 @@
     },
     {
       "id": "biblioteca422968",
+      "id_secundari": "lep1",
       "name": "Biblioteca Antonio Martín",
+      "description": "Biblioteca Antonio Martín. El Prat de Llobregat",
       "municipality": "El Prat de Llobregat",
       "address": "Plaça Catalunya, 39-41 08820 El Prat Llobregat",
       "postal_code": "",
@@ -15479,7 +15755,9 @@
     },
     {
       "id": "biblioteca8534990",
+      "id_secundari": "gmn2",
       "name": "Biblioteca Ateneu Les Bases",
+      "description": "Biblioteca Ateneu Les Bases. Manresa",
       "municipality": "Manresa",
       "address": "Carrer Cintaires 32-34 08242 Manresa",
       "postal_code": "",
@@ -15595,7 +15873,9 @@
     },
     {
       "id": "biblioteca423452",
+      "id_secundari": "rme1",
       "name": "Biblioteca Rosa Leveroni",
+      "description": "Biblioteca Rosa Leveroni. Montornès del Vallès",
       "municipality": "Montornès del Vallès",
       "address": "Carrer Can Parera, 34 08170 Montornès del Vallès",
       "postal_code": "",
@@ -15703,7 +15983,9 @@
     },
     {
       "id": "biblioteca424392",
+      "id_secundari": "lji2",
       "name": "Biblioteca Mercè Rodoreda",
+      "description": "Biblioteca Mercè Rodoreda. Sant Joan Despí",
       "municipality": "Sant Joan Despí",
       "address": "Carrer Major, 69 08970 Sant Joan Despí",
       "postal_code": "",
@@ -15823,7 +16105,9 @@
     },
     {
       "id": "biblioteca423972",
+      "id_secundari": "cts4",
       "name": "Biblioteca Districte 2",
+      "description": "Biblioteca Districte 2. Terrassa",
       "municipality": "Terrassa",
       "address": "C. Sant Cosme, 157 08222 Terrassa",
       "postal_code": "",
@@ -15943,7 +16227,9 @@
     },
     {
       "id": "biblioteca422840",
+      "id_secundari": "b811",
       "name": "Biblioteca Sant Pau - Santa Creu",
+      "description": "Biblioteca Sant Pau - Santa Creu. Barcelona - Ciutat Vella",
       "municipality": "Barcelona - Ciutat Vella",
       "address": "Carrer del Carme, 47 / Hospital, 56 08001 Barcelona",
       "postal_code": "",
@@ -16059,7 +16345,9 @@
     },
     {
       "id": "biblioteca423840",
+      "id_secundari": "b833",
       "name": "Biblioteca El Poble-sec - Francesc Boix",
+      "description": "Biblioteca El Poble-sec - Francesc Boix. Barcelona - Sants-Montjuïc",
       "municipality": "Barcelona - Sants-Montjuïc",
       "address": "Carrer Blai, 34 08004 Barcelona",
       "postal_code": "",
@@ -16175,7 +16463,9 @@
     },
     {
       "id": "biblioteca4038748",
+      "id_secundari": "rlr1",
       "name": "Biblioteca",
+      "description": "Biblioteca. La Roca del Vallès",
       "municipality": "La Roca del Vallès",
       "address": "Carrer Lope de Vega, 10 08430 La Roca del Vallès",
       "postal_code": "",
@@ -16295,7 +16585,9 @@
     },
     {
       "id": "biblioteca424192",
+      "id_secundari": "b821",
       "name": "Biblioteca La Sagrada Família - Josep Maria Ainaud de Lasarte",
+      "description": "Biblioteca La Sagrada Família - Josep Maria Ainaud de Lasarte. Barcelona - Eixample",
       "municipality": "Barcelona - Eixample",
       "address": "Carrer Provença, 480 08025 Barcelona",
       "postal_code": "",
@@ -16442,7 +16734,9 @@
     },
     {
       "id": "biblioteca423684",
+      "id_secundari": "cts5",
       "name": "Biblioteca Districte 5",
+      "description": "Biblioteca Districte 5. Terrassa",
       "municipality": "Terrassa",
       "address": "Carrer del Jocs Olímpics, 7 08225 Terrassa",
       "postal_code": "",
@@ -16558,7 +16852,9 @@
     },
     {
       "id": "biblioteca423692",
+      "id_secundari": "cts2",
       "name": "Biblioteca Districte 6",
+      "description": "Biblioteca Districte 6. Terrassa",
       "municipality": "Terrassa",
       "address": "Rambla de Francesc Macià, 191-193 08226 Terrassa",
       "postal_code": "",
@@ -16678,7 +16974,9 @@
     },
     {
       "id": "biblioteca423008",
+      "id_secundari": "lad1",
       "name": "Biblioteca Aigüestoses",
+      "description": "Biblioteca Aigüestoses. Sant Andreu de la Barca",
       "municipality": "Sant Andreu de la Barca",
       "address": "Avinguda Constitució, 24 08740 Sant Andreu de la Barca",
       "postal_code": "",
@@ -16786,7 +17084,9 @@
     },
     {
       "id": "biblioteca422936",
+      "id_secundari": "mma1",
       "name": "Biblioteca Pompeu Fabra",
+      "description": "Biblioteca Pompeu Fabra. Mataró",
       "municipality": "Mataró",
       "address": "Plaça d'Occitània, s/n 08302 Mataró",
       "postal_code": "",
@@ -16890,7 +17190,9 @@
     },
     {
       "id": "biblioteca423816",
+      "id_secundari": "b874",
       "name": "Biblioteca Montbau - Albert Pérez Baró",
+      "description": "Biblioteca Montbau - Albert Pérez Baró. Barcelona - Horta-Guinardó",
       "municipality": "Barcelona - Horta-Guinardó",
       "address": "Carrer de l'Arquitectura, 8 08035 Barcelona",
       "postal_code": "",
@@ -16998,7 +17300,9 @@
     },
     {
       "id": "biblioteca424064",
+      "id_secundari": "b822",
       "name": "Biblioteca El Fort Pienc – Ana María Moix",
+      "description": "Biblioteca El Fort Pienc – Ana María Moix. Barcelona - Eixample",
       "municipality": "Barcelona - Eixample",
       "address": "Plaça del Fort Pienc, 4-5 08013 Barcelona",
       "postal_code": "",
@@ -17114,7 +17418,9 @@
     },
     {
       "id": "biblioteca19693542",
+      "id_secundari": "dgi1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Gironella",
       "municipality": "Gironella",
       "address": "Avinguda Països Catalans, 1, 08680 Gironella",
       "postal_code": "",
@@ -17230,7 +17536,9 @@
     },
     {
       "id": "biblioteca423936",
+      "id_secundari": "rml1",
       "name": "Biblioteca Lolita Milà",
+      "description": "Biblioteca Lolita Milà. Martorelles",
       "municipality": "Martorelles",
       "address": "Carrer Dr. Santiago Tiffon, 21 08107 Martorelles",
       "postal_code": "",
@@ -17338,7 +17646,9 @@
     },
     {
       "id": "biblioteca278289102",
+      "id_secundari": "rlf2",
       "name": "Corró d’Avall",
+      "description": "Corró d’Avall. Les Franqueses del Vallès",
       "municipality": "Les Franqueses del Vallès",
       "address": "Carrer Verge de Montserrat, 21 (Corró d'Avall) 08520 Les Franqueses del Vallès",
       "postal_code": "",
@@ -17466,7 +17776,9 @@
     },
     {
       "id": "biblioteca424024",
+      "id_secundari": "mvt1",
       "name": "Biblioteca La Muntala",
+      "description": "Biblioteca La Muntala. Sant Vicenç de Montalt",
       "municipality": "Sant Vicenç de Montalt",
       "address": "Riera del Gorg, s/n 08394 Sant Vicenç de Montalt",
       "postal_code": "",
@@ -17582,7 +17894,9 @@
     },
     {
       "id": "biblioteca98185919",
+      "id_secundari": "ccv1",
       "name": "Biblioteca Antoni Tort",
+      "description": "Biblioteca Antoni Tort. Castellar del Vallès",
       "municipality": "Castellar del Vallès",
       "address": "Carrer Sala Boadella, 6 08211 Castellar del Vallès",
       "postal_code": "",
@@ -17710,7 +18024,9 @@
     },
     {
       "id": "biblioteca423404",
+      "id_secundari": "omu1",
       "name": "Biblioteca Municipal de Manlleu BBVA",
+      "description": "Biblioteca Municipal de Manlleu BBVA. Manlleu",
       "municipality": "Manlleu",
       "address": "C/ del Pont, 16-18, 2a planta 08560 Manlleu",
       "postal_code": "",
@@ -17818,7 +18134,9 @@
     },
     {
       "id": "biblioteca424284",
+      "id_secundari": "mkb1",
       "name": "Biblioteca Ilturo",
+      "description": "Biblioteca Ilturo. Cabrera de Mar",
       "municipality": "Cabrera de Mar",
       "address": "Carrer Sant Joan, 8 08349 Cabrera de Mar",
       "postal_code": "",
@@ -17917,7 +18235,9 @@
     },
     {
       "id": "biblioteca423336",
+      "id_secundari": "lel1",
       "name": "Biblioteca Pare Miquel d'Esplugues",
+      "description": "Biblioteca Pare Miquel d'Esplugues. Esplugues de Llobregat",
       "municipality": "Esplugues de Llobregat",
       "address": "Carrer d'Angel Guimerà, 106-108 08950 Esplugues de Llobregat",
       "postal_code": "",
@@ -18033,7 +18353,9 @@
     },
     {
       "id": "biblioteca423660",
+      "id_secundari": "fsg2",
       "name": "Biblioteca Josep Roig i Raventós",
+      "description": "Biblioteca Josep Roig i Raventós. Sitges",
       "municipality": "Sitges",
       "address": "Plaça Catalunya,1 08870 Sitges",
       "postal_code": "",
@@ -18149,7 +18471,9 @@
     },
     {
       "id": "biblioteca423792",
+      "id_secundari": "lmi1",
       "name": "Biblioteca el Molí",
+      "description": "Biblioteca el Molí. Molins de Rei",
       "municipality": "Molins de Rei",
       "address": "Plaça de l'U d'Octubre de 2017, 2 08750 Molins de Rei",
       "postal_code": "",
@@ -18265,7 +18589,9 @@
     },
     {
       "id": "biblioteca423312",
+      "id_secundari": "rcd1",
       "name": "Biblioteca Marc de Vilalba",
+      "description": "Biblioteca Marc de Vilalba. Cardedeu",
       "municipality": "Cardedeu",
       "address": "Carrer Dr. Klein, 101 08440 Cardedeu",
       "postal_code": "",
@@ -18381,7 +18707,9 @@
     },
     {
       "id": "biblioteca422676",
+      "id_secundari": "b842",
       "name": "Biblioteca Montserrat Abelló",
+      "description": "Biblioteca Montserrat Abelló. Barcelona - Les Corts",
       "municipality": "Barcelona - Les Corts",
       "address": "Comtes de Bell-lloc, 192-200 08014 Barcelona",
       "postal_code": "",
@@ -18514,7 +18842,9 @@
     },
     {
       "id": "biblioteca422816",
+      "id_secundari": "b881",
       "name": "Biblioteca Nou Barris - Aurora Díaz Plaja",
+      "description": "Biblioteca Nou Barris - Aurora Díaz Plaja. Barcelona - Nou Barris",
       "municipality": "Barcelona - Nou Barris",
       "address": "Plaça Major de Nou Barris, 2 08042 Barcelona",
       "postal_code": "",
@@ -18639,7 +18969,9 @@
     },
     {
       "id": "biblioteca423216",
+      "id_secundari": "b805",
       "name": "Biblioteca El Camp de l'Arpa - Caterina Albert",
+      "description": "Biblioteca El Camp de l'Arpa - Caterina Albert. Barcelona - Sant Martí",
       "municipality": "Barcelona - Sant Martí",
       "address": "Carrer Indústria, 295 (antiga fàbrica Alchemika) 08041 Barcelona",
       "postal_code": "",
@@ -18763,7 +19095,9 @@
     },
     {
       "id": "biblioteca423288",
+      "id_secundari": "mcl1",
       "name": "Biblioteca Can Salvador de la Plaça",
+      "description": "Biblioteca Can Salvador de la Plaça. Calella",
       "municipality": "Calella",
       "address": "Plaça de l'Ajuntament, 31 08370 Calella",
       "postal_code": "",
@@ -18879,7 +19213,9 @@
     },
     {
       "id": "biblioteca29952144",
+      "id_secundari": "mvd1",
       "name": "Biblioteca Can Manyer",
+      "description": "Biblioteca Can Manyer. Vilassar de Dalt",
       "municipality": "Vilassar de Dalt",
       "address": "Plaça Miquel Martí i Pol, 6 08339 Vilassar de Dalt",
       "postal_code": "",
@@ -18986,7 +19322,9 @@
     },
     {
       "id": "biblioteca423636",
+      "id_secundari": "cpp1",
       "name": "Biblioteca Josep Jardí",
+      "description": "Biblioteca Josep Jardí. Santa Perpètua de Mogoda",
       "municipality": "Santa Perpètua de Mogoda",
       "address": "Passatge de Mas Granollacs 08130 Santa Perpètua de Mogoda",
       "postal_code": "",
@@ -19094,7 +19432,9 @@
     },
     {
       "id": "biblioteca423428",
+      "id_secundari": "gmo1",
       "name": "Biblioteca Municipal 1 d'octubre",
+      "description": "Biblioteca Municipal 1 d'octubre. Moià",
       "municipality": "Moià",
       "address": "Carrer Sant Josep, 12 08180 Moià",
       "postal_code": "",
@@ -19211,7 +19551,9 @@
     },
     {
       "id": "biblioteca423112",
+      "id_secundari": "lvl1",
       "name": "Biblioteca J.M. López-Picó",
+      "description": "Biblioteca J.M. López-Picó. Vallirana",
       "municipality": "Vallirana",
       "address": "Bon Retir, 6-8 08759 Vallirana",
       "postal_code": "",
@@ -19311,7 +19653,9 @@
     },
     {
       "id": "biblioteca423776",
+      "id_secundari": "aig1",
       "name": "Biblioteca Central",
+      "description": "Biblioteca Central. Igualada",
       "municipality": "Igualada",
       "address": "Plaça de Cal Font, s/n 08700 Igualada",
       "postal_code": "",
@@ -19443,7 +19787,9 @@
     },
     {
       "id": "biblioteca424048",
+      "id_secundari": "rla1",
       "name": "Biblioteca Josep Badia i Moret",
+      "description": "Biblioteca Josep Badia i Moret. L'Ametlla del Vallès",
       "municipality": "L'Ametlla del Vallès",
       "address": "Carrer Torregassa, 35-37 08480 L'Ametlla del Vallès",
       "postal_code": "",
@@ -19555,7 +19901,9 @@
     },
     {
       "id": "biblioteca423468",
+      "id_secundari": "gns1",
       "name": "Biblioteca Josep Mas Carreras",
+      "description": "Biblioteca Josep Mas Carreras. Navàs",
       "municipality": "Navàs",
       "address": "Passeig Ramon Vall, 69 08670 Navàs",
       "postal_code": "",
@@ -19663,7 +20011,9 @@
     },
     {
       "id": "biblioteca423884",
+      "id_secundari": "cbb1",
       "name": "Biblioteca Esteve Paluzie",
+      "description": "Biblioteca Esteve Paluzie. Barberà del Vallès",
       "municipality": "Barberà del Vallès",
       "address": "C/Nemesi Valls, 35 08210 Barberà del Vallès",
       "postal_code": "",
@@ -19779,7 +20129,9 @@
     },
     {
       "id": "biblioteca29879457",
+      "id_secundari": "cqg3",
       "name": "Biblioteca Volpelleres - Miquel Batllori",
+      "description": "Biblioteca Volpelleres - Miquel Batllori. Sant Cugat del Vallès",
       "municipality": "Sant Cugat del Vallès",
       "address": "Pau Muñoz i Castanyer, 3 - 5 08174 Sant Cugat del Vallès",
       "postal_code": "",
@@ -19895,7 +20247,9 @@
     },
     {
       "id": "biblioteca423956",
+      "id_secundari": "cqv1",
       "name": "Biblioteca Marcel Ayats",
+      "description": "Biblioteca Marcel Ayats. Sant Quirze del Vallès",
       "municipality": "Sant Quirze del Vallès",
       "address": "Carrer Eduard Toldrà, s/n 08192 Sant Quirze del Vallès",
       "postal_code": "",
@@ -20011,7 +20365,9 @@
     },
     {
       "id": "biblioteca5552523",
+      "id_secundari": "leo1",
       "name": "Biblioteca Valentí Almirall",
+      "description": "Biblioteca Valentí Almirall. El Papiol",
       "municipality": "El Papiol",
       "address": "Passatge Parellada, 1 08754 El Papiol",
       "postal_code": "",
@@ -20127,7 +20483,9 @@
     },
     {
       "id": "biblioteca423016",
+      "id_secundari": "lbl1",
       "name": "Biblioteca Jordi Rubió i Balaguer",
+      "description": "Biblioteca Jordi Rubió i Balaguer. Sant Boi de Llobregat",
       "municipality": "Sant Boi de Llobregat",
       "address": "Carrer Baldiri Aleu, 6-8 08830 Sant Boi de Llobregat",
       "postal_code": "",
@@ -20227,7 +20585,9 @@
     },
     {
       "id": "biblioteca423948",
+      "id_secundari": "mca1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Cabrils",
       "municipality": "Cabrils",
       "address": "Carrer Domènec Carles, 21 08348 Cabrils",
       "postal_code": "",
@@ -20343,7 +20703,9 @@
     },
     {
       "id": "biblioteca423380",
+      "id_secundari": "blh1",
       "name": "Biblioteca Tecla Sala",
+      "description": "Biblioteca Tecla Sala. L'Hospitalet de Llobregat",
       "municipality": "L'Hospitalet de Llobregat",
       "address": "Avinguda Josep Tarradellas, 44 08901 Hospitalet de Llobregat, L'",
       "postal_code": "",
@@ -20447,7 +20809,9 @@
     },
     {
       "id": "biblioteca29806149",
+      "id_secundari": "bbd6",
       "name": "Biblioteca Canyadó i Casagemes – Joan Argenté",
+      "description": "Biblioteca Canyadó i Casagemes – Joan Argenté. Badalona",
       "municipality": "Badalona",
       "address": "Carrer Jacinto Benavente, 3 08911 Badalona",
       "postal_code": "",
@@ -20555,7 +20919,9 @@
     },
     {
       "id": "biblioteca422864",
+      "id_secundari": "lcf1",
       "name": "Biblioteca Ramon Fernàndez Jurado",
+      "description": "Biblioteca Ramon Fernàndez Jurado. Castelldefels",
       "municipality": "Castelldefels",
       "address": "Carrer Bisbe Urquinaona, 19-21 08860 Castelldefels",
       "postal_code": "",
@@ -20663,7 +21029,9 @@
     },
     {
       "id": "biblioteca424040",
+      "id_secundari": "fvu2",
       "name": "Biblioteca Armand Cardona Torrandell",
+      "description": "Biblioteca Armand Cardona Torrandell. Vilanova i la Geltrú",
       "municipality": "Vilanova i la Geltrú",
       "address": "Carrer Menéndez y Pelayo, 15-17 08800 Vilanova i la Geltrú",
       "postal_code": "",
@@ -20803,7 +21171,9 @@
     },
     {
       "id": "biblioteca422872",
+      "id_secundari": "oct1",
       "name": "Biblioteca Palau dels Comtes de Centelles",
+      "description": "Biblioteca Palau dels Comtes de Centelles. Centelles",
       "municipality": "Centelles",
       "address": "Palau dels Comtes Plaça Major, 5 08540 Centelles",
       "postal_code": "",
@@ -20848,7 +21218,9 @@
     },
     {
       "id": "biblioteca423328",
+      "id_secundari": "leg1",
       "name": "Biblioteca Municipal L'Ateneu",
+      "description": "Biblioteca Municipal L'Ateneu. Esparreguera",
       "municipality": "Esparreguera",
       "address": "Plaça d'Antoni Nin i Escudé, 1 08292 Esparreguera",
       "postal_code": "",
@@ -20964,7 +21336,9 @@
     },
     {
       "id": "biblioteca422684",
+      "id_secundari": "b883",
       "name": "Canyelles - Maria Àngels Rivas",
+      "description": "Canyelles - Maria Àngels Rivas. Barcelona - Nou Barris",
       "municipality": "Barcelona - Nou Barris",
       "address": "Ronda de la Guineueta Vella, 34 08042 Barcelona",
       "postal_code": "",
@@ -21072,7 +21446,9 @@
     },
     {
       "id": "biblioteca422644",
+      "id_secundari": "mar1",
       "name": "Biblioteca Pare Fidel Fita",
+      "description": "Biblioteca Pare Fidel Fita. Arenys de Mar",
       "municipality": "Arenys de Mar",
       "address": "Carrer Bonaire, 2 08350 Arenys de Mar",
       "postal_code": "",
@@ -21180,7 +21556,9 @@
     },
     {
       "id": "biblioteca365229428",
+      "id_secundari": "pms1",
       "name": "Biblioteca Neus Català i Pallejà",
+      "description": "Biblioteca Neus Català i Pallejà. Sant Martí Sarroca",
       "municipality": "Sant Martí Sarroca",
       "address": "Lluís Companys-Parc de la Pau, s/n 08731 Sant Martí Sarroca",
       "postal_code": "",
@@ -21284,7 +21662,9 @@
     },
     {
       "id": "biblioteca148443307",
+      "id_secundari": "pqm1",
       "name": "Biblioteca Joan Sardà i Lloret",
+      "description": "Biblioteca Joan Sardà i Lloret. Sant Quintí de Mediona",
       "municipality": "Sant Quintí de Mediona",
       "address": "Carrer Sant Antoni, 13 08777 Sant Quintí de Mediona (Alt Penedès)",
       "postal_code": "",
@@ -21384,7 +21764,9 @@
     },
     {
       "id": "biblioteca423192",
+      "id_secundari": "b871",
       "name": "Biblioteca Mercè Rodoreda",
+      "description": "Biblioteca Mercè Rodoreda. Barcelona - Horta-Guinardó",
       "municipality": "Barcelona - Horta-Guinardó",
       "address": "Carrer de les Camèlies, 76-80 08024 Barcelona",
       "postal_code": "",
@@ -21525,7 +21907,9 @@
     },
     {
       "id": "biblioteca424112",
+      "id_secundari": "b813",
       "name": "Biblioteca La Barceloneta - La Fraternitat",
+      "description": "Biblioteca La Barceloneta - La Fraternitat. Barcelona - Ciutat Vella",
       "municipality": "Barcelona - Ciutat Vella",
       "address": "Carrer Felícia Fuster i Viladecans, 8 08003 Barcelona",
       "postal_code": "",
@@ -21633,7 +22017,9 @@
     },
     {
       "id": "biblioteca423476",
+      "id_secundari": "apa1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Piera",
       "municipality": "Piera",
       "address": "Avinguda del Gall Mullat, 7 08784 Piera",
       "postal_code": "",
@@ -21749,7 +22135,9 @@
     },
     {
       "id": "biblioteca14370480",
+      "id_secundari": "acp1",
       "name": "Biblioteca El Safareig",
+      "description": "Biblioteca El Safareig. Capellades",
       "municipality": "Capellades",
       "address": "Carrer del Pilar, 2 08786 Capellades",
       "postal_code": "",
@@ -21857,7 +22245,9 @@
     },
     {
       "id": "biblioteca424212",
+      "id_secundari": "b873",
       "name": "Biblioteca Horta - Can Mariner",
+      "description": "Biblioteca Horta - Can Mariner. Barcelona - Horta-Guinardó",
       "municipality": "Barcelona - Horta-Guinardó",
       "address": "Carrer de Vent, 1 08031 Barcelona",
       "postal_code": "",
@@ -21973,7 +22363,9 @@
     },
     {
       "id": "biblioteca423928",
+      "id_secundari": "rli1",
       "name": "Biblioteca Can Casas",
+      "description": "Biblioteca Can Casas. Llinars del Vallès",
       "municipality": "Llinars del Vallès",
       "address": "Avinguda Pau Casals, 26 08450 Llinars del Vallès",
       "postal_code": "",
@@ -22089,7 +22481,9 @@
     },
     {
       "id": "biblioteca2058919",
+      "id_secundari": "laa1",
       "name": "Biblioteca Josep Roca i Bros",
+      "description": "Biblioteca Josep Roca i Bros. Abrera",
       "municipality": "Abrera",
       "address": "Carrer Federico García Lorca, 17 08630 Abrera",
       "postal_code": "",
@@ -22201,7 +22595,9 @@
     },
     {
       "id": "biblioteca236199178",
+      "id_secundari": "mto1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Tordera",
       "municipality": "Tordera",
       "address": "Carrer Joan Maragall, 6 08490 Tordera",
       "postal_code": "",
@@ -22317,7 +22713,9 @@
     },
     {
       "id": "biblioteca423756",
+      "id_secundari": "otl1",
       "name": "Biblioteca Dos Rius",
+      "description": "Biblioteca Dos Rius. Torelló",
       "municipality": "Torelló",
       "address": "Plaça Vella, 6 08570 Torelló",
       "postal_code": "",
@@ -22362,7 +22760,9 @@
     },
     {
       "id": "biblioteca423200",
+      "id_secundari": "b841",
       "name": "La Maternitat i Sant Ramon - Miquel Llongueras",
+      "description": "La Maternitat i Sant Ramon - Miquel Llongueras. Barcelona - Les Corts",
       "municipality": "Barcelona - Les Corts",
       "address": "Travessera de les Corts, 58 08028 Barcelona",
       "postal_code": "",
@@ -22478,7 +22878,9 @@
     },
     {
       "id": "biblioteca423604",
+      "id_secundari": "psa1",
       "name": "Biblioteca Ramon Bosch de Noya",
+      "description": "Biblioteca Ramon Bosch de Noya. Sant Sadurní d'Anoia",
       "municipality": "Sant Sadurní d'Anoia",
       "address": "Plaça Primer Homenatge a la Vellesa, 10 08770 Sant Sadurní d'Anoia",
       "postal_code": "",
@@ -22594,7 +22996,9 @@
     },
     {
       "id": "biblioteca423996",
+      "id_secundari": "b852",
       "name": "Biblioteca Collserola - Josep Miracle",
+      "description": "Biblioteca Collserola - Josep Miracle. Barcelona - Sarrià-Sant Gervasi",
       "municipality": "Barcelona - Sarrià-Sant Gervasi",
       "address": "Carrer Elisa Moragas i Badia, 16-34 08017 Barcelona",
       "postal_code": "",
@@ -22707,7 +23111,9 @@
     },
     {
       "id": "biblioteca423980",
+      "id_secundari": "fvu1",
       "name": "Biblioteca Joan Oliva i Milà",
+      "description": "Biblioteca Joan Oliva i Milà. Vilanova i la Geltrú",
       "municipality": "Vilanova i la Geltrú",
       "address": "Plaça de la Vila, 13 08800 Vilanova i la Geltrú",
       "postal_code": "",
@@ -22847,7 +23253,9 @@
     },
     {
       "id": "biblioteca423724",
+      "id_secundari": "cva1",
       "name": "Biblioteca Pere Calders",
+      "description": "Biblioteca Pere Calders. Viladecavalls",
       "municipality": "Viladecavalls",
       "address": "Masia Can Turu, s/n 08232 Viladecavalls",
       "postal_code": "",
@@ -22947,7 +23355,9 @@
     },
     {
       "id": "biblioteca5011297",
+      "id_secundari": "b895",
       "name": "Biblioteca Trinitat Vella - José Barbero",
+      "description": "Biblioteca Trinitat Vella - José Barbero. Barcelona - Sant Andreu",
       "municipality": "Barcelona - Sant Andreu",
       "address": "Carrer Galícia, 16 08033 Barcelona",
       "postal_code": "",
@@ -22992,7 +23402,9 @@
     },
     {
       "id": "biblioteca424056",
+      "id_secundari": "lgv1",
       "name": "Biblioteca Josep Soler Vidal",
+      "description": "Biblioteca Josep Soler Vidal. Gavà",
       "municipality": "Gavà",
       "address": "Plaça de Jaume Balmes, s/n 08850 Gavà",
       "postal_code": "",
@@ -23116,7 +23528,9 @@
     },
     {
       "id": "biblioteca21484714",
+      "id_secundari": "gas1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Artés",
       "municipality": "Artés",
       "address": "Carrer les Parres, 44 08271 Artés",
       "postal_code": "",
@@ -23224,7 +23638,9 @@
     },
     {
       "id": "biblioteca424000",
+      "id_secundari": "lpj1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Pallejà",
       "municipality": "Pallejà",
       "address": "Avinguda de Prat de la Riba, 10 08780 Pallejà",
       "postal_code": "",
@@ -23340,7 +23756,9 @@
     },
     {
       "id": "biblioteca75675274",
+      "id_secundari": "lji1",
       "name": "Biblioteca Miquel Martí i Pol",
+      "description": "Biblioteca Miquel Martí i Pol. Sant Joan Despí",
       "municipality": "Sant Joan Despí",
       "address": "Avinguda Barcelona, 83-85 08970 Sant Joan Despí",
       "postal_code": "",
@@ -23456,7 +23874,9 @@
     },
     {
       "id": "biblioteca423096",
+      "id_secundari": "mti1",
       "name": "Biblioteca Can Baratau",
+      "description": "Biblioteca Can Baratau. Tiana",
       "municipality": "Tiana",
       "address": "Carrer Lola Anglada, 10 08391 Tiana",
       "postal_code": "",
@@ -23564,7 +23984,9 @@
     },
     {
       "id": "biblioteca423396",
+      "id_secundari": "mmt1",
       "name": "Biblioteca La Cooperativa",
+      "description": "Biblioteca La Cooperativa. Malgrat de Mar",
       "municipality": "Malgrat de Mar",
       "address": "Carrer Desclapers, 14-18 08380 Malgrat de Mar",
       "postal_code": "",
@@ -23676,7 +24098,9 @@
     },
     {
       "id": "biblioteca2114415",
+      "id_secundari": "b827",
       "name": "Biblioteca L'Esquerra de l'Eixample - Agustí Centelles",
+      "description": "Biblioteca L'Esquerra de l'Eixample - Agustí Centelles. Barcelona - Eixample",
       "municipality": "Barcelona - Eixample",
       "address": "Carrer Comte d'Urgell, 145-147 08036 Barcelona",
       "postal_code": "",
@@ -23817,7 +24241,9 @@
     },
     {
       "id": "biblioteca2124695",
+      "id_secundari": "ccb1",
       "name": "Biblioteca Josep Mateu i Miró",
+      "description": "Biblioteca Josep Mateu i Miró. Castellbisbal",
       "municipality": "Castellbisbal",
       "address": "Avinguda Pau Casals, 16 (Els Costals) 08755 Castellbisbal",
       "postal_code": "",
@@ -23925,7 +24351,9 @@
     },
     {
       "id": "biblioteca423280",
+      "id_secundari": "rci1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Caldes de Montbui",
       "municipality": "Caldes de Montbui",
       "address": "Carrer Santa Teresa, 3-5 08140 Caldes de Montbui",
       "postal_code": "",
@@ -24033,7 +24461,9 @@
     },
     {
       "id": "biblioteca423784",
+      "id_secundari": "gcr1",
       "name": "Biblioteca Marc de Cardona",
+      "description": "Biblioteca Marc de Cardona. Cardona",
       "municipality": "Cardona",
       "address": "Avinguda Pau Casals, s/n 08261 Cardona",
       "postal_code": "",
@@ -24137,7 +24567,9 @@
     },
     {
       "id": "biblioteca424328",
+      "id_secundari": "blh8",
       "name": "Biblioteca Plaça d'Europa",
+      "description": "Biblioteca Plaça d'Europa. L'Hospitalet de Llobregat",
       "municipality": "L'Hospitalet de Llobregat",
       "address": "Amadeu Torner, 57 Baixos (illa interior) 08902",
       "postal_code": "",
@@ -24245,7 +24677,9 @@
     },
     {
       "id": "biblioteca423128",
+      "id_secundari": "pvp1",
       "name": "Biblioteca Torras i Bages",
+      "description": "Biblioteca Torras i Bages. Vilafranca del Penedès",
       "municipality": "Vilafranca del Penedès",
       "address": "Plaça de l'Oli, 20 08720 Vilafranca del Penedès",
       "postal_code": "",
@@ -24365,7 +24799,9 @@
     },
     {
       "id": "biblioteca424096",
+      "id_secundari": "opt1",
       "name": "Biblioteca L Esqueller",
+      "description": "Biblioteca L Esqueller. Sant Pere de Torelló",
       "municipality": "Sant Pere de Torelló",
       "address": "Josep Badrena, 10 08572 Sant Pere de Torelló",
       "postal_code": "",
@@ -24481,7 +24917,9 @@
     },
     {
       "id": "biblioteca422880",
+      "id_secundari": "ccy1",
       "name": "Biblioteca Central",
+      "description": "Biblioteca Central. Cerdanyola del Vallès",
       "municipality": "Cerdanyola del Vallès",
       "address": "Pl. Enric Granados, 1 08290 Cerdanyola del Vallès",
       "postal_code": "",
@@ -24601,7 +25039,9 @@
     },
     {
       "id": "biblioteca423652",
+      "id_secundari": "csm1",
       "name": "Biblioteca Frederic Alfonso i Orfila",
+      "description": "Biblioteca Frederic Alfonso i Orfila. Sentmenat",
       "municipality": "Sentmenat",
       "address": "Passeig de l'Església, 6 08181 Sentmenat",
       "postal_code": "",
@@ -24713,7 +25153,9 @@
     },
     {
       "id": "biblioteca422692",
+      "id_secundari": "b832",
       "name": "Biblioteca La Marina de Port - Francesc Candel",
+      "description": "Biblioteca La Marina de Port - Francesc Candel. Barcelona - Sants-Montjuïc",
       "municipality": "Barcelona - Sants-Montjuïc",
       "address": "Carrer d'Amnistia Internacional, 10 08038 Barcelona",
       "postal_code": "",
@@ -24829,7 +25271,9 @@
     },
     {
       "id": "biblioteca424072",
+      "id_secundari": "mpd1",
       "name": "Biblioteca Jaume Perich i Escala",
+      "description": "Biblioteca Jaume Perich i Escala. Premià de Dalt",
       "municipality": "Premià de Dalt",
       "address": "Riera de Sant Pere, 88 08338 Premià de Dalt",
       "postal_code": "",
@@ -24933,7 +25377,9 @@
     },
     {
       "id": "biblioteca422824",
+      "id_secundari": "b802",
       "name": "Biblioteca El Besòs i el Maresme - Ramon d'Alòs-Moner",
+      "description": "Biblioteca El Besòs i el Maresme - Ramon d'Alòs-Moner. Barcelona - Sant Martí",
       "municipality": "Barcelona - Sant Martí",
       "address": "Rambla de Prim, 87-89 08019 Barcelona",
       "postal_code": "",
@@ -25041,7 +25487,9 @@
     },
     {
       "id": "biblioteca95569122",
+      "id_secundari": "rmm1",
       "name": "Biblioteca La Grua",
+      "description": "Biblioteca La Grua. Montmeló",
       "municipality": "Montmeló",
       "address": "Carrer de Francesc Macià, 11 08160 Montmeló",
       "postal_code": "",
@@ -25141,7 +25589,9 @@
     },
     {
       "id": "biblioteca424176",
+      "id_secundari": "lce1",
       "name": "Biblioteca Municipal de Cervelló",
+      "description": "Biblioteca Municipal de Cervelló. Cervelló",
       "municipality": "Cervelló",
       "address": "Plaça de la Biblioteca, 1 08758 Cervelló",
       "postal_code": "",
@@ -25249,7 +25699,9 @@
     },
     {
       "id": "biblioteca424320",
+      "id_secundari": "b814",
       "name": "Biblioteca El Gòtic - Andreu Nin",
+      "description": "Biblioteca El Gòtic - Andreu Nin. Barcelona - Ciutat Vella",
       "municipality": "Barcelona - Ciutat Vella",
       "address": "La Rambla, 30-32 08002 Barcelona",
       "postal_code": "",
@@ -25373,7 +25825,9 @@
     },
     {
       "id": "biblioteca424260",
+      "id_secundari": "b804",
       "name": "Biblioteca El Poblenou - Manuel Arranz",
+      "description": "Biblioteca El Poblenou - Manuel Arranz. Barcelona - Sant Martí",
       "municipality": "Barcelona - Sant Martí",
       "address": "Carrer Joncar, 35 08005 Barcelona",
       "postal_code": "",
@@ -25497,7 +25951,9 @@
     },
     {
       "id": "biblioteca11533350",
+      "id_secundari": "rav1",
       "name": "Biblioteca Municipal Joana Raspall i Juanola",
+      "description": "Biblioteca Municipal Joana Raspall i Juanola. Sant Antoni de Vilamajor",
       "municipality": "Sant Antoni de Vilamajor",
       "address": "Carrer Pau Casals, 41 08459 Sant Antoni de Vilamajor",
       "postal_code": "",
@@ -25600,7 +26056,9 @@
     },
     {
       "id": "biblioteca99355102",
+      "id_secundari": "b861",
       "name": "Jaume Fuster",
+      "description": "Jaume Fuster. Barcelona - Gràcia",
       "municipality": "Barcelona - Gràcia",
       "address": "Plaça Lesseps, 20-22 08023 Barcelona",
       "postal_code": "",
@@ -25731,7 +26189,9 @@
     },
     {
       "id": "biblioteca81766996",
+      "id_secundari": "gfb1",
       "name": "Biblioteca",
+      "description": "Biblioteca. Sant Fruitós de Bages",
       "municipality": "Sant Fruitós de Bages",
       "address": "Carrer Carles Buïgas, 35-37 08272 Sant Fruitós de Bages",
       "postal_code": "",
@@ -25839,7 +26299,9 @@
     },
     {
       "id": "biblioteca423596",
+      "id_secundari": "oqb1",
       "name": "Biblioteca Pompeu Fabra",
+      "description": "Biblioteca Pompeu Fabra. Sant Quirze de Besora",
       "municipality": "Sant Quirze de Besora",
       "address": "Carretera de Berga, grup c s/n 08580 Sant Quirze de Besora",
       "postal_code": "",
@@ -25939,7 +26401,9 @@
     },
     {
       "id": "biblioteca423676",
+      "id_secundari": "otr1",
       "name": "Biblioteca Antoni Pladevall i Font",
+      "description": "Biblioteca Antoni Pladevall i Font. Taradell",
       "municipality": "Taradell",
       "address": "Carretera de Balenyà, 101 08552 Taradell Osona",
       "postal_code": "",
@@ -26055,7 +26519,9 @@
     },
     {
       "id": "biblioteca424204",
+      "id_secundari": "b823",
       "name": "Biblioteca Sant Antoni - Joan Oliver",
+      "description": "Biblioteca Sant Antoni - Joan Oliver. Barcelona - Eixample",
       "municipality": "Barcelona - Eixample",
       "address": "Carrer del Comte Borrell, 44-46 08015 Barcelona",
       "postal_code": "",
@@ -26171,7 +26637,9 @@
     },
     {
       "id": "biblioteca400078",
+      "id_secundari": "csb3",
       "name": "Biblioteca dels Safareigs",
+      "description": "Biblioteca dels Safareigs. Sabadell",
       "municipality": "Sabadell",
       "address": "C. del Papa Pius XI, 165 08208 Sabadell",
       "postal_code": "",
@@ -26279,7 +26747,9 @@
     },
     {
       "id": "biblioteca423716",
+      "id_secundari": "lvn1",
       "name": "Biblioteca de Viladecans",
+      "description": "Biblioteca de Viladecans. Viladecans",
       "municipality": "Viladecans",
       "address": "Av. Josep Tarradellas i Joan, 16 08840 Viladecans",
       "postal_code": "",
@@ -26379,7 +26849,9 @@
     },
     {
       "id": "biblioteca448834578",
+      "id_secundari": "mdr1",
       "name": "Biblioteca Esteve Albert i Corp",
+      "description": "Biblioteca Esteve Albert i Corp. Dosrius",
       "municipality": "Dosrius",
       "address": "Carrer del Torrent d'en Vergés, 3 08319 Dosrius",
       "postal_code": "",
@@ -26424,7 +26896,9 @@
     },
     {
       "id": "biblioteca344958507",
+      "id_secundari": "lcl1",
       "name": "Biblioteca Ca L Altisent",
+      "description": "Biblioteca Ca L Altisent. Sant Climent de Llobregat",
       "municipality": "Sant Climent de Llobregat",
       "address": "Plaça Lluís Companys, 2 08849 Sant Climent de Llobregat",
       "postal_code": "",
