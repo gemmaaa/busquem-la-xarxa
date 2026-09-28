@@ -153,6 +153,23 @@ header h1 { font-size: 1.2rem; margin: 0; font-weight: 700; color: var(--fg); }
   border-color: var(--accent);
 }
 
+.open-only-label {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  gap: 0.4rem !important;
+  font-size: 0.85rem !important;
+  cursor: pointer;
+  user-select: none;
+}
+
+.open-only-label input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  accent-color: var(--accent);
+  cursor: pointer;
+}
+
 button.btn-primary {
   background-color: var(--accent) !important;
   color: #ffffff !important;
