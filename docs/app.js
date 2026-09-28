@@ -325,7 +325,7 @@ function updateViewToggle(hasResults, showingMap) {
 
 async function init() {
   try {
-    const libData = await fetch("data/libraries.json").then((r) => r.json());
+    const libData = await fetch("data/libraries.json?v=" + Date.now()).then((r) => r.json());
     state.libraries = libData.libraries || [];
     state.lastUpdated = libData.last_updated || "-";
   } catch (e) {
