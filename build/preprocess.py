@@ -4,14 +4,11 @@ Busquem la Xarxa - data preprocessor.
 
 Downloads the latest JSON dataset from the Diputació de Barcelona open data portal,
 parses it into a clean libraries.json, and records freshness metadata.
-
-Usage:
-    python build/preprocess.py           # only re-downloads if remote changed
-    python build/preprocess.py --force   # always re-download and re-parse
 """
 
 import json
 import re
+import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -152,11 +149,41 @@ def parse_month_day(s):
 
 def download_json():
     print(f"Downloading {JSON_URL} ...")
-    req = Request(JSON_URL, headers={"User-Agent": "Mozilla/5.0"})
-    data = urlopen(req, timeout=60).read()
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "ca,es;q=0.9,en;q=0.8",
+        "Referer": "https://dadesobertes.diba.cat/",
+    }
+
     RAW_JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
-    RAW_JSON_PATH.write_bytes(data)
-    print(f"Saved {len(data)} bytes to {RAW_JSON_PATH}")
+
+    try:
+        req = Request(JSON_URL, headers=headers)
+        data = urlopen(req, timeout=30).read()
+        RAW_JSON_PATH.write_bytes(data)
+        print(f"Saved {len(data)} bytes to {RAW_JSON_PATH} via urllib")
+        return
+    except Exception as e:
+        print(f"urllib download failed ({e}), falling back to curl...", file=sys.stderr)
+
+    curl_cmd = [
+        "curl", "-sSL",
+        "--retry", "3",
+        "--retry-delay", "2",
+        "-A", headers["User-Agent"],
+        "-H", f"Referer: {headers['Referer']}",
+        JSON_URL,
+        "-o", str(RAW_JSON_PATH)
+    ]
+    
+    result = subprocess.run(curl_cmd, capture_output=True, text=True)
+    if result.returncode == 0 and RAW_JSON_PATH.exists() and RAW_JSON_PATH.stat().st_size > 0:
+        print(f"Saved {RAW_JSON_PATH.stat().st_size} bytes to {RAW_JSON_PATH} via curl")
+    else:
+        print(f"ERROR: curl download failed: {result.stderr}", file=sys.stderr)
+        sys.exit(1)
 
 
 def parse_dataset():
@@ -169,7 +196,6 @@ def parse_dataset():
         if not name:
             continue
 
-        # Coordinate parsing
         lat, lng = None, None
         loc = el.get("localitzacio") or ""
         if "," in loc:
@@ -179,7 +205,6 @@ def parse_dataset():
             except ValueError:
                 pass
 
-        # Address & Municipality
         grup_adreca = el.get("grup_adreca") or {}
         address = clean_html(grup_adreca.get("adreca") or grup_adreca.get("adreca_completa"))
         postal_code = clean_html(grup_adreca.get("codi_postal"))
@@ -188,14 +213,12 @@ def parse_dataset():
             or (el.get("rel_municipis") or {}).get("municipi_nom")
         )
 
-        # Phone, Email, Web
         phone_list = el.get("telefon_contacte") or []
         phone = phone_list[0] if isinstance(phone_list, list) and phone_list else str(phone_list)
         email_list = el.get("email") or []
         email = email_list[0] if isinstance(email_list, list) and email_list else str(email_list)
         web = clean_html(el.get("url_general"))
 
-        # Season parsing
         seasons = {}
         for season_key in ["hivern", "estiu"]:
             day_ranges = {}
