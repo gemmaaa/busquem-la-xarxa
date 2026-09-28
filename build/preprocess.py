@@ -192,22 +192,25 @@ def parse_dataset():
     elements = data.get("elements", [])
 
     for el in elements:
-        # 1. Smarter Name Extraction
-        raw_adreca_nom = clean_html(el.get("adreca_nom"))
-        raw_descripcio = clean_html(el.get("descripcio"))
-        
-        # If adreca_nom is just generic "Biblioteca", pull the descriptive title instead
-        if not raw_adreca_nom or raw_adreca_nom.lower() in ["biblioteca", "biblioteques", "biblioteca municipal"]:
-            name = raw_descripcio if raw_descripcio else raw_adreca_nom
-        else:
-            name = raw_adreca_nom
+        # 1. Name and Description
+        raw_adreca = clean_html(el.get("adreca_nom")).strip()
+        raw_desc = clean_html(el.get("descripcio")).strip()
 
-        # Clean trailing dot or town name from description (e.g. "Biblioteca La Serra. Sabadell" -> "Biblioteca La Serra")
-        if "." in name:
-            name = name.split(".")[0].strip()
-
-        if not name:
-            continue
+        libraries.append({
+            "id": str(el.get("punt_id") or ""),
+            "name": raw_adreca,
+            "description": raw_desc,  
+            "municipality": muni,
+            "address": address,
+            "postal_code": postal_code,
+            "lat": lat,
+            "lng": lng,
+            "phone": clean_html(phone),
+            "email": clean_html(email),
+            "web": web,
+            "seasons": seasons,
+            "flags": [],
+        })
 
         # 2. Coordinates
         lat, lng = None, None
