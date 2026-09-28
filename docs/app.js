@@ -165,6 +165,78 @@ function renderResults(results) {
     const distanceKm = item.distanceKm;
 
     const node = tpl.content.cloneNode(true);
+    
+    // Clean up title: remove redundant "Biblioteca" prefixes
+    let displayName = library.name
+      .replace(/^(biblioteca|biblioteques|biblioteca municipal)\s+/i, "")
+      .trim();
+    // Capitalize first letter if needed
+    displayName = displayName.charAt(0).toUpperCase() + displayName.slice(1);
+    
+    node.querySelector(".name").textContent = displayName;
+
+    // Address directly below title
+    const metaParts = [];
+    if (library.address) {
+      metaParts.push(library.address);
+    } else if (library.municipality) {
+      metaParts.push(library.municipality);
+    }
+
+    if (distanceKm != null) {
+      metaParts.push(distanceKm.toFixed(1) + " km");
+    }
+
+    node.querySelector(".meta").textContent = metaParts.join(" • ");
+
+    const statusEl = node.querySelector(".status");
+    if (evalResult.status === "open") {
+      statusEl.textContent = t("open_now");
+      statusEl.className = "status open";
+    } else {
+      statusEl.textContent = t("closed");
+      statusEl.className = "status closed";
+    }
+
+    const ranges = evalResult.ranges || [];
+    node.querySelector(".hours").textContent = ranges.length
+      ? ranges.map((r) => r.from + " - " + r.to).join(", ")
+      : t("closed");
+
+    const season = library.seasons[evalResult.season];
+    const obsBlock = node.querySelector(".obs");
+    if (season && season.observations) {
+      node.querySelector(".obs-text").textContent = season.observations;
+    } else {
+      obsBlock.remove();
+    }
+
+    const links = node.querySelector(".links");
+    if (library.web) {
+      const a = document.createElement("a");
+      a.href = library.web;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = t("library_page");
+      links.appendChild(a);
+    }
+    if (library.phone) {
+      const a = document.createElement("a");
+      a.href = "tel:" + library.phone.replace(/\s/g, "");
+      a.textContent = t("phone") + ": " + library.phone;
+      links.appendChild(a);
+    }
+
+    container.appendChild(node);
+  }
+}
+  const tpl = $("#card-template");
+  for (const item of results) {
+    const library = item.library;
+    const evalResult = item.evalResult;
+    const distanceKm = item.distanceKm;
+
+    const node = tpl.content.cloneNode(true);
     node.querySelector(".name").textContent = library.name;
 
     const meta = [library.municipality];
