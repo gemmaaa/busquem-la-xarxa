@@ -56,19 +56,22 @@ function applyTheme(theme) {
 function initTheme() {
   const saved = localStorage.getItem("theme");
   if (saved) {
-    document.getElementById("theme").value = saved;
+    const themeSelect = document.getElementById("theme");
+    if (themeSelect) themeSelect.value = saved;
     applyTheme(saved);
     return;
   }
   const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
   const initial = prefersDark ? "dark" : "default";
-  document.getElementById("theme").value = initial;
+  const themeSelect = document.getElementById("theme");
+  if (themeSelect) themeSelect.value = initial;
   applyTheme(initial);
 }
 
 function hhmmToMinutes(hhmm) {
+  if (!hhmm) return 0;
   const parts = hhmm.split(":");
-  return Number(parts[0]) * 60 + Number(parts[1]);
+  return Number(parts[0]) * 60 + Number(parts[1] || 0);
 }
 
 function nowMinutes() {
@@ -81,13 +84,14 @@ function dayNamesEn() {
 }
 
 function pickSeason(library) {
+  if (!library || !library.seasons) return "hivern";
   return library.seasons.hivern ? "hivern" : "estiu";
 }
 
 function evaluateLibrary(library, date, timeFromMin, timeToMin, isTimeFilterActive) {
   const seasonKey = pickSeason(library);
-  const s = library.seasons[seasonKey];
-  if (!s) return { status: "unknown", season: seasonKey };
+  const s = library.seasons ? library.seasons[seasonKey] : null;
+  if (!s || !s.days) return { status: "closed", season: seasonKey, ranges: [] };
 
   const dayKey = dayNamesEn()[date.getDay()];
   const ranges = s.days[dayKey] || [];
@@ -114,8 +118,8 @@ function evaluateLibrary(library, date, timeFromMin, timeToMin, isTimeFilterActi
 
 function evaluateLibraryOnWeekday(library, weekday, timeFromMin, timeToMin, isTimeFilterActive) {
   const seasonKey = pickSeason(library);
-  const s = library.seasons[seasonKey];
-  if (!s) return { status: "unknown", season: seasonKey };
+  const s = library.seasons ? library.seasons[seasonKey] : null;
+  if (!s || !s.days) return { status: "closed", season: seasonKey, ranges: [] };
 
   const dayKey = dayNamesEn()[weekday];
   const ranges = s.days[dayKey] || [];
@@ -150,7 +154,9 @@ function haversineKm(a, b) {
 
 function renderResults(results) {
   const container = $("#results");
+  if (!container) return;
   container.innerHTML = "";
+
   if (!results.length) {
     const p = document.createElement("p");
     p.className = "no-results";
@@ -158,6 +164,7 @@ function renderResults(results) {
     container.appendChild(p);
     return;
   }
+
   const tpl = $("#card-template");
   for (const item of results) {
     const library = item.library;
@@ -166,12 +173,12 @@ function renderResults(results) {
 
     const node = tpl.content.cloneNode(true);
 
-    // Title: clean and unique name
+    // Title selection: ONLY fall back if name is literally just "Biblioteca" or empty
     let displayName = (library.name || "").trim();
-    const isGenericName = !displayName || ["biblioteca", "biblioteques", "biblioteca municipal"].includes(displayName.toLowerCase());
-
-    if (isGenericName && library.description) {
-      displayName = library.description.trim();
+    if (!displayName || displayName.toLowerCase() === "biblioteca") {
+      if (library.description) {
+        displayName = library.description.trim();
+      }
     }
 
     node.querySelector(".name").textContent = displayName;
@@ -207,38 +214,52 @@ function renderResults(results) {
       : t("closed");
 
     // Observations
-    const season = library.seasons[evalResult.season];
+    const season = library.seasons ? library.seasons[evalResult.season] : null;
     const obsBlock = node.querySelector(".obs");
     if (season && season.observations) {
       node.querySelector(".obs-text").textContent = season.observations;
-    } else {
+    } else if (obsBlock) {
       obsBlock.remove();
     }
 
-    // Links
+    // Links Section
     const links = node.querySelector(".links");
+    links.innerHTML = "";
+
+    // Directory Search Link on Biblioteca Virtual
+    const portalSearchUrl = "https://bibliotecavirtual.diba.cat/ca/busca-una-biblioteca?q=" + encodeURIComponent(displayName);
+    const aPortal = document.createElement("a");
+    aPortal.href = portalSearchUrl;
+    aPortal.target = "_blank";
+    aPortal.rel = "noopener";
+    aPortal.textContent = "Biblioteca Virtual";
+    links.appendChild(aPortal);
+
+    // Local Council / Municipal Web Link
     if (library.web) {
-      const a = document.createElement("a");
-      a.href = library.web;
-      a.target = "_blank";
-      a.rel = "noopener";
-      a.textContent = t("library_page");
-      links.appendChild(a);
+      const aWeb = document.createElement("a");
+      aWeb.href = library.web;
+      aWeb.target = "_blank";
+      aWeb.rel = "noopener";
+      aWeb.textContent = t("library_page");
+      links.appendChild(aWeb);
     }
+
+    // Phone Link
     if (library.phone) {
-      const a = document.createElement("a");
-      a.href = "tel:" + library.phone.replace(/\s/g, "");
-      a.textContent = t("phone") + ": " + library.phone;
-      links.appendChild(a);
+      const aPhone = document.createElement("a");
+      aPhone.href = "tel:" + library.phone.replace(/\s/g, "");
+      aPhone.textContent = t("phone") + ": " + library.phone;
+      links.appendChild(aPhone);
     }
 
     container.appendChild(node);
   }
-}   
+}
 
 function renderMap(results) {
   const mapWrap = $("#map-wrap");
-  mapWrap.hidden = false;
+  if (mapWrap) mapWrap.hidden = false;
 
   if (!state.map) {
     state.map = L.map("map").setView([41.3879, 2.1699], 11);
@@ -279,7 +300,7 @@ function renderMap(results) {
 
 function calculateCenterOfMunicipality(muniName) {
   const matches = state.libraries.filter(
-    (l) => l.municipality.toLowerCase() === muniName.toLowerCase() && l.lat != null && l.lng != null
+    (l) => l.municipality && l.municipality.toLowerCase() === muniName.toLowerCase() && l.lat != null && l.lng != null
   );
   if (!matches.length) return null;
   const avgLat = matches.reduce((acc, l) => acc + l.lat, 0) / matches.length;
@@ -288,13 +309,14 @@ function calculateCenterOfMunicipality(muniName) {
 }
 
 function runQuery() {
-  const dateVal = $("#date-input").value;
-  const dayVal = $("#day-input").value;
-  const fromVal = $("#time-from").value;
-  const toVal = $("#time-to").value;
-  const muni = $("#municipality").value.trim().toLowerCase();
-  const radiusKm = parseFloat($("#radius").value) || null;
-  const openOnly = $("#open-only") ? $("#open-only").checked : false;
+  const dateVal = $("#date-input") ? $("#date-input").value : "";
+  const dayVal = $("#day-input") ? $("#day-input").value : "";
+  const fromVal = $("#time-from") ? $("#time-from").value : "";
+  const toVal = $("#time-to") ? $("#time-to").value : "";
+  const muni = $("#municipality") ? $("#municipality").value.trim().toLowerCase() : "";
+  const radiusKm = $("#radius") ? parseFloat($("#radius").value) || null : null;
+  const openOnlyEl = $("#open-only");
+  const openOnly = openOnlyEl ? openOnlyEl.checked : false;
 
   const timeFromMin = fromVal ? hhmmToMinutes(fromVal) : null;
   const timeToMin = toVal ? hhmmToMinutes(toVal) : null;
@@ -305,7 +327,6 @@ function runQuery() {
   const weekdayOverride = dayOnly ? parseInt(dayVal, 10) : null;
   const date = dateSet ? new Date(dateVal + "T00:00:00") : new Date();
 
-  // Reference point for distance sorting
   let refPoint = null;
   if (state.userLatLng) {
     refPoint = { lat: state.userLatLng[0], lng: state.userLatLng[1] };
@@ -328,11 +349,11 @@ function runQuery() {
       : evaluateLibrary(library, date, timeFromMin, timeToMin, isTimeFilterActive);
 
     if (isTimeFilterActive && evalResult.status !== "open") continue;
+    if (openOnly && evalResult.status !== "open") continue;
 
     results.push({ library: library, evalResult: evalResult, distanceKm: distanceKm });
   }
 
-  // Sort by distance first (if refPoint exists), then by name
   results.sort((a, b) => {
     if (a.distanceKm != null && b.distanceKm != null) return a.distanceKm - b.distanceKm;
     return a.library.name.localeCompare(b.library.name);
@@ -341,19 +362,20 @@ function runQuery() {
   renderResults(results);
 
   const main = document.querySelector("main");
-  if (main.classList.contains("map-visible")) {
+  if (main && main.classList.contains("map-visible")) {
     renderMap(results);
     if (state.map) setTimeout(() => state.map.invalidateSize(), 50);
   } else {
     state.pendingResults = results;
   }
 
-  updateViewToggle(results.length > 0, main.classList.contains("map-visible"));
+  updateViewToggle(results.length > 0, main ? main.classList.contains("map-visible") : false);
 }
 
 function updateViewToggle(hasResults, showingMap) {
   const toggle = $("#view-toggle");
   const btn = $("#toggle-view");
+  if (!toggle || !btn) return;
   if (!hasResults) {
     toggle.hidden = true;
     return;
@@ -384,65 +406,73 @@ async function init() {
     new Set(state.libraries.map((l) => l.municipality).filter(Boolean))
   ).sort();
   const dl = $("#municipality-list");
-  for (const m of munis) {
-    const opt = document.createElement("option");
-    opt.value = m;
-    dl.appendChild(opt);
+  if (dl) {
+    for (const m of munis) {
+      const opt = document.createElement("option");
+      opt.value = m;
+      dl.appendChild(opt);
+    }
   }
 
   applyI18n();
 
-  $("#search").addEventListener("click", runQuery);
+  if ($("#search")) $("#search").addEventListener("click", runQuery);
 
-  $("#reset").addEventListener("click", () => {
-    $("#date-input").value = "";
-    $("#day-input").value = "";
-    $("#time-from").value = "";
-    $("#time-to").value = "";
-    $("#municipality").value = "";
-    $("#radius").value = "5";
-    $("#open-only").checked = true; // Keeps "open libraries only" checked on reset
-    $("#results").innerHTML = "";
-    $("#view-toggle").hidden = true;
-    $("#map-wrap").hidden = true;
-    const p = document.createElement("p");
-    p.className = "no-results";
-    p.textContent = t("no_results");
-    $("#results").appendChild(p);
-  });
-
-  $("#use-location").addEventListener("click", () => {
-    if (!navigator.geolocation) return;
-    navigator.geolocation.getCurrentPosition((pos) => {
-      state.userLatLng = [pos.coords.latitude, pos.coords.longitude];
+  if ($("#reset")) {
+    $("#reset").addEventListener("click", () => {
+      if ($("#date-input")) $("#date-input").value = "";
+      if ($("#day-input")) $("#day-input").value = "";
+      if ($("#time-from")) $("#time-from").value = "";
+      if ($("#time-to")) $("#time-to").value = "";
+      if ($("#municipality")) $("#municipality").value = "";
+      if ($("#radius")) $("#radius").value = "5";
+      if ($("#open-only")) $("#open-only").checked = true;
       runQuery();
     });
-  });
+  }
 
-  $("#open-only").addEventListener("change", runQuery);
+  if ($("#open-only")) $("#open-only").addEventListener("change", runQuery);
 
-  $("#toggle-view").addEventListener("click", () => {
-    const main = document.querySelector("main");
-    main.classList.toggle("map-visible");
-    const showingMap = main.classList.contains("map-visible");
+  if ($("#use-location")) {
+    $("#use-location").addEventListener("click", () => {
+      if (!navigator.geolocation) return;
+      navigator.geolocation.getCurrentPosition((pos) => {
+        state.userLatLng = [pos.coords.latitude, pos.coords.longitude];
+        runQuery();
+      });
+    });
+  }
 
-    if (showingMap && state.pendingResults) {
-      renderMap(state.pendingResults);
-      setTimeout(() => state.map.invalidateSize(), 50);
-    } else {
-      $("#map-wrap").hidden = !showingMap;
-    }
-    updateViewToggle(true, showingMap);
-  });
+  if ($("#toggle-view")) {
+    $("#toggle-view").addEventListener("click", () => {
+      const main = document.querySelector("main");
+      if (!main) return;
+      main.classList.toggle("map-visible");
+      const showingMap = main.classList.contains("map-visible");
 
-  $("#lang").addEventListener("change", (e) => {
-    state.lang = e.target.value;
-    applyI18n();
-  });
+      if (showingMap && state.pendingResults) {
+        renderMap(state.pendingResults);
+        setTimeout(() => state.map.invalidateSize(), 50);
+      } else {
+        const mapWrap = $("#map-wrap");
+        if (mapWrap) mapWrap.hidden = !showingMap;
+      }
+      updateViewToggle(true, showingMap);
+    });
+  }
 
-  $("#theme").addEventListener("change", (e) => {
-    applyTheme(e.target.value);
-  });
+  if ($("#lang")) {
+    $("#lang").addEventListener("change", (e) => {
+      state.lang = e.target.value;
+      applyI18n();
+    });
+  }
+
+  if ($("#theme")) {
+    $("#theme").addEventListener("change", (e) => {
+      applyTheme(e.target.value);
+    });
+  }
 
   if ("serviceWorker" in navigator) {
     navigator.serviceWorker.register("sw.js");
