@@ -13,16 +13,16 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.4.0
         with:
           python-version: "3.12"
 
       - name: Run preprocessor
-        run: python build/preprocess.py
+        run: python build/preprocess.py --force
 
       - name: Commit and push if changed
         run: |
