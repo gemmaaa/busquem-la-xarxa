@@ -344,6 +344,7 @@ function runQuery() {
   const toVal = $("#time-to").value;
   const muni = $("#municipality").value.trim().toLowerCase();
   const radiusKm = parseFloat($("#radius").value) || null;
+  const openOnly = $("#open-only") ? $("#open-only").checked : false;
 
   const timeFromMin = fromVal ? hhmmToMinutes(fromVal) : null;
   const timeToMin = toVal ? hhmmToMinutes(toVal) : null;
@@ -466,6 +467,8 @@ async function init() {
       runQuery();
     });
   });
+
+  $("#open-only").addEventListener("change", runQuery);
 
   $("#toggle-view").addEventListener("click", () => {
     const main = document.querySelector("main");
