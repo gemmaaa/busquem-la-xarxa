@@ -167,7 +167,14 @@ function renderResults(results) {
     const node = tpl.content.cloneNode(true);
 
     // Title: clean and unique name
-    node.querySelector(".name").textContent = library.name;
+    let displayName = (library.name || "").trim();
+    const isGenericName = !displayName || ["biblioteca", "biblioteques", "biblioteca municipal"].includes(displayName.toLowerCase());
+
+    if (isGenericName && library.description) {
+      displayName = library.description.trim();
+    }
+
+    node.querySelector(".name").textContent = displayName;
 
     // Sub-header line: Street Address • Municipality • Distance
     const metaParts = [];
