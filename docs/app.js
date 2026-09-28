@@ -170,24 +170,25 @@ function renderResults(results) {
     let displayName = library.name
       .replace(/^(biblioteca|biblioteques|biblioteca municipal)\s+/i, "")
       .trim();
-    // Capitalize first letter if needed
     displayName = displayName.charAt(0).toUpperCase() + displayName.slice(1);
     
     node.querySelector(".name").textContent = displayName;
 
-    // Address directly below title
-    const metaParts = [];
+    // Literal street address + municipality + distance
+    const locationParts = [];
     if (library.address) {
-      metaParts.push(library.address);
-    } else if (library.municipality) {
-      metaParts.push(library.municipality);
+      locationParts.push(library.address);
+    }
+    if (library.municipality && (!library.address || !library.address.toLowerCase().includes(library.municipality.toLowerCase()))) {
+      locationParts.push(library.municipality);
     }
 
+    const metaLine = [locationParts.join(", ")];
     if (distanceKm != null) {
-      metaParts.push(distanceKm.toFixed(1) + " km");
+      metaLine.push(distanceKm.toFixed(1) + " km");
     }
 
-    node.querySelector(".meta").textContent = metaParts.join(" • ");
+    node.querySelector(".meta").textContent = metaLine.filter(Boolean).join(" • ");
 
     const statusEl = node.querySelector(".status");
     if (evalResult.status === "open") {
