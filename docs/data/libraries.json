@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-09-28 01:47:04",
-  "downloaded_at": "2026-09-28T19:45:37.694000+00:00",
+  "last_updated": "2026-09-29 05:27:04",
+  "downloaded_at": "2026-09-29T12:26:35.789005+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -13014,7 +13014,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: Dies de tancament 2026 Dissabte 31 d'octubre Dilluns 7 de desembre",
+          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: Dies de tancament 2026 Dissabte 31 d'octubre Dilluns 7 de desembre Vacances de Nadal: Del 24 de desembre de 2026 al 6 de gener de 2027",
           "closures": [],
           "status": "open_season"
         },
