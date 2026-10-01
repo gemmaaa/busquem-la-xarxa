@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-09-29 05:27:04",
-  "downloaded_at": "2026-09-30T12:11:31.323040+00:00",
+  "last_updated": "2026-10-01 07:12:04",
+  "downloaded_at": "2026-10-01T12:46:02.815488+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -8766,7 +8766,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 07 de gener Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. Les incidències es poden produir principalment els divendres i dissabtes. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Recordeu que podeu accedir als serveis digitals de la Xarxa de Biblioteques Municipals i al préstec de continguts digitals a través de Biblio Digital. Disculpeu les molèsties que aquesta situació pugui ocasionar. Horari d'hivern: del 7 de gener al 20 de juny i del 31 d'agost al 23 de desembre de 2026 Horari d'obertura reduït (9.30 h a 14.00 h): 2 d'abril (dijous Sant), 23 de juny (revetlla Sant Joan) i 24 de desembre (nit de Nadal). Ponts i festes locals: 3 i 5 de gener, 3, 4 i 6 d'abril (Setmana Santa), 1 de maig, 9 i 11 de maig (Pont de la Salut), 5 i 7 de setembre (Festa Major), 11 de setembre, 12 de setembre, 12 d'octubre, i 6, 7 i 8 de desembre (Pont de la Immaculada). Amb motiu de les festes de Nadal, la biblioteca romandrà tancada des del 25 de desembre de 2026 fins al 8 de gener de 2027, ambdós inclosos. La bústia de retorn romandrà tancada. La Biblioteca Vapor Badia romandrà oberta. Consulteu els horaris especials de períodes de vacances, festius i ponts.",
+          "observations": "L'horari d'hivern comença el dia: 07 de gener Observacions de l'horari: Horari d'hivern: del 7 de gener al 20 de juny i del 31 d'agost al 23 de desembre de 2026 Horari d'obertura reduït (9.30 h a 14.00 h): 2 d'abril (dijous Sant), 23 de juny (revetlla Sant Joan) i 24 de desembre (nit de Nadal). Ponts i festes locals: 3 i 5 de gener, 3, 4 i 6 d'abril (Setmana Santa), 1 de maig, 9 i 11 de maig (Pont de la Salut), 5 i 7 de setembre (Festa Major), 11 de setembre, 12 de setembre, 12 d'octubre, i 6, 7 i 8 de desembre (Pont de la Immaculada). Amb motiu de les festes de Nadal, la biblioteca romandrà tancada des del 25 de desembre de 2026 fins al 8 de gener de 2027, ambdós inclosos. La bústia de retorn romandrà tancada. La Biblioteca Vapor Badia romandrà oberta. Consulteu els horaris especials de períodes de vacances, festius i ponts.",
           "closures": [],
           "status": "open_season"
         },
@@ -17707,7 +17707,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Dies de tancament: Festius locals, nacionals i ponts 2026 - 18 de setembre (Festa Major de Corró d'Avall) - 19 de setembre (Dissabte tancat) - 21 de setembre (Dilluns tancat) 12 d'octubre (Dia de l'Hispanitat) - 5 de desembre (Dissabte tancat) - 6 de desembre (Dia de la Constitució) - 7 de desembre (Dilluns tancat) - 8 de desembre (Immaculada Concepció) - Del 23 de desembre al 2 de gener (Festes de Nadal) - 5 de gener 2027 (Tarda tancat) - 6 de gener 2027 (Reis)",
+          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Dies de tancament: Festius locals, nacionals i ponts 2026 - 12 d'octubre (Dia de l'Hispanitat) - 5 de desembre (Dissabte tancat) - 6 de desembre (Dia de la Constitució) - 7 de desembre (Dilluns tancat) - 8 de desembre (Immaculada Concepció) - Del 23 de desembre al 2 de gener (Festes de Nadal) - 5 de gener 2027 (Tarda tancat) - 6 de gener 2027 (Reis)",
           "closures": [],
           "status": "open_season"
         },
