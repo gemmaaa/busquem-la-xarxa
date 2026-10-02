@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-01 07:12:04",
-  "downloaded_at": "2026-10-01T12:46:02.815488+00:00",
+  "last_updated": "2026-10-02 04:12:04",
+  "downloaded_at": "2026-10-02T12:09:52.792631+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -3671,7 +3671,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: AVÍS FESTA LOCAL: Biblioteca tancada dilluns 28 de setembre",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari:",
           "closures": [],
           "status": "open_season"
         },
@@ -4155,7 +4155,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 01 de juny Observacions de l'horari: De l'1 de juny al 30 de setembre (ambdós inclosos) Dies de tancament: Dilluns 7 de setembre",
+          "observations": "L'horari d'estiu comença el dia: 01 de juny Observacions de l'horari: De l'1 de juny al 30 de setembre (ambdós inclosos)",
           "closures": [],
           "status": "open_season"
         }
@@ -9678,7 +9678,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: - 1 de gener (Cap d’Any) - 6 de gener (Dia de Reis) - 2 i 3 de març (Festa local: Sant Medir) - 2 d'abril (Tarda tancada per Setmana Santa) - 3, 4 i 6 d'abril (Setmana Santa) - 1 de maig (Festa del Treball) - 23 de juny (Tarda tancada per la Vigília de Sant Joan) - 24 de juny (Revetlla de Sant Joan) - 29 de juny (Sant Pere) - 11 de setembre (Diada Nacional de Catalunya) - 12 d' octubre (Dia Nacional d'Espanya) - 1 de novembre (Tots Sants) - 6 de desembre (Dia de la Constitució) - 8 de desembre (Festa de la Immaculada Concepció) - 24 de desembre (Tarda tancada per la Vigília de Nadal) - 25 i 26 de desembre (Nadal i Sant Esteve) - 31 de desembre (Tarda tancada per la Vigília de Cap d'Any)",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: La biblioteca tanca els següents festius (2026): - 1 de gener (Cap d’Any) - 6 de gener (Dia de Reis) - 2 i 3 de març (Festa local: Sant Medir) - 2 d'abril (Tarda tancada per Setmana Santa) - 3, 4 i 6 d'abril (Setmana Santa) - 1 de maig (Festa del Treball) - 23 de juny (Tarda tancada per la Vigília de Sant Joan) - 24 de juny (Revetlla de Sant Joan) - 29 de juny (Sant Pere) - 11 de setembre (Diada Nacional de Catalunya) - 12 d' octubre (Dia Nacional d'Espanya) - 1 de novembre (Tots Sants) - 6 de desembre (Dia de la Constitució) - 8 de desembre (Festa de la Immaculada Concepció) - 24 de desembre (Tarda tancada per la Vigília de Nadal) - 25 i 26 de desembre (Nadal i Sant Esteve) - 31 de desembre (Tarda tancada per la Vigília de Cap d'Any)",
           "closures": [],
           "status": "open_season"
         },
@@ -22184,12 +22184,7 @@
                 "to": "20:00"
               }
             ],
-            "saturday": [
-              {
-                "from": "10:00",
-                "to": "13:00"
-              }
-            ],
+            "saturday": [],
             "sunday": []
           },
           "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: L'Horari d'hivern comença l'1 d'octubre.",
