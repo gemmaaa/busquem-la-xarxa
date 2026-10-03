@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-02 04:12:04",
-  "downloaded_at": "2026-10-02T12:09:52.792631+00:00",
+  "last_updated": "2026-10-03 04:42:04",
+  "downloaded_at": "2026-10-03T11:20:17.282808+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -3561,7 +3561,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: De 1 d'octubre fins el 31 de maig",
+          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: De 1 d'octubre fins el 31 de maig TANCAT: 7 desembre 21 al 26 de desembre 31 desembre",
           "closures": [],
           "status": "open_season"
         },
@@ -3605,7 +3605,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 01 de juny Observacions de l'horari: De 1 de juny fins el 30 de setembre TANCAT 27 de juliol Del 3 al 14 d'agost",
+          "observations": "L'horari d'estiu comença el dia: 01 de juny Observacions de l'horari: De 1 de juny fins el 30 de setembre",
           "closures": [],
           "status": "open_season"
         }
@@ -11495,7 +11495,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 08 de setembre Observacions de l'horari: Tancat tots els festius i també: -Dissabte 12 de setembre -Dilluns 9 de novembre (festiu local)",
+          "observations": "L'horari d'hivern comença el dia: 08 de setembre Observacions de l'horari: Tancat tots els festius i també: -Dilluns 9 de novembre (festiu local)",
           "closures": [],
           "status": "open_season"
         },
@@ -15582,7 +15582,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 25 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. La biblioteca romandrà tancada els següents dies festius: - 1 de gener (Cap d'Any) - 6 de gener (Reis) - 3 d'abril (Divendres Sant) - 6 d'abril (Pasqua Florida) - 1 de maig (Festa del Treball) - 25 de maig (Pasqua Granada) - 12 d'octubre (Dia Nacional Espanya) - 7 de desebre (Festiu CBB) - 8 de desembre (La Immaculada) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) Horari de Nadal: 24 de desembre i 31 de desembre obrirà de 9.30 h a 13.30 h Horari de la sala d'estudi: - De dilluns a dijous de 20.30 h. a 00.00 h",
+          "observations": "L'horari d'hivern comença el dia: 25 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. La biblioteca romandrà tancada els següents dies festius: - 1 de gener (Cap d'Any) - 6 de gener (Reis) - 3 d'abril (Divendres Sant) - 6 d'abril (Pasqua Florida) - 1 de maig (Festa del Treball) - 25 de maig (Pasqua Granada) - 12 d'octubre (Dia Nacional Espanya) - 8 de desembre (La Immaculada) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) Horari de Nadal: 24 de desembre i 31 de desembre obrirà de 9.30 h a 13.30 h Horari de la sala d'estudi: - De dilluns a dijous de 20.30 h. a 00.00 h",
           "closures": [],
           "status": "open_season"
         },
