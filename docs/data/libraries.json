@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-05 09:52:04",
-  "downloaded_at": "2026-10-06T13:02:37.909666+00:00",
+  "last_updated": "2026-10-06 08:47:03",
+  "downloaded_at": "2026-10-07T12:57:14.635733+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -4632,7 +4632,7 @@
       "name": "Biblioteca Enric Miralles",
       "description": "Biblioteca Enric Miralles. Palafolls",
       "municipality": "Palafolls",
-      "address": "Parc de les Esplanes s/n 08389 Palafolls",
+      "address": "Parc de les Esplanes s/n 08389 Palafolls Tancat temporalment per afectacions meteorològiques. Hem obert un formulari de voluntariat per a totes les persones que vulguin col·laborar. Si vols participar, et pots inscriure aquí: 👉 Formulari pel voluntariat: https://forms.gle/RKuzoUSBZ1QKcSid9",
       "postal_code": "",
       "lat": 41.671692,
       "lng": 2.751002,
@@ -4641,105 +4641,34 @@
       "web": "https://www.palafolls.cat/pl6/el-municipi/equipaments/id40/biblioteca.htm",
       "seasons": {
         "hivern": {
-          "start_month_day": "09-11",
+          "start_month_day": "01-01",
           "days": {
-            "monday": [
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "tuesday": [
-              {
-                "from": "10:00",
-                "to": "13:30"
-              },
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "wednesday": [
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "thursday": [
-              {
-                "from": "10:00",
-                "to": "13:30"
-              },
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "friday": [
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "saturday": [
-              {
-                "from": "09:00",
-                "to": "13:30"
-              }
-            ],
-            "sunday": []
-          },
-          "observations": "L'horari d'hivern comença el dia: 11 de setembre Observacions de l'horari: Tancat els festius segons el calendari oficial de festes laborals a Catalunya per l'any 2026, el dia 4 d'abril i el 24 i 31 de desembre. Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. A les Biblioteques de Barcelona (Barcelona ciutat), les afectacions es poden produir qualsevol dia de la setmana. A la resta de biblioteques de la Xarxa de Biblioteques Municipals (XBM), les incidències es poden produir principalment els divendres i dissabtes. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Podeu consultar les dades de contacte aquí: Busca una biblioteca. Recorda que podeu accedir als serveis digitals de la Xarxa de Biblioteques Municipals i al préstec de continguts digitals a través de Biblio Digital. Disculpa les molèsties que aquesta situació pugui ocasionar.",
-          "closures": [],
-          "status": "open_season"
-        },
-        "estiu": {
-          "start_month_day": "06-20",
-          "days": {
-            "monday": [
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "tuesday": [
-              {
-                "from": "10:00",
-                "to": "13:30"
-              },
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "wednesday": [
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "thursday": [
-              {
-                "from": "10:00",
-                "to": "13:30"
-              },
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
-            "friday": [
-              {
-                "from": "16:00",
-                "to": "20:00"
-              }
-            ],
+            "monday": [],
+            "tuesday": [],
+            "wednesday": [],
+            "thursday": [],
+            "friday": [],
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 20 de juny Observacions de l'horari: Horari d'estiu: Del 20 de juny al 10 de setembre de 2026. El dimarts 23 de juny l'horari serà de 10.00 h a 13.30 h del matí i a la tarda romandrà tancada. Tancat els festius segons el calendari oficial de festes laborals a Catalunya per l'any 2026, i els dies de festa local (dimarts 25 d'agost i 8 de setembre). Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. A les Biblioteques de Barcelona (Barcelona ciutat), les afectacions es poden produir qualsevol dia de la setmana. A la resta de biblioteques de la Xarxa de Biblioteques Municipals (XBM), les incidències es poden produir principalment els divendres durant l'horari d'estiu. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Podeu consultar les dades de contacte aquí: Busca una biblioteca. Recorda que podeu accedir als serveis digitals de la Xarxa de Biblioteques Municipals i al préstec de continguts digitals a través de Biblio Digital. Disculpa les molèsties que aquesta situació pugui ocasionar.",
+          "observations": "L'horari d'hivern comença el dia: 11 de setembre Observacions de l'horari: La Biblioteca de Palafolls, actualment està tancada per afectacions meteorològiques. Tancat els festius segons el calendari oficial de festes laborals a Catalunya per l'any 2026, el dia 4 d'abril i el 24 i 31 de desembre. Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. A les Biblioteques de Barcelona (Barcelona ciutat), les afectacions es poden produir qualsevol dia de la setmana. A la resta de biblioteques de la Xarxa de Biblioteques Municipals (XBM), les incidències es poden produir principalment els divendres i dissabtes. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Podeu consultar les dades de contacte aquí: Busca una biblioteca. Recorda que podeu accedir als serveis digitals de la Xarxa de Biblioteques Municipals i al préstec de continguts digitals a través de Biblio Digital. Disculpa les molèsties que aquesta situació pugui ocasionar.",
           "closures": [],
-          "status": "open_season"
+          "status": "closed_all_week"
+        },
+        "estiu": {
+          "start_month_day": "06-22",
+          "days": {
+            "monday": [],
+            "tuesday": [],
+            "wednesday": [],
+            "thursday": [],
+            "friday": [],
+            "saturday": [],
+            "sunday": []
+          },
+          "observations": "Observacions de l'horari: La Biblioteca de Palafolls, actualment està tancada per afectacions meteorològiques. Horari d'estiu: Del 20 de juny al 10 de setembre de 2026. El dimarts 23 de juny l'horari serà de 10.00 h a 13.30 h del matí i a la tarda romandrà tancada. Tancat els festius segons el calendari oficial de festes laborals a Catalunya per l'any 2026, i els dies de festa local (dimarts 25 d'agost i 8 de setembre). Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. A les Biblioteques de Barcelona (Barcelona ciutat), les afectacions es poden produir qualsevol dia de la setmana. A la resta de biblioteques de la Xarxa de Biblioteques Municipals (XBM), les incidències es poden produir principalment els divendres durant l'horari d'estiu. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Podeu consultar les dades de contacte aquí: Busca una biblioteca. Recorda que podeu accedir als serveis digitals de la Xarxa de Biblioteques Municipals i al préstec de continguts digitals a través de Biblio Digital. Disculpa les molèsties que aquesta situació pugui ocasionar.",
+          "closures": [],
+          "status": "closed_all_week"
         }
       },
       "flags": []
