@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-06 08:47:03",
-  "downloaded_at": "2026-10-07T12:57:14.635733+00:00",
+  "last_updated": "2026-10-08 01:12:04",
+  "downloaded_at": "2026-10-08T13:06:00.480563+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -2124,7 +2124,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: La biblioteca romandrà tancada els dies següents: - 12 de setembre - 24 i 31 de desembre - 5 de gener Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats.",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: La biblioteca romandrà tancada els dies següents: - 12 de setembre - 7 de desembre - 24 i 31 de desembre - 2, 4 i 5 de gener Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats.",
           "closures": [],
           "status": "open_season"
         },
@@ -4632,7 +4632,7 @@
       "name": "Biblioteca Enric Miralles",
       "description": "Biblioteca Enric Miralles. Palafolls",
       "municipality": "Palafolls",
-      "address": "Parc de les Esplanes s/n 08389 Palafolls Tancat temporalment per afectacions meteorològiques. Hem obert un formulari de voluntariat per a totes les persones que vulguin col·laborar. Si vols participar, et pots inscriure aquí: 👉 Formulari pel voluntariat: https://forms.gle/RKuzoUSBZ1QKcSid9",
+      "address": "Parc de les Esplanes s/n 08389 Palafolls Tancat temporalment per afectacions meteorològiques. Hem obert un formulari de voluntariat per a totes les persones que vulguin col·laborar. Si vols participar, et pots inscriure aquí: 👉 Formulari pel voluntariat: acesse.one/gza0ovn",
       "postal_code": "",
       "lat": 41.671692,
       "lng": 2.751002,
@@ -5925,7 +5925,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 15 de juny Observacions de l'horari: 11 de setembre TANCAT (Diada Nacional de Catalunya)",
+          "observations": "L'horari d'estiu comença el dia: 15 de juny Observacions de l'horari:",
           "closures": [],
           "status": "open_season"
         }
@@ -6663,7 +6663,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: Del 15 de setembre al 14 de juny. AULA D' ESTUDI NOCTURNA : Del 18 de maig al 18 de juny. De 20:00 a 00:00",
+          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: Del 15 de setembre al 14 de juny. DIES TANCATS A L'HIVERN: 7, 24 i 31 de desembre de 2026 2 i 5 de gener del 2027",
           "closures": [],
           "status": "open_season"
         },
@@ -9847,7 +9847,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: Biblioteca tancada el dia 1 d'octubre per festa local.",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre",
           "closures": [],
           "status": "open_season"
         },
