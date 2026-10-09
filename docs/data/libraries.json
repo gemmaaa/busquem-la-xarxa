@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-08 01:12:04",
-  "downloaded_at": "2026-10-08T13:06:00.480563+00:00",
+  "last_updated": "2026-10-09 01:52:04",
+  "downloaded_at": "2026-10-09T12:51:59.578994+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -15392,7 +15392,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Horaris durant la convocatòria de vaga Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. A les Biblioteques de Barcelona (Barcelona ciutat), les afectacions es poden produir qualsevol dia de la setmana. A la resta de biblioteques de la Xarxa de Biblioteques Municipals (XBM), les incidències es poden produir principalment els divendres i dissabtes. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Podeu consultar les dades de contacte aquí: Busca una biblioteca. Recorda que podeu accedir als serveis digitals de la Xarxa de Biblioteques Municipals i al préstec de continguts digitals a través de Biblio Digital. Disculpa les molèsties que aquesta situació pugui ocasionar. * La biblioteca romandrà tancada els següents dies festius: 24 de juny (Sant Joan) 15 d'agost (l'Assumpció) 11 de setembre (Diada nacional de Catalunya) 12 d'octubre (Festa Nacional d'Espanya) 1 de novembre (Tots Sants) 6 de desembre (Dia de la Constitució) 8 de desembre (Immaculada Concepció) 25 de desembre (Nadal) 26 de desembre (Sant Esteve)",
+          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Horaris durant la convocatòria de vaga Amb motiu de la convocatòria de vaga, els horaris i els serveis de les Biblioteques de Badalona així com els de la resta de la Xarxa de Biblioteques Municipals es poden veure afectats. Les incidències es poden produir els divendres 16 d’octubre, 13 de novembre i 11 de desembre. Es recomana consultar prèviament amb la biblioteca per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Les afectacions a les Biblioteques de Barcelona (Barcelona ciutat) es poden produir qualsevol dia de la setmana. Podeu consultar la notícia a través del següent enllaç. També podeu consultar les dades de contacte de totes les biblioteques aquí: Busca una biblioteca. Recordeu que podeu accedir als serveis digitals de la Xarxa de Biblioteques Municipals i al préstec de continguts digitals a través de Biblio Digital. Disculpeu les molèsties que aquesta situació pugui ocasionar. * La biblioteca romandrà tancada els següents dies festius: 24 de juny (Sant Joan) 15 d'agost (l'Assumpció) 11 de setembre (Diada nacional de Catalunya) 12 d'octubre (Festa Nacional d'Espanya) 1 de novembre (Tots Sants) 6 de desembre (Dia de la Constitució) 8 de desembre (Immaculada Concepció) 25 de desembre (Nadal) 26 de desembre (Sant Esteve)",
           "closures": [],
           "status": "open_season"
         },
