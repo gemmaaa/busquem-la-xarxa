@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-09 01:52:04",
-  "downloaded_at": "2026-10-09T12:51:59.578994+00:00",
+  "last_updated": "2026-10-10 03:22:04",
+  "downloaded_at": "2026-10-10T12:10:07.881306+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -11086,7 +11086,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari:",
+          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: Dimarts, 13 d'octubre la biblioteca romandrà tancada.",
           "closures": [],
           "status": "open_season"
         },
@@ -11130,7 +11130,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 01 de maig Observacions de l'horari: La biblioteca romandrà tancada del 8 a l'11 de setembre.",
+          "observations": "L'horari d'estiu comença el dia: 01 de maig",
           "closures": [],
           "status": "open_season"
         }
@@ -17176,7 +17176,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 24 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. * La biblioteca romandrà tancada els següents dies festius i propis: 24 de setembre (La Mercè) 12 d'octubre (Festa Nacional d'Espanya) 1 de novembre (Tots Sants) Del 5 al 8 de desembre la setmana del 28 al 31 de desembre * Horaris especials (Nadal 2026-27): El 24 de desembre i el 5 de gener la biblioteca obrirà en horari de matí, de 9.30 a 13.30 h (tarda tancada).",
+          "observations": "L'horari d'hivern comença el dia: 24 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. BIBLIOTECA TANCADA TEMPORALMENT * La biblioteca romandrà tancada els següents dies festius i propis: 24 de setembre (La Mercè) 12 d'octubre (Festa Nacional d'Espanya) 1 de novembre (Tots Sants) Del 5 al 8 de desembre la setmana del 28 al 31 de desembre * Horaris especials (Nadal 2026-27): El 24 de desembre i el 5 de gener la biblioteca obrirà en horari de matí, de 9.30 a 13.30 h (tarda tancada).",
           "closures": [],
           "status": "open_season"
         },
