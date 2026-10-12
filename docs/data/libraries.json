@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-10 03:22:04",
-  "downloaded_at": "2026-10-11T12:23:57.980678+00:00",
+  "last_updated": "2026-10-12 09:47:04",
+  "downloaded_at": "2026-10-12T14:52:43.756985+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -2678,7 +2678,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: La Biblioteca romandrà tancada: 19 de març (Sant Josep) 3 al 6 d'abril (Setmana Santa) 1 al 3 de maig (Pont per Festa del Treball) 12 d'octubre (Festa Nacional d'Espanya) 5 al 8 de desembre (Pont de la Constitució i de la Immaculada) Vacances de Nadal: del 24 de desembre de 2026 al 3 de gener de 2027 (informació provisional.",
+          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: La Biblioteca romandrà tancada: 19 de març (Sant Josep) 3 al 6 d'abril (Setmana Santa) 1 al 3 de maig (Pont per Festa del Treball) 12 d'octubre (Festa Nacional d'Espanya) 5 al 8 de desembre (Pont de la Constitució i de la Immaculada) Vacances de Nadal: del 24 de desembre de 2026 al 3 de gener de 2027.",
           "closures": [],
           "status": "open_season"
         },
