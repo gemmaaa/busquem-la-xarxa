@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-13 04:27:04",
-  "downloaded_at": "2026-10-14T11:29:10.448632+00:00",
+  "last_updated": "2026-10-15 09:52:04",
+  "downloaded_at": "2026-10-15T11:06:04.691792+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -9159,7 +9159,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 14 de setembre Observacions de l'horari: La Biblioteca romandrà tancada els festius següents(2026): 1 de gener, Cap d'any 6 de gener, festivitat dels Reis de l'Orient 3 d'abril, Divendres Sant 6 d'abril, Dilluns de Pasqua Florida 1 de maig, Dia del treball 25 de maig, Dilluns de Pasqua Granada 24 de juny, Sant Joan 24 de setembre, Festa Loc al, La Mercè 12 d'octubre, Festa nacional d'espanya 9 de desembre, Dia de la Puríssima 25 de desembre, Nadal 26 de desembre, Sant Esteve Horari Especial Setana Santa 2026",
+          "observations": "L'horari d'hivern comença el dia: 14 de setembre Observacions de l'horari: La Biblioteca romandrà tancada els festius següents(2026): 1 de gener, Cap d'any 6 de gener, festivitat dels Reis de l'Orient 3 d'abril, Divendres Sant 6 d'abril, Dilluns de Pasqua Florida 1 de maig, Dia del treball 25 de maig, Dilluns de Pasqua Granada 24 de juny, Sant Joan 24 de setembre, Festa Loc al, La Mercè 12 d'octubre, Festa nacional d'espanya 8 de desembre, Dia de la Puríssima 25 de desembre, Nadal 26 de desembre, Sant Esteve",
           "closures": [],
           "status": "open_season"
         },
@@ -20009,7 +20009,7 @@
             ],
             "sunday": []
           },
-          "observations": "Observacions de l'horari: La Biblioteca romandrà tancada les festes que marca el calendari oficial a Catalunya i els dies següents: 2 de maig 7,24 i 31 de desembre Dies amb reducció de servei (obertura de l'equipament només al matí de 10h a 14h: 23 de juny 5 de gener de 2027 Horari especial reduït per: Setmana Santa (del 30 de març al 6 d'abril) Estiu (del 20 de juny al 13 de setembre) Nadal (del 19 de desembre al 7 de gener) Dilluns, dimarts i dimecres de 15.30h a 20h Dijous i Divendres de 10h a 14h Dissabte tancat Dies amb servei d'Aula d'Estudi Nocturn: Els dies d'obertura per aquesta activitat, es programaran durant l'any, a mesura que es disposi de les dates d'exàmens parcials dels instituts del municipi i de l'època d'exàmens universitaris.",
+          "observations": "Observacions de l'horari: BIBLIOTECA TANCADA TEMPORALMENT La Biblioteca romandrà tancada les festes que marca el calendari oficial a Catalunya i els dies següents: 2 de maig 7,24 i 31 de desembre Dies amb reducció de servei (obertura de l'equipament només al matí de 10h a 14h: 23 de juny 5 de gener de 2027 Horari especial reduït per: Setmana Santa (del 30 de març al 6 d'abril) Estiu (del 20 de juny al 13 de setembre) Nadal (del 19 de desembre al 7 de gener) Dilluns, dimarts i dimecres de 15.30h a 20h Dijous i Divendres de 10h a 14h Dissabte tancat Dies amb servei d'Aula d'Estudi Nocturn: Els dies d'obertura per aquesta activitat, es programaran durant l'any, a mesura que es disposi de les dates d'exàmens parcials dels instituts del municipi i de l'època d'exàmens universitaris.",
           "closures": [],
           "status": "open_season"
         },
