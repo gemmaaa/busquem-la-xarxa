@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-15 09:52:04",
-  "downloaded_at": "2026-10-15T11:06:04.691792+00:00",
+  "last_updated": "2026-10-16 05:57:04",
+  "downloaded_at": "2026-10-16T11:01:37.156092+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -24854,109 +24854,34 @@
       "web": "https://www.bibliotecacerdanyola.cat/",
       "seasons": {
         "hivern": {
-          "start_month_day": "09-07",
+          "start_month_day": "01-01",
           "days": {
-            "monday": [
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "tuesday": [
-              {
-                "from": "10:00",
-                "to": "14:00"
-              },
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "wednesday": [
-              {
-                "from": "10:00",
-                "to": "14:00"
-              },
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "thursday": [
-              {
-                "from": "10:00",
-                "to": "14:00"
-              },
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "friday": [
-              {
-                "from": "10:00",
-                "to": "14:00"
-              },
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "saturday": [
-              {
-                "from": "10:00",
-                "to": "14:00"
-              }
-            ],
-            "sunday": []
-          },
-          "observations": "L'horari d'hivern comença el dia: 07 de setembre Observacions de l'horari: FESTIUS NACIONALS i PONTS • 01 de Gener (Any Nou). • 03 de Gener. • 05 de Gener. • 06 de Gener (Reis) • 02 abril (tarda tancat). • 03 abril (Dv. Sant) • 04 abril (Dbte. Sant). • 06 abril (Dll. Pasqua). • 1 maig (Dia Treballador) • 2 maig • 4 maig (Roser de Maig) • 23 juny (tarda tancat). • 24 juny (St. Joan) • 15 agost (Assumpció) • 11 setembre (Diada Nacional de Catalunya) • 12 setembre • 12 octubre. • 11 novembre (St. Martí) • 7 desembre (Dia de la Constitució) • 8 desembre (Immaculada Concepció) • 24 desembre • 25 desembre (Nadal) • 26 desembre (St. Esteve) • 31 desembre",
-          "closures": [],
-          "status": "open_season"
-        },
-        "estiu": {
-          "start_month_day": "06-25",
-          "days": {
-            "monday": [
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "tuesday": [
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "wednesday": [
-              {
-                "from": "10:00",
-                "to": "14:00"
-              },
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "thursday": [
-              {
-                "from": "15:30",
-                "to": "20:30"
-              }
-            ],
-            "friday": [
-              {
-                "from": "10:00",
-                "to": "14:00"
-              }
-            ],
+            "monday": [],
+            "tuesday": [],
+            "wednesday": [],
+            "thursday": [],
+            "friday": [],
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 25 de juny",
+          "observations": "Observacions de l'horari: La Biblioteca romandrà tancada fins a nou avís, a causa dels greus danys ocasionats per l'aiguat del 3 d'octubre passat. Us mantindrem informats des de les nostres xarxes socials i el nostre web.",
           "closures": [],
-          "status": "open_season"
+          "status": "closed_all_week"
+        },
+        "estiu": {
+          "start_month_day": "06-22",
+          "days": {
+            "monday": [],
+            "tuesday": [],
+            "wednesday": [],
+            "thursday": [],
+            "friday": [],
+            "saturday": [],
+            "sunday": []
+          },
+          "observations": "",
+          "closures": [],
+          "status": "closed_all_week"
         }
       },
       "flags": []
