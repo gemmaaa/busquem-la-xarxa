@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-16 05:57:04",
-  "downloaded_at": "2026-10-16T11:01:37.156092+00:00",
+  "last_updated": "2026-10-17 06:52:04",
+  "downloaded_at": "2026-10-17T10:22:28.314057+00:00",
   "libraries": [
     {
       "id": "biblioteca400095",
@@ -177,7 +177,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Dies de tancament: Festius locals, nacionals i ponts 2026 - 10 d'octubre (Dissabte tancat) - 12 d'octubre (Dia de l'Hispanitat) - 5 de desembre (Dissabte tancat) - 6 de desembre (Dia de la Constitució) - 7 de desembre (Dilluns tancat) - 8 de desembre (Immaculada Concepció) - Del 23 de desembre al 2 de gener (Festes de Nadal) - 5 de gener 2027 (Tarda tancat) - 6 de gener 2027 (Reis)",
+          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Dies de tancament: Festius locals, nacionals i ponts 2026 - 5 de desembre (Dissabte tancat) - 6 de desembre (Dia de la Constitució) - 7 de desembre (Dilluns tancat) - 8 de desembre (Immaculada Concepció) - Del 23 de desembre al 2 de gener (Festes de Nadal) - 5 de gener 2027 (Tarda tancat) - 6 de gener 2027 (Reis)",
           "closures": [],
           "status": "open_season"
         },
@@ -11530,7 +11530,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: ATENCIÓ! La Biblioteca Popular romandrà tancada els festius oficials i els dies: dissabte 4 d'abril dissabte 2 de maig dilluns 27 de juliol (Les Santes, Festa Major) dilluns 7 de desembre dijous, 24 de desembre dijous, 31 de desembre dissabte 2 de gener de 2027 ATENCIÓ: La Biblioteca Popular ofereix un servei parcial des del dia 21 d’abril, amb servei de préstec i informació, previsiblement fins al juliol, quan es preveu tancar el servei per a executar obres de reforma.",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: ATENCIÓ! La Biblioteca Popular romandrà tancada els festius oficials i els dies: dissabte 4 d'abril dissabte 2 de maig dilluns 27 de juliol (Les Santes, Festa Major) dilluns 7 de desembre dijous, 24 de desembre dijous, 31 de desembre dissabte 2 de gener de 2027 dimarts 5 de gener de 2027 ATENCIÓ: La Biblioteca Popular ofereix un servei parcial des del dia 21 d’abril, amb servei de préstec i informació, previsiblement fins al juliol, quan es preveu tancar el servei per a executar obres de reforma.",
           "closures": [],
           "status": "open_season"
         },
@@ -17636,7 +17636,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Dies de tancament: Festius locals, nacionals i ponts 2026 - 12 d'octubre (Dia de l'Hispanitat) - 5 de desembre (Dissabte tancat) - 6 de desembre (Dia de la Constitució) - 7 de desembre (Dilluns tancat) - 8 de desembre (Immaculada Concepció) - Del 23 de desembre al 2 de gener (Festes de Nadal) - 5 de gener 2027 (Tarda tancat) - 6 de gener 2027 (Reis)",
+          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Dies de tancament: Festius locals, nacionals i ponts 2026 - 5 de desembre (Dissabte tancat) - 6 de desembre (Dia de la Constitució) - 7 de desembre (Dilluns tancat) - 8 de desembre (Immaculada Concepció) - Del 23 de desembre al 2 de gener (Festes de Nadal) - 5 de gener 2027 (Tarda tancat) - 6 de gener 2027 (Reis)",
           "closures": [],
           "status": "open_season"
         },
