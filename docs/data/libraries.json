@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-10-30 09:53:54",
-  "downloaded_at": "2026-11-03T13:52:29.450445+00:00",
+  "last_updated": "2026-11-03 11:29:52",
+  "downloaded_at": "2026-11-04T14:00:04.888952+00:00",
   "libraries": [
     {
       "id": "biblioteca423168",
@@ -12,8 +12,8 @@
       "municipality": "Barcelona - Nou Barris",
       "address": "Via Favència, 288 B 08042 Barcelona",
       "postal_code": "",
-      "lat": 41.445383,
-      "lng": 2.177082,
+      "lat": 41.445638,
+      "lng": 2.177374,
       "phone": "932 768 785",
       "email": "b.barcelona.lr@diba.cat",
       "web": "https://www.bcn.cat/biblesroquetes",
@@ -432,8 +432,8 @@
           "days": {
             "monday": [
               {
-                "from": "16:00",
-                "to": "20:30"
+                "from": "15:30",
+                "to": "20:00"
               }
             ],
             "tuesday": [
@@ -442,26 +442,26 @@
                 "to": "13:30"
               },
               {
-                "from": "16:00",
-                "to": "20:30"
+                "from": "15:30",
+                "to": "20:00"
               }
             ],
             "wednesday": [
               {
-                "from": "16:00",
-                "to": "20:30"
+                "from": "15:30",
+                "to": "20:00"
               }
             ],
             "thursday": [
               {
-                "from": "16:00",
-                "to": "20:30"
+                "from": "15:30",
+                "to": "20:00"
               }
             ],
             "friday": [
               {
-                "from": "16:00",
-                "to": "20:30"
+                "from": "15:30",
+                "to": "20:00"
               }
             ],
             "saturday": [
@@ -472,7 +472,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: * La biblioteca tanca els següents dies festius: - 1 de gener (Cap d'Any) - 6 de gener (Reis) -3 d'abril (Divendres Sants) -6 abril (Mona de Pasqua) - 1 de maig (Festa del Treball) - 11 de setembre (Diada de Catalunya) - 12 d'octubre (Festa Nacional d'Espanya) - 1 de novembre (Tots Sants) - 23 de novembre (Festa Major d'hivern) - 6 de desembre (Dia de la Constitució) - 8 de desembre (La Immaculada) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) * La biblioteca també estarà tancada: - Del 30 al 6 d'abril (ambdós inclosos). - Dissabte 2 de maig. - Dissabte 5 i 12 de setembre. - Del 23 al 31 de desembre (ambdós inclosos). Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Disculpeu les molèsties que aquesta situació pugui ocasionar.",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: * La biblioteca tanca els següents dies festius: - 1 de gener (Cap d'Any) - 6 de gener (Reis) -3 d'abril (Divendres Sants) -6 abril (Mona de Pasqua) - 1 de maig (Festa del Treball) - 11 de setembre (Diada de Catalunya) - 12 d'octubre (Festa Nacional d'Espanya) - 1 de novembre (Tots Sants) - 23 de novembre (Festa Major d'hivern) - 6 de desembre (Dia de la Constitució) - 8 de desembre (La Immaculada) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) * La biblioteca també estarà tancada: - Del 30 al 6 d'abril (ambdós inclosos). - Dissabte 2 de maig. - Dissabte 5 i 12 de setembre. - Dissabte 5 de desembre. - Dilluns 7 de desembre. - Del 23 al 31 de desembre (ambdós inclosos). Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats. Es recomana consultar prèviament amb la biblioteca de referència per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament o per correu electrònic. Disculpeu les molèsties que aquesta situació pugui ocasionar.",
           "closures": [],
           "status": "open_season"
         },
@@ -5563,7 +5563,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 24 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. BIBLIOTECA TANCADA TEMPORALMENT * La biblioteca romandrà tancada els següents dies festius i propis: 24 de setembre (La Mercè) 12 d'octubre (Festa Nacional d'Espanya) 1 de novembre (Tots Sants) Del 5 al 8 de desembre la setmana del 28 al 31 de desembre * Horaris especials (Nadal 2026-27): El 24 de desembre i el 5 de gener la biblioteca obrirà en horari de matí, de 9.30 a 13.30 h (tarda tancada).",
+          "observations": "L'horari d'hivern comença el dia: 24 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. * La biblioteca romandrà tancada els següents dies festius i propis: 1 de novembre (Tots Sants) 8 de desembre i la setmana del 28 al 31 de desembre * Horaris especials (Nadal 2026-27): El 24 de desembre i el 5 de gener la biblioteca obrirà en horari de matí, de 9.30 a 13.30 h (tarda tancada).",
           "closures": [],
           "status": "open_season"
         },
