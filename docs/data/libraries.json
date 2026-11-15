@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-14 00:27:04",
-  "downloaded_at": "2026-11-14T13:14:19.789369+00:00",
+  "last_updated": "2026-11-14 23:12:03",
+  "downloaded_at": "2026-11-15T13:42:07.806835+00:00",
   "libraries": [
     {
       "id": "biblioteca423596",
@@ -884,7 +884,7 @@
       "lng": 2.34464,
       "phone": "936931585 / 678737051",
       "email": "b.premiad@diba.cat",
-      "web": "https://www.premiadedalt.cat/ambit.php?id=7",
+      "web": "https://www.premiadedalt.cat/per-temes/cultura/serveis/biblioteca-jaume-perich",
       "seasons": {
         "hivern": {
           "start_month_day": "09-14",
@@ -22190,8 +22190,8 @@
     {
       "id": "biblioteca423708",
       "id_secundari": "otl2",
-      "name": "Biblioteca",
-      "description": "Biblioteca. Torelló",
+      "name": "Biblioteca (pendent d'eliminar)",
+      "description": "Biblioteca (pendent d'eliminar). Torelló",
       "municipality": "Torelló",
       "address": "Carrer Núria, 91 Apartat 31 08570 Torelló",
       "postal_code": "",
@@ -22285,6 +22285,53 @@
           "observations": "L'horari d'estiu comença el dia: 20 de juny Observacions de l'horari: * La biblioteca romandrà tancada els següents dies: - 11 de setembre (Diada de Catalunya) - 12 de setembre (Pont) La caseta del jardins Vicenç Pujol, està tancada.",
           "closures": [],
           "status": "open_season"
+        }
+      },
+      "flags": []
+    },
+    {
+      "id": "biblioteca463006957",
+      "id_secundari": "0",
+      "name": "Biblioteca Joana Raspall i Juanola",
+      "description": "Biblioteca Joana Raspall i Juanola. Vilafranca del Penedès",
+      "municipality": "Vilafranca del Penedès",
+      "address": "Carrer de Sarriera, 25 08720 Vilafranca del Penedès",
+      "postal_code": "",
+      "lat": 41.3435609,
+      "lng": 1.70138,
+      "phone": "XXX XXX XXX",
+      "email": "b.vilafranca.jrj@diba.cat",
+      "web": "https://www.vilafranca.cat/",
+      "seasons": {
+        "hivern": {
+          "start_month_day": "01-01",
+          "days": {
+            "monday": [],
+            "tuesday": [],
+            "wednesday": [],
+            "thursday": [],
+            "friday": [],
+            "saturday": [],
+            "sunday": []
+          },
+          "observations": "",
+          "closures": [],
+          "status": "closed_all_week"
+        },
+        "estiu": {
+          "start_month_day": "06-22",
+          "days": {
+            "monday": [],
+            "tuesday": [],
+            "wednesday": [],
+            "thursday": [],
+            "friday": [],
+            "saturday": [],
+            "sunday": []
+          },
+          "observations": "",
+          "closures": [],
+          "status": "closed_all_week"
         }
       },
       "flags": []
