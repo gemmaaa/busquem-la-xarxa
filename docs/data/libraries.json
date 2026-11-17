@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-16 10:11:53",
-  "downloaded_at": "2026-11-16T15:15:46.400700+00:00",
+  "last_updated": "2026-11-17 01:57:04",
+  "downloaded_at": "2026-11-17T15:42:40.248054+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -2209,7 +2209,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: Horari d'hivern: de l'1 de setembre al 30 de juny. La Biblioteca restarà tancada els festius oficials i els dies: Del 24 de desembre al 6 de gener (vacances de Nadal).",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: Horari d'hivern: de l'1 de setembre al 30 de juny. La Biblioteca restarà tancada els festius oficials i els dies: Del 22 de desembre al 6 de gener (vacances de Nadal).",
           "closures": [],
           "status": "open_season"
         },
