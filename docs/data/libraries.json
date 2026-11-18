@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-17 01:57:04",
-  "downloaded_at": "2026-11-17T15:42:40.248054+00:00",
+  "last_updated": "2026-11-18 02:07:04",
+  "downloaded_at": "2026-11-18T15:22:50.338419+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -621,7 +621,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: TANCAT dia 7 de novembre per pont",
+          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: TANCAT dia 7 de desembre per pont",
           "closures": [],
           "status": "open_season"
         },
@@ -7267,7 +7267,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: Servei de sala d'estudi Del 26 de novembre al 29 de gener de 2027 Ampliació de l’horari en època d’exàmens De dilluns a divendres de 20 a 23 h Dissabtes de 19 a 23 h Diumenges i festius de 10 a 23 h Obertures especials: El dilluns 7 de desembre i dissabte 2 de gener de 2027 de 10 a 23 h El dijous 24 i 31 de desembre i dimarts 5 de gener de 2027 de 14 a 18 h Els dies 25 i 26 de desembre, 1 i 6 de gener el servei restarà tancat. El servei de biblioteca s’oferirà en horari habitual de l’equipament.",
           "closures": [],
           "status": "open_season"
         },
@@ -7483,7 +7483,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: Servei de sala d'estudi Del 26 de novembre al 29 de gener de 2027 Ampliació de l’horari en època d’exàmens De dilluns a divendres de 20 a 23 h Dissabtes de 13.30 a 23 h Diumenges i festius de 10 a 23 h Obertures especials: El dilluns 7 de desembre i dissabte 2 de gener de 2027 de 10 a 23 h El dijous 24 i 31 de desembre i dimarts 5 de gener de 2027 de 14 a 18 h Els dies 25 i 26 de desembre, 1 i 6 de gener el servei restarà tancat. El servei de biblioteca s’oferirà en horari habitual de l’equipament.",
           "closures": [],
           "status": "open_season"
         },
@@ -19570,7 +19570,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: Del 16 de setembre al 30 de juny, ambdós inclosos. La Biblioteca estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya. Servei de Sala d’Estudi, fora de l’horari d’obertura de la Biblioteca (entrada pel c/ Hospital, 9): Del 4 de maig al 20 de juny, de dilluns a divendres, de 19 a 23 h, i els dissabtes de 16 a 20 h. Servei: utilització de taules i cadires com a punts de lectura, a més de l’ús del Wi-fi, i el lavabo. NO es prestarà cap servei dels habituals de la biblioteca, com són préstec, Internet o consulta de llibres.",
+          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: Del 16 de setembre al 30 de juny, ambdós inclosos. La Biblioteca estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya. Servei de Sala d’Estudi, fora de l’horari d’obertura de la Biblioteca (entrada pel c/ Hospital, 9): Del 23 de novembre de 2026 al 30 de gener de 2027 (excepte els dies festius i els laborables 7, 24 i 31 de desembre, 4 i 5 de gener), de dilluns a divendres, de 20 a 23 h, i els dissabtes de 16 a 20 h. Servei: utilització de taules i cadires com a punts de lectura, a més de l’ús del Wi-fi, i el lavabo. NO es prestarà cap servei dels habituals de la biblioteca, com són préstec, Internet o consulta de llibres.",
           "closures": [],
           "status": "open_season"
         },
