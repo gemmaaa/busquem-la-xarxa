@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-18 02:07:04",
-  "downloaded_at": "2026-11-18T15:22:50.338419+00:00",
+  "last_updated": "2026-11-19 02:47:04",
+  "downloaded_at": "2026-11-19T15:28:42.299828+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -2751,13 +2751,13 @@
           "days": {
             "monday": [
               {
-                "from": "15:00",
+                "from": "15:30",
                 "to": "20:00"
               }
             ],
             "tuesday": [
               {
-                "from": "15:00",
+                "from": "15:30",
                 "to": "20:00"
               }
             ],
@@ -2767,19 +2767,19 @@
                 "to": "13:30"
               },
               {
-                "from": "15:00",
+                "from": "15:30",
                 "to": "20:00"
               }
             ],
             "thursday": [
               {
-                "from": "15:00",
+                "from": "15:30",
                 "to": "20:00"
               }
             ],
             "friday": [
               {
-                "from": "15:00",
+                "from": "15:30",
                 "to": "20:00"
               }
             ],
@@ -2791,7 +2791,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 30 de setembre Observacions de l'horari: Vacances d'hivern: del 22 de desembre al 6 de gener. Tancat del 2 al 6 d'abril, ambòs inclosos.",
+          "observations": "L'horari d'hivern comença el dia: 30 de setembre Observacions de l'horari: Vacances d'hivern: del 22 de desembre al 7 de gener. Tancat del 2 al 6 d'abril, ambòs inclosos.",
           "closures": [],
           "status": "open_season"
         },
