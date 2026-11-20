@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-19 02:47:04",
-  "downloaded_at": "2026-11-19T15:28:42.299828+00:00",
+  "last_updated": "2026-11-20 03:47:04",
+  "downloaded_at": "2026-11-20T15:06:06.750672+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -24738,7 +24738,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "",
+          "observations": "Observacions de l'horari: HORARI ESPECIAL: 24 de desembre (9:30 h a 13:30 h) TANCAT: 25 de desembre al 6 de gener (ambdós inclosos)",
           "closures": [],
           "status": "open_season"
         },
@@ -24782,7 +24782,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "Observacions de l'horari: TANCAT: -29 de juny per Festa Major -31 de juliol al 31 d'agost (ambdós inclosos)",
+          "observations": "Observacions de l'horari: TANCAT: 29 de juny per Festa Major 31 de juliol al 31 d'agost (ambdós inclosos)",
           "closures": [],
           "status": "open_season"
         }
