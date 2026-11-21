@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-20 03:47:04",
-  "downloaded_at": "2026-11-20T15:06:06.750672+00:00",
+  "last_updated": "2026-11-21 03:57:05",
+  "downloaded_at": "2026-11-21T14:26:07.153805+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -13072,7 +13072,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Biblioteca tancada els dies següents: 11 de setembre (Diada Nacional de Catalunya) 12 de setembre 12 d'octubre (Festa Nacional d'Espanya) 8 de desembre (Immaculada Concepció) Del 21 al 26 de desembre (Nadal) Biblioteca amb horari especial de matí, tarda tancada els dies següents: 31 de desembre de 9:30 h a 13 h Biblioteca amb horari especial de tarda, matí tancada els dies següents: 29 de desembre de 15:30 h a 20 h",
+          "observations": "L'horari d'hivern comença el dia: 02 de setembre Observacions de l'horari: Horari Especial Nadal: La biblioteca tancarà els dies 25, 26, 27, 28, 29, 30 i 31 de desembre, i l'1, 2, 6 i 9 de gener. L'horari de la biblioteca els dies 24 de desembre i 5 de gener serà de 9.30 h a 14 h. Biblioteca tancada els dies següents: 11 de setembre (Diada Nacional de Catalunya) 12 de setembre 12 d'octubre (Festa Nacional d'Espanya) 8 de desembre (Immaculada Concepció) Del 21 al 26 de desembre (Nadal) Biblioteca amb horari especial de matí, tarda tancada els dies següents: 31 de desembre de 9:30 h a 13 h Biblioteca amb horari especial de tarda, matí tancada els dies següents: 29 de desembre de 15:30 h a 20 h",
           "closures": [],
           "status": "open_season"
         },
