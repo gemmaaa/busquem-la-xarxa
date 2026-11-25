@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-24 04:47:13",
-  "downloaded_at": "2026-11-24T17:14:46.105665+00:00",
+  "last_updated": "2026-11-25 04:57:05",
+  "downloaded_at": "2026-11-25T16:57:52.956820+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -1611,7 +1611,7 @@
     },
     {
       "id": "biblioteca463006957",
-      "id_secundari": "0",
+      "id_secundari": "pvp2",
       "name": "Biblioteca Joana Raspall i Juanola",
       "description": "Biblioteca Joana Raspall i Juanola. Vilafranca del Penedès",
       "municipality": "Vilafranca del Penedès",
@@ -10580,7 +10580,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 22 de setembre Observacions de l'horari:",
+          "observations": "L'horari d'hivern comença el dia: 22 de setembre Observacions de l'horari: Tancat: 7 desembre 24 desembre 31 desembre 4 i 5 de gener",
           "closures": [],
           "status": "open_season"
         },
@@ -11333,7 +11333,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 15 de juny Observacions de l'horari: La biblioteca romandrà tancada: TOT EL MES D'AGOST 11 de setembre (Diada nacional de Catalunya) La Biblioteca tindrà horaris especials: 10 de setembre, de 9.30 a 13.30h 2027 Tancat 6 de gener 2027 9 de gener 2027 Del dilluns 22 de març al dilluns 29 de març 2027 Dissabte 15 de maig 2027 De l’1 d’agost al 31 d’agost 2027 Dilluns 11 d’octubre 2027 Dimarts 7 de desembre 2027 Del dilluns 20 de desembre al divendres 31 de desembre 2027 7 i 8 de gener 2027 15.00 a 20.00h De l’15 de juny al 30 de juliol Totes les tardes de 15.00 a 20.00 excepte els dimarts de 9.30 a 13.30h De l’1 de setembre al 15 de setembre Totes les tardes de 15.00 a 20.00 excepte els dimarts de 9.30 a 13.30h",
+          "observations": "L'horari d'estiu comença el dia: 15 de juny Observacions de l'horari: La biblioteca romandrà tancada: TOT EL MES D'AGOST 11 de setembre (Diada nacional de Catalunya) La Biblioteca tindrà horaris especials: 10 de setembre, de 9.30 a 13.30h 2027 Tancat 6 de gener 2027 9 de gener 2027 Dissabte 15 de maig 2027 De l’1 d’agost al 31 d’agost 2027 Dilluns 11 d’octubre 2027 Dimarts 7 de desembre 2027 Del dilluns 20 de desembre al divendres 31 de desembre 2027 7 i 8 de gener 2027 15.00 a 20.00h La Biblioteca tindrà horaris especials: 5 de gener, de 9.30 a 13.30h 25 de març, de 9.30 a 13:30h 23 de juny, de 9.30 a 13.30h 10 de setembre, de 9.30 a 13.30h 21 de desembre, de 15 a 20h 24 de desembre, de 9.30 a 13.30h De l’15 de juny al 30 de juliol Totes les tardes de 15.00 a 20.00 excepte els dimarts de 9.30 a 13.30h De l’1 de setembre al 15 de setembre Totes les tardes de 15.00 a 20.00 excepte els dimarts de 9.30 a 13.30h",
           "closures": [],
           "status": "open_season"
         }
@@ -11399,7 +11399,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: Festius i dies de tancament del període:: La biblioteca estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya: 1 de gener (Cap d'any), dijous; 6 de gener (Reis), dimarts; 3 d'abril (divendres Sant); 6 d’abril (dilluns de Pascua); 1 de maig (Festa del treball), divendres; 1 d'octubre (Festa local), dijous; 12 d'octubre (Festa nacional), dilluns; 8 de desembre (Immaculada), dimarts; 25 de desembre (Dia de Nadal), divendres; 26 de desembre (Dia de Sant Esteve), dissabte. La biblioteca de la Garriga no tanca per vacances a l’agost. Estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya, les festes locals (3 d'agost; 1 d'octubre) i els dies següents: 2 d’abril (Setmana santa); 4 d’abril (Setmana Santa); 2 de maig (pont); 5 de desembre (Puríssima); 7 de desembre (Puríssima); 24 de desembre (Nadal); 31 de desembre (Cap d’Any); 5 de gener de 2027 (Reis)",
+          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: Festius i dies de tancament del període:: La biblioteca estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya: 1 de gener (Cap d'any), dijous; 6 de gener (Reis), dimarts; 3 d'abril (divendres Sant); 6 d’abril (dilluns de Pascua); 1 de maig (Festa del treball), divendres; 1 d'octubre (Festa local), dijous; 12 d'octubre (Festa nacional), dilluns; 8 de desembre (Immaculada), dimarts; 25 de desembre (Dia de Nadal), divendres; 26 de desembre (Dia de Sant Esteve), dissabte. La biblioteca de la Garriga no tanca per vacances a l’agost. Estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya, les festes locals (3 d'agost; 1 d'octubre) i els dies següents: 2 d’abril (Setmana santa); 4 d’abril (Setmana Santa); 2 de maig (pont); 5 de desembre (Puríssima); 7 de desembre (Puríssima); 24 de desembre (Nadal); 31 de desembre (Cap d’Any); 5 de gener de 2027 (Reis) AVÍS BÚSTIA DE RETORNS Tanquem la bústia de devolucions quan coincideixen dos o més dies festius per insuficient capacitat de la caixa receptora.",
           "closures": [],
           "status": "open_season"
         },
@@ -11447,7 +11447,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 15 de juny Observacions de l'horari: Del 15 de juny al 15 de setembre, ambdós inclosos. Festius i dies de tancament del període: La biblioteca de la Garriga no tanca per vacances a l’agost. Estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya, les festes locals i els dies següents: 23 de juny (Revetlla de Sant Joan); 24 de juny (Sant Joan), dimecres; 31 de juliol (Festa Major); 1 d’Agost (Festa Major); 3 d'agost (festa local), dilluns; 15 d’agost (Assumpció), dissabte; 11 de setembre (Diada Nacional de Catalunya), divendres.",
+          "observations": "L'horari d'estiu comença el dia: 15 de juny Observacions de l'horari: Del 15 de juny al 15 de setembre, ambdós inclosos. Festius i dies de tancament del període: La biblioteca de la Garriga no tanca per vacances a l’agost. Estarà tancada les festes laborals que marca el calendari oficial per a l'any 2026 a Catalunya, les festes locals i els dies següents: 23 de juny (Revetlla de Sant Joan); 24 de juny (Sant Joan), dimecres; 31 de juliol (Festa Major); 1 d’Agost (Festa Major); 3 d'agost (festa local), dilluns; 15 d’agost (Assumpció), dissabte; 11 de setembre (Diada Nacional de Catalunya), divendres. AVÍS BÚSTIA DE RETORNS Tanquem la bústia de devolucions quan coincideixen dos o més dies festius per insuficient capacitat de la caixa receptora.",
           "closures": [],
           "status": "open_season"
         }
@@ -12962,7 +12962,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 14 de setembre Observacions de l'horari: Biblioteca tancada els festius següents: 1 de gener (Cap d'Any) 6 de gener (Reis) 3 d'abril (Divendres Sant) 6 d'abril (Pasqua Florida) 1 de maig (Festa del treball) 11 de maig (Sant Anastasi. Festiu local) 25 de maig (Segona Pasqua. Festiu local) 24 de juny (Sant Joan) 11 de setembre (Diada Nacional de Catalunya) 12 d'octubre (El Pilar) 1 de novembre (Tots Sants) 6 de desembre (La Contitució) 8 de desembre (Immaculada) 25 de desembre (Nadal) 26 de desembre (Sant Esteve) Horaris especials: ... ... ... ...",
+          "observations": "L'horari d'hivern comença el dia: 14 de setembre Observacions de l'horari: Biblioteca tancada els festius següents: 1 de gener (Cap d'Any) 6 de gener (Reis) 3 d'abril (Divendres Sant) 6 d'abril (Pasqua Florida) 1 de maig (Festa del treball) 11 de maig (Sant Anastasi. Festiu local) 25 de maig (Segona Pasqua. Festiu local) 24 de juny (Sant Joan) 11 de setembre (Diada Nacional de Catalunya) 12 d'octubre (El Pilar) 1 de novembre (Tots Sants) 6 de desembre (La Contitució) 8 de desembre (Immaculada) 25 de desembre (Nadal) 26 de desembre (Sant Esteve) Horaris especials: ... dimarts 8 de desembre 2026 TANCADA ... dimecres 24 de desembre 2026 horari matí de 9:30 a 13:00h ... TANCADA del dilluns 28 de desembre'26 al dissabte 2 de gener'27 ... setmana de Reis (6 gener 2027): obrim dll 4, dj 7 i dv 8 per la tarda de 15:30 a 20:00h. Dm 5 horari matí de 9:30 a 13:00h i dss 9 de gener som tancats",
           "closures": [],
           "status": "open_season"
         },
@@ -23277,7 +23277,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: Horari especial 23 juny: tanca a les 19h",
+          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: Tancat per Nadal: Del 24 al 27 de desembre Del 31 de desembre al 3 de gener 6 de gener Horari especial 5 de gener obert fins les 19h",
           "closures": [],
           "status": "open_season"
         },
@@ -23325,7 +23325,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 01 de juliol Observacions de l'horari: 31 d'agost tancat per Festa Major",
+          "observations": "L'horari d'estiu comença el dia: 01 de juliol",
           "closures": [],
           "status": "open_season"
         }
