@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-25 04:57:05",
-  "downloaded_at": "2026-11-25T16:57:52.956820+00:00",
+  "last_updated": "2026-11-26 05:17:04",
+  "downloaded_at": "2026-11-26T16:37:47.457274+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -5035,7 +5035,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de les biblioteques de la Xarxa de Biblioteques Municipals es poden veure afectats.",
+          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: HORARIS NADAL Des del 21 de desembre fins al 3 de gener: Biblioteca oberta de 16 a 20.30 h Dies 24 i 31 de desembre i dissabtes 19, 26 de desembre i 2 de gener: Biblioteca tancada Dia 5 de gener: Biblioteca oberta, de 10 a 14 h AULA D'ESTUDIS Del divendres 2 de gener al divendres 12 de febrer de 2027. De dilluns a diumenge: de 9 a 23 h Dia 5 de gener: Aula d'estudis oberta fins les 20 h Dia 6 de gener: Aula d'estudis tancada",
           "closures": [],
           "status": "open_season"
         },
@@ -17612,7 +17612,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 26 de setembre Observacions de l'horari: Festa local: 16 de gener de 2026 Setmana Santa: del 2 al 6 d'abril de 2026 Dies festius: del 6 al 8 de desembre Vacances de Nadal: del 1 de desembre de 2026 al 6 de gener de 2027.",
+          "observations": "L'horari d'hivern comença el dia: 26 de setembre Observacions de l'horari: Festa local: 16 de gener de 2026 Setmana Santa: del 2 al 6 d'abril de 2026 Dies festius: del 6 al 8 de desembre Vacances de Nadal: del 21 de desembre de 2026 al 6 de gener de 2027.",
           "closures": [],
           "status": "open_season"
         },
@@ -18544,7 +18544,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 11 de setembre Observacions de l'horari: * La biblioteca romandrà tancada els següents dies festius: - 11 de setembre (Diada de Catalunya) - 12 de setembre - 12 d'octubre (Festa Nacional d'Espanya) - 1 de novembre (Tots Sants) - 6 de desembre (Dia de la Constitució) - 8 de desembre (La Puríssima) - 24 de desembre (vigília de Nadal) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) - 31 de desembre (Cap d'Any) - 1 de gener (Any Nou) - 5 de gener (Vigília de Reis): de 9.30 a 15.00 h - 6 de gener (Reis) - 3 d'abril (Divendres Sant) - 4 d'abril (Dissabte Sant) - 6 d'abril (Dilluns de Pasqua) - 1 de maig (Dia del Treball) - 25 de maig (festa local) Amb motiu de la convocatòria de vaga indefinida de divendres i dissabtes, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana consultar prèviament per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament.",
+          "observations": "L'horari d'hivern comença el dia: 11 de setembre Observacions de l'horari: * La biblioteca romandrà tancada els següents dies festius: - 11 de setembre (Diada de Catalunya) - 12 de setembre - 12 d'octubre (Festa Nacional d'Espanya) - 1 de novembre (Tots Sants) - 6 de desembre (Dia de la Constitució) - 8 de desembre (La Puríssima) - 24 de desembre (vigília de Nadal) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) - 31 de desembre (Cap d'Any) - 1 de gener (Any Nou) - 2 de gener - 5 de gener (Vigília de Reis): de 9.30 a 15.00 h - 6 de gener (Reis) - 26 de març (Divendres Sant) - 27 de març (Dissabte Sant) - 29 de març (Dilluns de Pasqua) - 1 de maig (Dia del Treball) - 17 de maig (festa local)",
           "closures": [],
           "status": "open_season"
         },
@@ -18604,7 +18604,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 24 de juny Observacions de l'horari: * La biblioteca romandrà tancada els següents dies festius: - 23 de juny: de 9.30 a 15.00 h - 24 de juny (Sant Joan) - 6 de juliol (festa local, Festa Major) - 15 d'agost (L'Assumpció) Amb motiu de la convocatòria de vaga indefinida de divendres, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana consultar prèviament per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis telefònicament.",
+          "observations": "L'horari d'estiu comença el dia: 24 de juny Observacions de l'horari: * La biblioteca romandrà tancada els següents dies festius: - 23 de juny: de 9.30 a 15.00 h - 24 de juny (Sant Joan) - 5 de juliol (festa local, Festa Major) - 15 d'agost (L'Assumpció)",
           "closures": [],
           "status": "open_season"
         }
@@ -19110,7 +19110,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 16 de setembre",
+          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: Tancada el 24 i el 31 de desembre i els migdies del 28 al 5 de gener. El 5 de Gener tancada a partir de les 19 h.",
           "closures": [],
           "status": "open_season"
         },
@@ -19158,7 +19158,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'estiu comença el dia: 01 de juliol Observacions de l'horari: Tancada 31 d'agost Festa Major",
+          "observations": "L'horari d'estiu comença el dia: 01 de juliol Observacions de l'horari:",
           "closures": [],
           "status": "open_season"
         }
@@ -21115,7 +21115,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: Tancat dissabte 4 d'abril Tancat dissabte 2 de maig Tancat dilluns 12 d'octubre. Tancat dimarts 8 de desembre. Tancat dijous 24, divendres 25 i dissabte 26 de desembre. Tancat dijous 31 de desembre Tancat divendres 1 i dissabte 2 de gener Tancat dimecres 6 de gener. Tancat dimecres 20 de gener.",
+          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: Tancat dissabte 4 d'abril. Tancat dissabte 2 de maig. Tancat dilluns 12 d'octubre. Tancat dissabte 5 de desembre, dilluns 7 i dimarts 8 de desembre. Tancat divendres 25, dissabte 26 de desembre i dijous 31 de desembre. Tancat divendres 1, dissabte 2 de gener i dimecres 6 de gener. Horari especial de 10h a 13.30h dijous 24 de desembre i dimarts 5 de gener. Tancat dimecres 20 de gener per festa local.",
           "closures": [],
           "status": "open_season"
         },
@@ -21229,7 +21229,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: El 2026 la biblioteca no obrirà els dies: 1, 5 i 6 de gener 12 de febrer 2 a 6 d’abril 1 i 2 de maig 23, 24 i 29 de juny 1 a 31 d'agost 11 de setembre 12 d'octubre 8, 24, 25, 26 i 31 de desembre",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: El 2027 la biblioteca no obrirà els dies: 1, 2, 5 i 6 de gener 3, 25, 26, 27 i 29 de març 1 de maig 24, 28 i 29 de juny 1 a 31 d'agost 11 de setembre 12 d'octubre 6, 7, 8 i 25 de desembre",
           "closures": [],
           "status": "open_season"
         },
