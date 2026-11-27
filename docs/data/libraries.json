@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-26 05:17:04",
-  "downloaded_at": "2026-11-26T16:37:47.457274+00:00",
+  "last_updated": "2026-11-27 05:37:05",
+  "downloaded_at": "2026-11-27T16:22:59.950936+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -2209,7 +2209,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: Horari d'hivern: de l'1 de setembre al 30 de juny. La Biblioteca restarà tancada els festius oficials i els dies: Del 22 de desembre al 6 de gener (vacances de Nadal).",
+          "observations": "L'horari d'hivern comença el dia: 01 de setembre Observacions de l'horari: Horari d'hivern: de l'1 de setembre al 30 de juny. La Biblioteca restarà tancada els festius oficials i els dies: 4 de desembre, divendres. 7 de desembre, dilluns. Del 22 de desembre al 6 de gener (vacances de Nadal).",
           "closures": [],
           "status": "open_season"
         },
@@ -4579,7 +4579,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: A partir del 15 de setembre. Festius i dies de tancament: Tancat el dissabte 10 d'octubre, dilluns 12 d'octubre, i dissabte 31 d'octubre per vigilia de Tots Sants. Tancat el dissabte 28 de novembre (Festa Major d'Hivern). Tancat el dissabte 5 de desembre i el dilluns 7 de desembre (Pont de la Constitució). Nadals tancat: del 24 de desembre de 2026 al 2 de gener de 2026, ambdós inclosos.",
+          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: A partir del 15 de setembre. Festius i dies de tancament: Tancat el dissabte 10 d'octubre, dilluns 12 d'octubre, i dissabte 31 d'octubre per vigilia de Tots Sants. Tancat el dissabte 28 i el dilluns 30 de novembre (Festa Major d'Hivern). Tancat el dissabte 5 de desembre i el dilluns 7 de desembre (Pont de la Constitució). Nadals tancat: del 24 de desembre de 2026 al 2 de gener de 2026, ambdós inclosos.",
           "closures": [],
           "status": "open_season"
         },
@@ -6469,7 +6469,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: Horari d'hivern: del 1 d'octubre al 31 de maig. De dilluns a divendres De 15.30 h a 20.30 h Dissabte de 10 h a 13 h",
+          "observations": "L'horari d'hivern comença el dia: 01 d’octubre Observacions de l'horari: Horari d'hivern: del 1 d'octubre al 31 de maig. De dilluns a divendres De 15.30 h a 20.30 h Dissabte de 10 h a 13 h Dilluns, 7 de desembre - tancat Nadal: tancat del 21 al 31 de desembre de 2026 i 4 - 5 de gener de 2027",
           "closures": [],
           "status": "open_season"
         },
@@ -11187,7 +11187,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: 2026 La Biblioteca romandrà tancada: 24 de setembre: Dia de la Mercè 12 d’octubre: El Pilar 1 de novembre: Tots sants 7 i 8 de desembre: Inmaculada 25 i 26 de desembre: Nadal i Sant Esteve La Biblioteca tindrà horaris especials: Nadal 2026 24 de desembre: de 09.30 a 13.30 h 31 de desembre: de 09.30 a 13.30 h",
+          "observations": "L'horari d'hivern comença el dia: 15 de setembre Observacions de l'horari: 2026 La Biblioteca romandrà tancada: 7 i 8 de desembre: Inmaculada 25 i 26 de desembre: Nadal i Sant Esteve La Biblioteca tindrà horaris especials: Nadal 2026 24 de desembre: de 09.30 a 13.30 h 31 de desembre: de 09.30 a 13.30 h",
           "closures": [],
           "status": "open_season"
         },
@@ -11293,7 +11293,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: La Biblioteca romandrà tancada: 24 de setembre: Dia de la Mercè 12 d’octubre: Pilar 1 de novembre: Tots Sants 7 i 8 de desembre: Immaculada Del 28 al 31 de desembre: Nadal La Biblioteca tindrà horaris especials: 24 de desembre: de 09.30 a 13.30 h",
+          "observations": "L'horari d'hivern comença el dia: 16 de setembre Observacions de l'horari: La Biblioteca romandrà tancada: 7 i 8 de desembre: Immaculada Del 28 al 31 de desembre: Nadal La Biblioteca tindrà horaris especials: 24 de desembre: de 09.30 a 13.30 h",
           "closures": [],
           "status": "open_season"
         },
@@ -13749,7 +13749,7 @@
               }
             ]
           },
-          "observations": "L'horari d'hivern comença el dia: 25 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. La biblioteca romandrà tancada els següents dies: - 1 de gener (Cap d'Any) - 6 de gener (Reis) - Del 3 (Divendres Sant) al 6 d'abril (Pasqua Florida) - 1 de maig (Festa del Treball) - 25 de maig (Pasqua Granada) - 12 d'octubre (Festa Nacional d'Espanya) - 1 de novembre (Tots Sants) - 5 de desembre (Festiu CBB) - 6 de desembre (Dia de la Constitució) - 7 de desembre (Festiu CBB) - 8 de desembre (La Immaculada) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) Horari de Nadal: (del 24 de desembre de 2026 al 7 de gener de 2027) Biblioteca tancada: 25 i 26 de desembre de 2026 i 1 i 6 de gener de 2027. Dijous 24 i 31 de desembre de 2026 i dimarts 5 de gener de 2027 l'horari d'obertura serà de 9.30 a 13.30 h. Horari de la sala d'estudi: - De dilluns a dijous de 20.30 h. a 00.00 h.",
+          "observations": "L'horari d'hivern comença el dia: 25 de setembre Observacions de l'horari: Amb motiu de la convocatòria de vaga, els horaris i els serveis de la biblioteca es poden veure afectats. Es recomana contactar prèviament amb la biblioteca, telefònicament o per correu electrònic, per confirmar-ne l’horari d’obertura i la disponibilitat dels serveis. La biblioteca romandrà tancada els següents dies: - 1 de gener (Cap d'Any) - 6 de gener (Reis) - Del 3 (Divendres Sant) al 6 d'abril (Pasqua Florida) - 1 de maig (Festa del Treball) - 25 de maig (Pasqua Granada) - 12 d'octubre (Festa Nacional d'Espanya) - 1 de novembre (Tots Sants) - 6 de desembre (Dia de la Constitució) - 8 de desembre (La Immaculada) - 25 de desembre (Nadal) - 26 de desembre (Sant Esteve) Horari de Nadal: (del 24 de desembre de 2026 al 7 de gener de 2027) Biblioteca tancada: 25 i 26 de desembre de 2026 i 1 i 6 de gener de 2027. Dijous 24 i 31 de desembre de 2026 i dimarts 5 de gener de 2027 l'horari d'obertura serà de 9.30 a 13.30 h. Horari de la sala d'estudi: - De dilluns a dijous de 20.30 h. a 00.00 h.",
           "closures": [],
           "status": "open_season"
         },
