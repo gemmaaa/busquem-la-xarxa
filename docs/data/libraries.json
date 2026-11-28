@@ -1,8 +1,8 @@
 {
   "generated_from": "export.json",
   "data_year": 2026,
-  "last_updated": "2026-11-27 05:37:05",
-  "downloaded_at": "2026-11-27T16:22:59.950936+00:00",
+  "last_updated": "2026-11-28 05:47:07",
+  "downloaded_at": "2026-11-28T15:16:00.087030+00:00",
   "libraries": [
     {
       "id": "biblioteca248723228",
@@ -4913,7 +4913,7 @@
             ],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 31 d’agost Observacions de l'horari: Horari d'hivern: del 7 de gener al 21 de juny i del 31 d'agost al 24 de desembre de 2026 Ponts i festes locals: 2, 3, 4, 5 i 6 d'abril, 1, 9 i 11 de maig, 24 de juny, 5, 7, 11 i 12 de setembre, 12 i 31 d'octubre, 1 de novembre, 5, 6, 7 i 8 de desembre, 2 i 9 de gener de 2027 (el 23 i 24 de juny la bústia de retorn romandrà tancada) Amb motiu de les festes de Nadal, la biblioteca romandrà tancada del 25 de desembre de 2026 al 10 de gener de 2027, ambdós inclosos. La bústia de retorn romandrà oberta. Consulteu els horaris especials de períodes de vacances, festius i ponts.",
+          "observations": "L'horari d'hivern comença el dia: 31 d’agost Observacions de l'horari: Horari d'hivern: del 7 de gener al 21 de juny i del 31 d'agost al 24 de desembre de 2026 Ponts i festes locals: 2, 3, 4, 5 i 6 d'abril, 1, 9 i 11 de maig, 24 de juny, 5, 7, 11 i 12 de setembre, 12 i 31 d'octubre, 1 de novembre, 5, 6, 7 i 8 de desembre, 2 i 9 de gener de 2027 (el 23 i 24 de juny la bústia de retorn romandrà tancada) Amb motiu de les festes de Nadal, la biblioteca obrirà el 24 de desembre de 9.30 h a 14 h i romandrà tancada del 25 de desembre de 2026 al 10 de gener de 2027, ambdós inclosos. La bústia de retorn romandrà oberta. Consulteu els horaris especials de períodes de vacances, festius i ponts.",
           "closures": [],
           "status": "open_season"
         },
@@ -12848,7 +12848,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "L'horari d'hivern comença el dia: 14 de setembre",
+          "observations": "L'horari d'hivern comença el dia: 14 de setembre Observacions de l'horari: La biblioteca romandrà tancada els festius oficials i els dies: 7 de desembre 24 de desembre 31 de desembre El 5 de gener l'horari d'obertura serà de 10 a 13.30h",
           "closures": [],
           "status": "open_season"
         },
@@ -12892,7 +12892,7 @@
             "saturday": [],
             "sunday": []
           },
-          "observations": "",
+          "observations": "L'horari d'estiu comença el dia: 22 de juny",
           "closures": [],
           "status": "open_season"
         }
@@ -16949,7 +16949,7 @@
       "lng": 2.21916,
       "phone": "938 81 03 34",
       "email": "b.centelles@diba.cat",
-      "web": "",
+      "web": "https://www.centelles.cat/viure/cultura-i-patrimoni/lletres-i-biblioteca",
       "seasons": {
         "hivern": {
           "start_month_day": "09-16",
